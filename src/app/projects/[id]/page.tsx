@@ -27,7 +27,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
   }
 
   return (
-    <div className="container mx-auto px-6 md:px-8 py-12 md:py-16">
+    <div className="container mx-auto px-[120px] py-12 md:py-16">
         <ScrollAnimation>
             <Button asChild variant="ghost" className="mb-8 -ml-4">
                 <Link href="/">
