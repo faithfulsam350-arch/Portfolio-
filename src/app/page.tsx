@@ -13,9 +13,8 @@ export default function Home() {
 
   return (
     <div className="container mx-auto px-[100px]">
-      <section className="py-20 md:py-32">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="flex flex-col items-start text-left">
+      <section className="py-20 md:py-32 text-center">
+        <div className="flex flex-col items-center">
             <ScrollAnimation>
                 <Badge variant="default" className="mb-4">UI/UX Designer & Product Designer</Badge>
             </ScrollAnimation>
@@ -25,7 +24,7 @@ export default function Home() {
                 </h1>
             </ScrollAnimation>
             <ScrollAnimation delay="400">
-                <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-8">
+                <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-8">
                 I design intuitive, beautiful, and user-centric digital experiences
                 that solve real-world problems and drive business growth.
                 </p>
@@ -39,17 +38,6 @@ export default function Home() {
               </Button>
             </ScrollAnimation>
           </div>
-          <ScrollAnimation delay="200" className="relative w-full max-w-sm mx-auto aspect-square rounded-full overflow-hidden shadow-2xl group border-4 border-primary/20">
-              <Image
-                src="https://placehold.co/400x400.png"
-                alt="Abstract design image"
-                fill
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
-                data-ai-hint="abstract design"
-              />
-               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-            </ScrollAnimation>
-        </div>
       </section>
 
       <section id="case-studies" className="py-12 md:py-24 space-y-20 md:space-y-28">
