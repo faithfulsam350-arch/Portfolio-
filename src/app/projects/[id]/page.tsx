@@ -74,18 +74,22 @@ export default function ProjectPage({ params }: ProjectPageProps) {
 
                     <div className="flex gap-4">
                         {project.liveUrl && (
-                        <Button asChild className="w-full">
-                            <Link href={project.liveUrl} target="_blank">
-                            Live Site <ExternalLink className="ml-2 h-4 w-4" />
-                            </Link>
-                        </Button>
+                        <ScrollAnimation variant="grow" className="w-full" delay="400">
+                            <Button asChild className="w-full">
+                                <Link href={project.liveUrl} target="_blank">
+                                Live Site <ExternalLink className="ml-2 h-4 w-4" />
+                                </Link>
+                            </Button>
+                        </ScrollAnimation>
                         )}
                         {project.caseStudyUrl && (
-                        <Button asChild variant="secondary" className="w-full">
-                            <Link href={project.caseStudyUrl} target="_blank">
-                            Case Study <ExternalLink className="ml-2 h-4 w-4" />
-                            </Link>
-                        </Button>
+                        <ScrollAnimation variant="grow" className="w-full" delay="400">
+                            <Button asChild variant="secondary" className="w-full">
+                                <Link href={project.caseStudyUrl} target="_blank">
+                                Case Study <ExternalLink className="ml-2 h-4 w-4" />
+                                </Link>
+                            </Button>
+                        </ScrollAnimation>
                         )}
                     </div>
                 </div>

@@ -93,7 +93,7 @@ export default function Home() {
                 <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
                 Thanks for stopping by. If you have a project in mind or just want to connect, I'd love to hear from you.
                 </p>
-                 <ScrollAnimation variant="grow" className="mt-8">
+                 <ScrollAnimation variant="grow" className="mt-8" delay="600">
                     <Button asChild size="lg">
                         <Link href="/contact">Let's Talk</Link>
                     </Button>

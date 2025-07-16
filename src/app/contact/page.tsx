@@ -110,7 +110,7 @@ export default function ContactPage() {
                             </FormItem>
                             )}
                         />
-                        <ScrollAnimation variant="grow">
+                        <ScrollAnimation variant="grow" delay="600">
                             <Button type="submit">Send Message</Button>
                         </ScrollAnimation>
                         </form>
