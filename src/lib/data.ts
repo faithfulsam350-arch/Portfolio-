@@ -2,12 +2,6 @@
 import type { Project, Skill, Experience } from './types';
 import { Figma, Framer, Users, Workflow, PenTool, Search, Layout, Smartphone, PenSquare } from 'lucide-react';
 
-const designProcessHtml = `
-  <div class="my-6 mb-12 rounded-lg overflow-hidden border">
-    <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
-  </div>
-`;
-
 export const projects: Project[] = [
   {
     id: '1',
