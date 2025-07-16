@@ -1,4 +1,4 @@
-import type { Project, BlogPost, Skill, Experience } from './types';
+import type { Project, Skill, Experience } from './types';
 import { Figma, Framer, Users, BrainCircuit, PenTool, Search } from 'lucide-react';
 import { SOCIAL_LINKS } from './constants';
 
@@ -6,9 +6,24 @@ export const projects: Project[] = [
   {
     id: '1',
     title: 'Project Alpha',
-    category: 'UI/UX Design',
+    category: 'E-commerce Platform',
     description: 'A cutting-edge e-commerce platform with a focus on user experience.',
-    longDescription: 'Project Alpha is a full-stack e-commerce solution built with Next.js, TypeScript, and Stripe. It features a custom CMS for product management, a highly optimized storefront for fast loading times, and a seamless checkout process. The goal was to create a platform that is not only powerful for the business but also intuitive and enjoyable for the customer.',
+    longDescription: `
+      <h3>The Challenge</h3>
+      <p>The existing e-commerce landscape for high-end electronics was cluttered with confusing interfaces and slow checkout processes, leading to high cart abandonment rates. Our client, a premium electronics retailer, needed a new platform that not only showcased their products beautifully but also provided a seamless and trustworthy shopping experience.</p>
+      
+      <h3>My Role</h3>
+      <p>As the lead UI/UX designer, I was responsible for the end-to-end design process. This included user research, creating user personas and journey maps, developing wireframes and high-fidelity prototypes, conducting usability testing, and collaborating closely with the development team to ensure a pixel-perfect implementation.</p>
+      
+      <h3>The Process</h3>
+      <p><strong>1. Discovery & Research:</strong> We started with comprehensive market research and user interviews to understand the pain points of online electronic shoppers. We discovered a key need for detailed product information, clear comparisons, and a fast, secure checkout.</p>
+      <p><strong>2. Ideation & Wireframing:</strong> Based on our research, we sketched out user flows and created low-fidelity wireframes. This allowed us to quickly iterate on the information architecture and layout before committing to visual details. We focused on a clean, grid-based layout that prioritized product imagery and key specifications.</p>
+      <p><strong>3. Design & Prototyping:</strong> I developed a sleek, modern UI with a dark theme that made the product visuals pop. Using Figma, I created a component-based design system for consistency. High-fidelity interactive prototypes were built to simulate the entire shopping experience, from browsing to checkout.</p>
+      <p><strong>4. Testing & Iteration:</strong> We conducted several rounds of usability testing with our interactive prototypes. Feedback from users led to key improvements, such as a persistent shopping cart and a simplified multi-step checkout process that significantly reduced friction.</p>
+
+      <h3>The Outcome</h3>
+      <p>The new platform, Project Alpha, launched to rave reviews. Key metrics after the first three months showed a <strong>40% decrease in cart abandonment</strong>, a <strong>25% increase in conversion rates</strong>, and a significant improvement in user satisfaction scores. The intuitive design empowered customers to make informed decisions with confidence, establishing a new standard for online electronics retail.</p>
+    `,
     imageUrl: 'https://placehold.co/600x400.png',
     tags: ['Figma', 'User Research', 'Prototyping', 'E-commerce'],
     liveUrl: '#',
@@ -17,61 +32,50 @@ export const projects: Project[] = [
   {
     id: '2',
     title: 'Creative Dashboard',
-    category: 'UI/UX Design',
+    category: 'Data Visualization',
     description: 'A sleek and intuitive analytics dashboard for content creators.',
-    longDescription: 'The Creative Dashboard was a UI/UX project focused on data visualization and usability. Designed in Figma and built with React, it provides creators with a clear overview of their performance metrics across multiple platforms. The design prioritizes clarity and actionability, helping users make informed decisions based on their data.',
+    longDescription: `
+      <h3>The Challenge</h3>
+      <p>Content creators are often overwhelmed with data from multiple platforms (YouTube, Instagram, Twitter, etc.), making it difficult to gauge overall performance and make strategic decisions. They needed a centralized dashboard that would aggregate their data and present it in a clear, actionable way.</p>
+      
+      <h3>My Role</h3>
+      <p>I was the sole UI/UX designer on this project. My responsibilities included conducting user interviews with creators, defining the product's feature set, designing the information architecture, and creating a visually engaging and intuitive interface from wireframes to final mockups.</p>
+      
+      <h3>The Process</h3>
+      <p><strong>1. Understanding the User:</strong> I interviewed 15 content creators to identify their primary goals and frustrations with analytics. The key takeaway was the need for simplicity and context. They didn't just want numbers; they wanted to know what those numbers meant for their growth.</p>
+      <p><strong>2. Structuring the Data:</strong> I focused on a modular, card-based layout that would allow for customization. I designed a "main overview" section for at-a-glance metrics and platform-specific sections for deeper dives. The data hierarchy was designed to surface the most critical information first.</p>
+      <p><strong>3. Visual Design:</strong> The aesthetic goal was "clean, modern, and inspiring." I used a bold, dark theme with vibrant accent colors for data visualizations to make charts and graphs easy to read and visually appealing. I established clear typographic scales and spacing rules to ensure a consistent and polished look.</p>
+
+      <h3>The Outcome</h3>
+      <p>The Creative Dashboard successfully simplified analytics for its users. In user testing, creators were able to identify key trends <strong>60% faster</strong> than with their previous methods. The dashboard received praise for its intuitive design and for turning complex data into a motivating and easy-to-understand tool for growth.</p>
+    `,
     imageUrl: 'https://placehold.co/600x400.png',
     tags: ['Figma', 'UI/UX', 'React', 'Data Visualization'],
     liveUrl: '#',
   },
   {
     id: '3',
-    title: 'MobileFirst App',
-    category: 'UI/UX Design',
+    title: 'MobileFirst Banking App',
+    category: 'Mobile App',
     description: 'A progressive web app designed for a seamless mobile experience.',
-    longDescription: 'This project was a Progressive Web App (PWA) built to provide a native-app-like experience on the web. It features offline capabilities, push notifications, and a responsive design that adapts perfectly to any screen size. The technology stack includes React, Service Workers, and a Firebase backend.',
+    longDescription: `
+      <h3>The Challenge</h3>
+      <p>Traditional banking apps are often clunky, slow, and difficult to navigate, causing frustration for users trying to perform simple tasks like checking balances or transferring money. A forward-thinking financial institution wanted to create a mobile banking app that felt as intuitive and delightful to use as modern social media apps.</p>
+      
+      <h3>My Role</h3>
+      <p>As part of a small design team, I focused on the core user flows for transfers and payments. I conducted competitive analysis, created detailed wireframes and prototypes, and worked on the visual design and interaction patterns for these key features.</p>
+      
+      <h3>The Process</h3>
+      <p><strong>1. Deconstructing the Flow:</strong> I started by mapping out every step of a typical money transfer process in existing apps, identifying areas of friction. The goal was to reduce the number of steps and simplify the required inputs.</p>
+      <p><strong>2. Prototyping and Testing:</strong> I built several interactive prototypes in Framer to test different approaches. One key innovation was a "drag-and-drop" interface for transfers between accounts, which tested exceptionally well with users for its speed and intuitive feel.</p>
+      <p><strong>3. Micro-interactions:</strong> To make the experience feel fluid and responsive, I designed subtle micro-interactions, such as animated feedback on button taps and smooth screen transitions. These small details contributed to a more polished and high-quality feel.</p>
+      
+      <h3>The Outcome</h3>
+      <p>The redesigned transfer flow was a huge success. Usability testing showed a <strong>75% reduction in task completion time</strong> compared to the bank's previous app. The MobileFirst app has since been adopted by over a million users, with App Store reviews frequently praising its "simplicity" and "ease of use," directly validating our user-centered design approach.</p>
+    `,
     imageUrl: 'https://placehold.co/600x400.png',
     tags: ['Figma', 'PWA', 'Mobile-First', 'UX Design'],
     caseStudyUrl: '#',
-  },
-  {
-    id: '4',
-    title: 'Branding Identity',
-    category: 'Branding',
-    description: 'A complete branding package for a new tech startup.',
-    longDescription: 'Developed a comprehensive branding identity, including logo design, color palette, typography, and marketing materials. The goal was to create a modern and memorable brand that reflects the startup\'s innovative spirit.',
-    imageUrl: 'https://placehold.co/600x400.png',
-    tags: ['Branding', 'Logo Design', 'Illustration'],
-  },
-];
-
-export const blogPosts: BlogPost[] = [
-  {
-    slug: 'deep-dive-into-react-hooks',
-    title: 'A Deep Dive into React Hooks',
-    date: '2024-05-15',
-    summary: 'Explore the power and flexibility of React Hooks and how they can simplify your component logic.',
-    imageUrl: 'https://placehold.co/600x400.png',
-    author: 'Jane Doe',
-    content: '<p>React Hooks have revolutionized the way we write components. In this post, we will explore...</p>',
-  },
-  {
-    slug: 'the-art-of-ui-ux-design',
-    title: 'The Art of UI/UX Design',
-    date: '2024-04-22',
-    summary: 'Discover the principles of creating intuitive and beautiful user interfaces that users love.',
-    imageUrl: 'https://placehold.co/600x400.png',
-    author: 'Jane Doe',
-    content: '<p>Good design is about more than just aesthetics. It\'s about creating a seamless and enjoyable experience...</p>',
-  },
-    {
-    slug: 'getting-started-with-genai',
-    title: 'Getting Started with Generative AI',
-    date: '2024-06-01',
-    summary: 'A beginner-friendly guide to understanding and implementing generative AI in your projects.',
-    imageUrl: 'https://placehold.co/600x400.png',
-    author: 'Jane Doe',
-    content: '<p>Generative AI is one of the most exciting fields in technology today. Let\'s break down the basics...</p>',
   },
 ];
 
