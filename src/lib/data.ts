@@ -23,6 +23,17 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Design Process</h3>
+          <div class="flex flex-wrap items-center justify-center gap-x-2 gap-y-4 my-6 p-4 border rounded-lg text-sm text-center">
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Understand</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Structure</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Sketch</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Design</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Refine</div></div>
+          </div>
           <p>My process followed a structured approach to ensure the final design met both user and business needs:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I started by deeply analyzing the design brief and client expectations to understand the required features, like the admin dashboard, course manager, and instructor sections.</li>
@@ -63,6 +74,17 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Design Process</h3>
+          <div class="flex flex-wrap items-center justify-center gap-x-2 gap-y-4 my-6 p-4 border rounded-lg text-sm text-center">
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Understand</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Structure</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Sketch</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Design</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Refine</div></div>
+          </div>
           <p>My approach was focused on understanding the target user and delivering a clean, mobile-first experience:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I began by developing user personas to represent the target audience, focusing on their financial habits, goals, and pain points.</li>
@@ -102,6 +124,17 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Design Process</h3>
+          <div class="flex flex-wrap items-center justify-center gap-x-2 gap-y-4 my-6 p-4 border rounded-lg text-sm text-center">
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Understand</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Structure</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Sketch</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Design</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Refine</div></div>
+          </div>
           <p>The process for this project was straightforward and focused on clarity and conversion:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand & Structure:</strong> I broke down the required content into key sections: a compelling hero, a clear service breakdown, and a simple contact form.</li>
@@ -140,6 +173,17 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Design Process</h3>
+          <div class="flex flex-wrap items-center justify-center gap-x-2 gap-y-4 my-6 p-4 border rounded-lg text-sm text-center">
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Understand</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Structure</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Sketch</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Design</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Refine</div></div>
+          </div>
           <p>I followed my complete design process to bring this personal concept to life:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I started with user research to identify what a younger audience wants from a podcast app. Key findings pointed to a need for better discovery features and a cleaner interface.</li>
@@ -179,6 +223,17 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Design Process</h3>
+          <div class="flex flex-wrap items-center justify-center gap-x-2 gap-y-4 my-6 p-4 border rounded-lg text-sm text-center">
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Understand</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Structure</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Sketch</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Design</div></div>
+            <div class="text-primary font-bold">&rarr;</div>
+            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Refine</div></div>
+          </div>
           <p>My process for this redesign was quick and focused:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I conducted informal research and gathered personal feedback to validate my assumption that certain icons were confusing to users.</li>
