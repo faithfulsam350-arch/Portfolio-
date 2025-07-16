@@ -29,14 +29,18 @@ export default function Home() {
                 that solve real-world problems and drive business growth.
                 </p>
             </ScrollAnimation>
-            <ScrollAnimation delay="600" className="flex flex-col sm:flex-row justify-center gap-4" variant="grow">
-              <Button asChild size="lg">
-                <Link href="#case-studies">View My Work</Link>
-              </Button>
-              <Button asChild size="lg" variant="secondary">
-                <Link href="/contact">Get in Touch <MoveRight className="ml-2 h-5 w-5" /></Link>
-              </Button>
-            </ScrollAnimation>
+            <div className="flex flex-col sm:flex-row justify-center gap-4">
+              <ScrollAnimation delay="600" variant="grow">
+                <Button asChild size="lg">
+                  <Link href="#case-studies">View My Work</Link>
+                </Button>
+              </ScrollAnimation>
+              <ScrollAnimation delay="600" variant="grow">
+                <Button asChild size="lg" variant="secondary">
+                  <Link href="/contact">Get in Touch <MoveRight className="ml-2 h-5 w-5" /></Link>
+                </Button>
+              </ScrollAnimation>
+            </div>
           </div>
       </section>
 
@@ -65,15 +69,17 @@ export default function Home() {
               />
                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
             </ScrollAnimation>
-            <ScrollAnimation className="flex flex-col justify-center">
+            <ScrollAnimation>
               <Badge variant="secondary" className="mb-4 w-fit">{project.category}</Badge>
               <h3 className="text-3xl font-headline font-bold mb-3">{project.title}</h3>
               <p className="text-muted-foreground mb-6">{project.description}</p>
-              <Button asChild className="w-fit">
-                <Link href={`/projects/${project.id}`}>
-                  View Case Study <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
+               <ScrollAnimation variant="grow" className="w-fit">
+                    <Button asChild>
+                        <Link href={`/projects/${project.id}`}>
+                        View Case Study <ArrowRight className="ml-2 h-4 w-4" />
+                        </Link>
+                    </Button>
+               </ScrollAnimation>
             </ScrollAnimation>
           </div>
         ))}
@@ -87,9 +93,11 @@ export default function Home() {
                 <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
                 Thanks for stopping by. If you have a project in mind or just want to connect, I'd love to hear from you.
                 </p>
-                <Button asChild size="lg" className="mt-8">
-                <Link href="/contact">Let's Talk</Link>
-                </Button>
+                 <ScrollAnimation variant="grow" className="mt-8">
+                    <Button asChild size="lg">
+                        <Link href="/contact">Let's Talk</Link>
+                    </Button>
+                </ScrollAnimation>
             </CardContent>
             </Card>
         </ScrollAnimation>

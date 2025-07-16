@@ -110,7 +110,9 @@ export default function ContactPage() {
                             </FormItem>
                             )}
                         />
-                        <Button type="submit">Send Message</Button>
+                        <ScrollAnimation variant="grow">
+                            <Button type="submit">Send Message</Button>
+                        </ScrollAnimation>
                         </form>
                     </Form>
                 </CardContent>
