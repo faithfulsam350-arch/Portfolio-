@@ -3,7 +3,7 @@ import type { Project, Skill, Experience } from './types';
 import { Figma, Framer, Users, Workflow, PenTool, Search, Layout, Smartphone, PenSquare } from 'lucide-react';
 
 const designProcessHtml = `
-  <div class="my-6 mb-8 rounded-lg overflow-hidden border">
+  <div class="my-6 mb-12 rounded-lg overflow-hidden border">
     <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
   </div>
 `;
@@ -17,7 +17,7 @@ export const projects: Project[] = [
     longDescription: `
       <p class="text-lg text-muted-foreground">Skillfort LMS is an administrative web application designed to manage an online learning platform. It was created for platform administrators to handle courses, instructors, and users efficiently. The main goal was to build a clear, scalable, and intuitive dashboard that would streamline the entire administrative workflow from the ground up.</p>
       
-      <div class="space-y-6 mt-8">
+      <div class="space-y-8 mt-8">
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>As part of my internship, I was tasked with designing the administrative side of Skillfort. The core challenge was creating an intuitive system for admins to manage a complex set of features. The existing process was non-existent, and the client needed a clear, efficient, and scalable dashboard based on a real-world design brief.</p>
@@ -28,9 +28,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
-           <div class="my-6 mb-12 rounded-lg overflow-hidden border">
-            <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
-          </div>
+           ${designProcessHtml}
           <p>My process followed a structured approach to ensure the final design met both user and business needs:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I started by deeply analyzing the design brief and client expectations to understand the required features, like the admin dashboard, course manager, and instructor sections.</li>
@@ -41,22 +39,34 @@ export const projects: Project[] = [
         </div>
          <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Research Methodology</h3>
-          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">Competitive Research</h4>
+          <h4 class="text-xl font-semibold mt-4 mb-2">Competitive Research</h4>
           <p>I analyzed several existing Learning Management Systems to identify common patterns, strengths, and weaknesses in their admin dashboards. This helped establish a baseline for features and usability.</p>
-          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">User Research</h4>
+          <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>I conducted informal interviews with 3 potential users (administrators and instructors) to understand their needs.</p>
-          <p class="font-semibold mt-3 mb-2">Key Questions:</p>
-          <ul class="list-disc list-outside pl-5 space-y-1">
-            <li>What are the biggest challenges you face when managing courses and users on a learning platform?</li>
-            <li>What features in an admin dashboard would save you the most time?</li>
-            <li>How important is a clean, uncluttered interface for your daily tasks?</li>
-          </ul>
-          <p class="font-semibold mt-3 mb-2">Key Findings:</p>
-          <ul class="list-disc list-outside pl-5 space-y-1">
-            <li>Users were often frustrated with cluttered interfaces and too many clicks to perform simple tasks.</li>
-            <li>A centralized dashboard with key metrics (like new users and course completions) was highly desired.</li>
-            <li>Easy navigation between course, user, and instructor management was a top priority.</li>
-          </ul>
+          <div class="grid md:grid-cols-2 gap-6 mt-6">
+            <div class="bg-muted/40 border rounded-lg p-6">
+                <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
+                    Key Questions
+                </h5>
+                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
+                    <li>What are the biggest challenges you face when managing courses and users on a learning platform?</li>
+                    <li>What features in an admin dashboard would save you the most time?</li>
+                    <li>How important is a clean, uncluttered interface for your daily tasks?</li>
+                </ul>
+            </div>
+            <div class="bg-muted/40 border rounded-lg p-6">
+                <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
+                    Key Findings
+                </h5>
+                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
+                    <li>Users were often frustrated with cluttered interfaces and too many clicks to perform simple tasks.</li>
+                    <li>A centralized dashboard with key metrics (like new users and course completions) was highly desired.</li>
+                    <li>Easy navigation between course, user, and instructor management was a top priority.</li>
+                </ul>
+            </div>
+          </div>
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Outcome</h3>
@@ -77,7 +87,7 @@ export const projects: Project[] = [
     longDescription: `
       <p class="text-lg text-muted-foreground">This project is a mobile-first fintech application designed to help Muslims manage their finances in accordance with Halal principles. It is created for individuals in the Muslim community who need a dedicated tool for tracking permissible transactions and calculating Zakat. The main goal was to deliver a clean, user-friendly MVP that simplifies faith-based financial management.</p>
 
-      <div class="space-y-6 mt-8">
+      <div class="space-y-8 mt-8">
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>Many Muslims find it challenging to manage their finances in a way that aligns with their faith, particularly regarding Halal transactions and Zakat obligations. Existing fintech apps often lack these specific features, creating a gap in the market for a dedicated financial tool for the Muslim community.</p>
@@ -88,9 +98,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
-           <div class="my-6 mb-12 rounded-lg overflow-hidden border">
-            <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
-          </div>
+           ${designProcessHtml}
           <p>My approach was focused on understanding the target user and delivering a clean, mobile-first experience:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I began by developing user personas to represent the target audience, focusing on their financial habits, goals, and pain points.</li>
@@ -101,22 +109,34 @@ export const projects: Project[] = [
         </div>
          <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Research Methodology</h3>
-          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">Competitive Research</h4>
+          <h4 class="text-xl font-semibold mt-4 mb-2">Competitive Research</h4>
           <p>I reviewed both mainstream fintech apps and niche Islamic finance apps to understand existing solutions and identify opportunities for differentiation, particularly in user experience and feature set.</p>
-          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">User Research</h4>
+          <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>I interviewed 3 individuals from the target demographic to gather insights into their financial habits and needs.</p>
-          <p class="font-semibold mt-3 mb-2">Key Questions:</p>
-          <ul class="list-disc list-outside pl-5 space-y-1">
-            <li>How do you currently track your expenses and calculate Zakat?</li>
-            <li>What are the biggest pain points in managing your finances in a Halal way?</li>
-            <li>What features would you most want to see in a finance app designed for Muslims?</li>
-          </ul>
-          <p class="font-semibold mt-3 mb-2">Key Findings:</p>
-          <ul class="list-disc list-outside pl-5 space-y-1">
-            <li>Many users rely on manual methods like spreadsheets for Zakat calculation, which can be complex and error-prone.</li>
-            <li>There is a strong desire for an all-in-one app that handles both general expense tracking and faith-specific needs.</li>
-            <li>Simplicity and trustworthiness were repeatedly mentioned as crucial factors.</li>
-          </ul>
+          <div class="grid md:grid-cols-2 gap-6 mt-6">
+            <div class="bg-muted/40 border rounded-lg p-6">
+                <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
+                    Key Questions
+                </h5>
+                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
+                    <li>How do you currently track your expenses and calculate Zakat?</li>
+                    <li>What are the biggest pain points in managing your finances in a Halal way?</li>
+                    <li>What features would you most want to see in a finance app designed for Muslims?</li>
+                </ul>
+            </div>
+            <div class="bg-muted/40 border rounded-lg p-6">
+                <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
+                    Key Findings
+                </h5>
+                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
+                    <li>Many users rely on manual methods like spreadsheets for Zakat calculation, which can be complex and error-prone.</li>
+                    <li>There is a strong desire for an all-in-one app that handles both general expense tracking and faith-specific needs.</li>
+                    <li>Simplicity and trustworthiness were repeatedly mentioned as crucial factors.</li>
+                </ul>
+            </div>
+          </div>
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Outcome</h3>
@@ -136,7 +156,7 @@ export const projects: Project[] = [
     longDescription: `
       <p class="text-lg text-muted-foreground">This project is a clean and informational one-page website for a telecom company. It was created for potential customers looking for clear, concise information about the company's services. The main goals were to present their offerings in a modern, professional manner and to provide a simple, effective way for visitors to get in touch, ultimately boosting lead generation.</p>
       
-      <div class="space-y-6 mt-8">
+      <div class="space-y-8 mt-8">
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>A telecom company needed a simple, modern, and effective one-page website to present its services. Their goal was to clearly communicate their offerings and provide an easy way for visitors to get in touch, without overwhelming them with information.</p>
@@ -147,9 +167,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
-           <div class="my-6 mb-12 rounded-lg overflow-hidden border">
-            <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
-          </div>
+           ${designProcessHtml}
           <p>The process for this project was straightforward and focused on clarity and conversion:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand & Structure:</strong> I broke down the required content into key sections: a compelling hero, a clear service breakdown, and a simple contact form.</li>
@@ -159,22 +177,34 @@ export const projects: Project[] = [
         </div>
          <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Research Methodology</h3>
-          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">Competitive Research</h4>
+          <h4 class="text-xl font-semibold mt-4 mb-2">Competitive Research</h4>
           <p>I looked at the websites of other telecom providers, both large and small, to understand industry conventions for presenting services and to find opportunities to create a cleaner, more direct user experience.</p>
-          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">User Research</h4>
+          <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>Given the project's simplicity, formal user research was minimal. Instead, I focused on stakeholder interviews (3 key team members) to align on the primary goals.</p>
-          <p class="font-semibold mt-3 mb-2">Key Questions:</p>
-          <ul class="list-disc list-outside pl-5 space-y-1">
-            <li>What is the single most important action a visitor should take on this page?</li>
-            <li>Who is our primary audience, and what information is most critical to them?</li>
-            <li>What tone should the website convey: modern, corporate, friendly?</li>
-          </ul>
-          <p class="font-semibold mt-3 mb-2">Key Findings:</p>
-          <ul class="list-disc list-outside pl-5 space-y-1">
-            <li>The primary goal was lead generation through the contact form.</li>
-            <li>The audience needed to quickly understand the core services without getting lost in technical jargon.</li>
-            <li>A modern and professional, yet approachable, design was the desired direction.</li>
-          </ul>
+          <div class="grid md:grid-cols-2 gap-6 mt-6">
+            <div class="bg-muted/40 border rounded-lg p-6">
+                <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
+                    Key Questions
+                </h5>
+                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
+                    <li>What is the single most important action a visitor should take on this page?</li>
+                    <li>Who is our primary audience, and what information is most critical to them?</li>
+                    <li>What tone should the website convey: modern, corporate, friendly?</li>
+                </ul>
+            </div>
+            <div class="bg-muted/40 border rounded-lg p-6">
+                <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
+                    Key Findings
+                </h5>
+                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
+                    <li>The primary goal was lead generation through the contact form.</li>
+                    <li>The audience needed to quickly understand the core services without getting lost in technical jargon.</li>
+                    <li>A modern and professional, yet approachable, design was the desired direction.</li>
+                </ul>
+            </div>
+          </div>
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Outcome</h3>
@@ -194,7 +224,7 @@ export const projects: Project[] = [
     longDescription: `
       <p class="text-lg text-muted-foreground">Yapish is a personal MVP concept for a podcast platform. It is created for a younger, tech-savvy audience who find existing podcast apps cluttered and unintuitive. The main goal of this project is to design a simplified, visually engaging user experience that makes discovering and listening to podcasts seamless and enjoyable.</p>
 
-      <div class="space-y-6 mt-8">
+      <div class="space-y-8 mt-8">
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>As a personal project, I wanted to address a common frustration I observed among my peers: existing podcast platforms can feel cluttered, especially for new listeners. My goal was to design an MVP for a podcast platform with a simplified user experience tailored to a younger audience.</p>
@@ -205,9 +235,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
-           <div class="my-6 mb-12 rounded-lg overflow-hidden border">
-            <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
-          </div>
+           ${designProcessHtml}
           <p>I followed my complete design process to bring this personal concept to life:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I started with user research to identify what a younger audience wants from a podcast app. Key findings pointed to a need for better discovery features and a cleaner interface.</li>
@@ -218,22 +246,34 @@ export const projects: Project[] = [
         </div>
          <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Research Methodology</h3>
-          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">Competitive Research</h4>
+          <h4 class="text-xl font-semibold mt-4 mb-2">Competitive Research</h4>
           <p>I analyzed major podcast platforms like Spotify, Apple Podcasts, and Pocket Casts to map out their user flows for discovery and playback. This helped identify opportunities to simplify the experience.</p>
-          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">User Research</h4>
+          <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>I spoke with 3 friends who are regular podcast listeners to understand their habits and frustrations.</p>
-          <p class="font-semibold mt-3 mb-2">Key Questions:</p>
-          <ul class="list-disc list-outside pl-5 space-y-1">
-            <li>How do you typically find new podcasts to listen to?</li>
-            <li>What is the most confusing or cluttered part of your current podcast app?</li>
-            <li>If you could change one thing about your podcast app, what would it be?</li>
-          </ul>
-          <p class="font-semibold mt-3 mb-2">Key Findings:</p>
-          <ul class="list-disc list-outside pl-5 space-y-1">
-            <li>Podcast discovery is often overwhelming. Users want better, more personalized recommendations.</li>
-            <li>Users disliked apps that mixed music and podcasts too aggressively.</li>
-            <li>A simple, clean interface for the player and library was a top request.</li>
-          </ul>
+          <div class="grid md:grid-cols-2 gap-6 mt-6">
+            <div class="bg-muted/40 border rounded-lg p-6">
+                <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
+                    Key Questions
+                </h5>
+                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
+                    <li>How do you typically find new podcasts to listen to?</li>
+                    <li>What is the most confusing or cluttered part of your current podcast app?</li>
+                    <li>If you could change one thing about your podcast app, what would it be?</li>
+                </ul>
+            </div>
+            <div class="bg-muted/40 border rounded-lg p-6">
+                <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
+                    Key Findings
+                </h5>
+                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
+                    <li>Podcast discovery is often overwhelming. Users want better, more personalized recommendations.</li>
+                    <li>Users disliked apps that mixed music and podcasts too aggressively.</li>
+                    <li>A simple, clean interface for the player and library was a top request.</li>
+                </ul>
+            </div>
+          </div>
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Outcome</h3>
@@ -253,7 +293,7 @@ export const projects: Project[] = [
     longDescription: `
       <p class="text-lg text-muted-foreground">This is a conceptual UI redesign of the Spotify mobile app. It's a personal project aimed at an existing user base that could benefit from enhanced usability. The main goal was to improve the user experience by refining the navigation, increasing button clarity, and replacing ambiguous icons with more universally understood symbols.</p>
 
-      <div class="space-y-6 mt-8">
+      <div class="space-y-8 mt-8">
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>While Spotify is a leader in music streaming, I identified an opportunity to improve its mobile UI as a personal challenge. Some of the navigation icons felt ambiguous, and the layout could be tweaked for better one-handed usability. This concept project aimed to address those minor but impactful usability issues.</p>
@@ -264,9 +304,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
-           <div class="my-6 mb-12 rounded-lg overflow-hidden border">
-            <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
-          </div>
+           ${designProcessHtml}
           <p>My process for this redesign was quick and focused:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I conducted informal research and gathered personal feedback to validate my assumption that certain icons were confusing to users.</li>
@@ -276,22 +314,34 @@ export const projects: Project[] = [
         </div>
          <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Research Methodology</h3>
-          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">Competitive Research</h4>
+          <h4 class="text-xl font-semibold mt-4 mb-2">Competitive Research</h4>
           <p>I briefly looked at Apple Music and YouTube Music to see how they handled navigation and icon systems. This helped inform my decisions for creating more universally understood icons.</p>
-          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">User Research</h4>
+          <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>I conducted informal usability tests with 3 long-time Spotify users, asking them to perform specific tasks.</p>
-          <p class="font-semibold mt-3 mb-2">Key Questions:</p>
-          <ul class="list-disc list-outside pl-5 space-y-1">
-            <li>"Without thinking too hard, what do you expect this icon to do?" (pointing to ambiguous icons).</li>
-            <li>"Can you quickly find your list of liked songs?"</li>
-            <li>"Is there anything about the main navigation that feels confusing?"</li>
-          </ul>
-          <p class="font-semibold mt-3 mb-2">Key Findings:</p>
-          <ul class="list-disc list-outside pl-5 space-y-1">
-            <li>Users confirmed that certain icons, particularly for the library and search functions, were not immediately clear.</li>
-            <li>The distinction between the 'Home' and 'Search' tabs was sometimes a point of confusion.</li>
-            <li>All users expressed a desire for clearer, more explicit iconography in the navigation bar.</li>
-          </ul>
+          <div class="grid md:grid-cols-2 gap-6 mt-6">
+            <div class="bg-muted/40 border rounded-lg p-6">
+                <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
+                    Key Questions
+                </h5>
+                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
+                    <li>"Without thinking too hard, what do you expect this icon to do?" (pointing to ambiguous icons).</li>
+                    <li>"Can you quickly find your list of liked songs?"</li>
+                    <li>"Is there anything about the main navigation that feels confusing?"</li>
+                </ul>
+            </div>
+            <div class="bg-muted/40 border rounded-lg p-6">
+                <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
+                    Key Findings
+                </h5>
+                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
+                    <li>Users confirmed that certain icons, particularly for the library and search functions, were not immediately clear.</li>
+                    <li>The distinction between the 'Home' and 'Search' tabs was sometimes a point of confusion.</li>
+                    <li>All users expressed a desire for clearer, more explicit iconography in the navigation bar.</li>
+                </ul>
+            </div>
+          </div>
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Outcome</h3>
