@@ -1,5 +1,6 @@
 import type { Project, BlogPost, Skill, Experience } from './types';
 import { Code, Brush, BarChart, Server, Cloud, Bot, Linkedin, Twitter, Github } from 'lucide-react';
+import { SOCIAL_LINKS } from './constants';
 
 export const projects: Project[] = [
   {
