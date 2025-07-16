@@ -30,10 +30,10 @@ const designProcessHtml = `
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-purple-500"><path d="M12 2a7 7 0 0 0-7 7c0 2.05.81 3.9 2.11 5.29L6.5 21h11l-1.61-6.71A7 7 0 0 0 12 2z"></path><line x1="12" y1="2" x2="12" y2="5"></line><line x1="12" y1="17" x2="12" y2="22"></line><line x1="7" y1="8" x2="4" y2="8"></line><line x1="20" y1="8" x2="17" y2="8"></line></svg>
         </div>
         <p class="mt-2 font-semibold text-sm md:text-base">Ideate</p>
-        <svg width="100%" height="40" class="absolute -top-10 md:-top-12 left-0 hidden md:block">
-          <path d="M 120,35 C 100,0 40,0 20,35" stroke="hsl(var(--muted-foreground)/.5)" fill="none" stroke-width="2" stroke-dasharray="4,4"/>
+        <svg width="100%" height="40" class="absolute -top-10 md:-top-12 left-0 hidden md:block" style="overflow: visible;">
+          <path d="M 120,35 C 100,0 40,0 20,35" stroke="hsl(var(--muted-foreground))" fill="none" stroke-width="2" stroke-dasharray="4,4"/>
           <text x="65" y="15" font-size="10" fill="hsl(var(--muted-foreground))" text-anchor="middle">ITERATE</text>
-          <path d="M 110,32 L 120,35 L 114,28" stroke="hsl(var(--muted-foreground)/.5)" fill="none" stroke-width="2" />
+          <path d="M 110,32 L 120,35 L 114,28" stroke="hsl(var(--muted-foreground))" fill="none" stroke-width="2" />
         </svg>
       </div>
 
@@ -42,7 +42,7 @@ const designProcessHtml = `
       <!-- Prototype -->
       <div class="flex flex-col items-center text-center w-20 md:w-28 relative">
         <div class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-yellow-500/20 flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-yellow-500"><path d="M20.94 13.06a8.5 8.5 0 0 1-5.94 5.94 8.5 8.5 0 0 1-10-10 8.5 8.5 0 0 1 5.94-5.94 8.5 8.5 0 0 1 10 10z"></path><path d="M12 12V7.5"></path><path d="m9 11 3 3 3-3"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-yellow-500"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
         </div>
         <p class="mt-2 font-semibold text-sm md:text-base">Prototype</p>
       </div>
@@ -55,10 +55,10 @@ const designProcessHtml = `
            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-500"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
         </div>
         <p class="mt-2 font-semibold text-sm md:text-base">Test</p>
-         <svg width="100%" height="40" class="absolute -top-10 md:-top-12 left-0 hidden md:block">
-          <path d="M 120,35 C 100,0 40,0 20,35" stroke="hsl(var(--muted-foreground)/.5)" fill="none" stroke-width="2" stroke-dasharray="4,4"/>
+         <svg width="100%" height="40" class="absolute -top-10 md:-top-12 left-0 hidden md:block" style="overflow: visible;">
+          <path d="M 120,35 C 100,0 40,0 20,35" stroke="hsl(var(--muted-foreground))" fill="none" stroke-width="2" stroke-dasharray="4,4"/>
           <text x="65" y="15" font-size="10" fill="hsl(var(--muted-foreground))" text-anchor="middle">ITERATE</text>
-          <path d="M 110,32 L 120,35 L 114,28" stroke="hsl(var(--muted-foreground)/.5)" fill="none" stroke-width="2" />
+          <path d="M 110,32 L 120,35 L 114,28" stroke="hsl(var(--muted-foreground))" fill="none" stroke-width="2" />
         </svg>
       </div>
     </div>
