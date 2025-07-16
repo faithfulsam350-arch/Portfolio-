@@ -28,7 +28,9 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
-           ${designProcessHtml}
+           <div class="my-6 mb-12 rounded-lg overflow-hidden border">
+                <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
+            </div>
           <p>My process followed a structured approach to ensure the final design met both user and business needs:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I started by deeply analyzing the design brief and client expectations to understand the required features, like the admin dashboard, course manager, and instructor sections.</li>
@@ -43,7 +45,7 @@ export const projects: Project[] = [
           <p>I analyzed several existing Learning Management Systems to identify common patterns, strengths, and weaknesses in their admin dashboards. This helped establish a baseline for features and usability.</p>
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>I conducted informal interviews with 3 potential users (administrators and instructors) to understand their needs.</p>
-          <div class="grid md:grid-cols-2 gap-6 mt-6" style="margin: 50px 0px;">
+          <div class="grid md:grid-cols-2 gap-6 mt-6">
             <div class="bg-muted/40 border rounded-lg p-6" >
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
@@ -66,6 +68,13 @@ export const projects: Project[] = [
                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Easy navigation between course, user, and instructor management was a top priority.</span></div>
                 </div>
             </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-2xl font-headline font-semibold mb-2">User Personas</h3>
+          <p>Based on the user research, I developed a user persona to guide the design process. This persona represents the typical administrator who would use the platform, helping to keep their needs and goals at the forefront of every design decision.</p>
+          <div class="my-6 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="User Persona" class="w-full" data-ai-hint="user persona graphic" />
           </div>
         </div>
         <div>
@@ -98,7 +107,9 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
-           ${designProcessHtml}
+           <div class="my-6 mb-12 rounded-lg overflow-hidden border">
+                <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
+            </div>
           <p>My approach was focused on understanding the target user and delivering a clean, mobile-first experience:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I began by developing user personas to represent the target audience, focusing on their financial habits, goals, and pain points.</li>
@@ -139,6 +150,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-2xl font-headline font-semibold mb-2">User Personas</h3>
+          <p>To ensure the design was deeply rooted in user needs, I created a persona that synthesized the research findings. This persona, "Aisha," a young professional, helped focus the design on creating a simple, trustworthy, and all-in-one financial tool for the Muslim community.</p>
+          <div class="my-6 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="User Persona" class="w-full" data-ai-hint="user persona graphic" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Outcome</h3>
           <p>I successfully delivered a completed MVP design for the Muslim Finance App. The final design provided a clear, user-friendly solution for tracking expenses, managing budgets, and calculating Zakat, all within a clean and modern mobile interface. This project demonstrated my ability to handle end-to-end design for a specialized fintech product.</p>
         </div>
@@ -167,7 +185,9 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
-           ${designProcessHtml}
+           <div class="my-6 mb-12 rounded-lg overflow-hidden border">
+                <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
+            </div>
           <p>The process for this project was straightforward and focused on clarity and conversion:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand & Structure:</strong> I broke down the required content into key sections: a compelling hero, a clear service breakdown, and a simple contact form.</li>
@@ -207,6 +227,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-2xl font-headline font-semibold mb-2">User Personas</h3>
+          <p>From the stakeholder interviews, I created a persona for a typical customer: a small business owner looking for reliable telecom services. This persona helped ensure the language was clear, the value proposition was direct, and the contact process was as simple as possible.</p>
+          <div class="my-6 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="User Persona" class="w-full" data-ai-hint="user persona graphic" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Outcome</h3>
           <p>I delivered a final layout and mockup that met all the client's requirements. The design was clean, professional, and structured to guide users logically from the service offerings to the contact section, effectively serving its purpose as an informational and lead-generating landing page.</p>
         </div>
@@ -235,7 +262,9 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
-           ${designProcessHtml}
+           <div class="my-6 mb-12 rounded-lg overflow-hidden border">
+                <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
+            </div>
           <p>I followed my complete design process to bring this personal concept to life:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I started with user research to identify what a younger audience wants from a podcast app. Key findings pointed to a need for better discovery features and a cleaner interface.</li>
@@ -276,6 +305,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-2xl font-headline font-semibold mb-2">User Personas</h3>
+          <p>The research led to the creation of a user persona for "Alex," a college student who listens to podcasts to learn new things but is frustrated with cluttered apps. This persona was a constant reminder to prioritize simplicity, discovery, and a clean visual design throughout the project.</p>
+          <div class="my-6 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="User Persona" class="w-full" data-ai-hint="user persona graphic" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Outcome</h3>
           <p>This ongoing personal project serves as a key piece in my portfolio, showcasing my ability to manage a project from concept to design. The result is a well-researched and thoughtfully designed UI for a podcast platform MVP. The UI is currently in progress.</p>
         </div>
@@ -304,7 +340,9 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
-           ${designProcessHtml}
+           <div class="my-6 mb-12 rounded-lg overflow-hidden border">
+                <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
+            </div>
           <p>My process for this redesign was quick and focused:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I conducted informal research and gathered personal feedback to validate my assumption that certain icons were confusing to users.</li>
@@ -341,6 +379,13 @@ export const projects: Project[] = [
                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>All users expressed a desire for clearer, more explicit iconography in the navigation bar.</span></div>
                 </div>
             </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-2xl font-headline font-semibold mb-2">User Personas</h3>
+          <p>Even for a concept project, thinking about the user is key. I created a simple persona for a long-time Spotify power user who values efficiency. This helped me focus on making small, targeted changes that would improve their experience without disrupting their existing mental model of the app.</p>
+          <div class="my-6 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="User Persona" class="w-full" data-ai-hint="user persona graphic" />
           </div>
         </div>
         <div>
