@@ -43,28 +43,28 @@ export const projects: Project[] = [
           <p>I analyzed several existing Learning Management Systems to identify common patterns, strengths, and weaknesses in their admin dashboards. This helped establish a baseline for features and usability.</p>
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>I conducted informal interviews with 3 potential users (administrators and instructors) to understand their needs.</p>
-          <div class="grid md:grid-cols-2 gap-6 mt-6">
-            <div class="bg-muted/40 border rounded-lg p-6">
+          <div class="grid md:grid-cols-2 gap-6 mt-6" style="margin: 50px 0px;">
+            <div class="bg-muted/40 border rounded-lg p-6" >
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
                     Key Questions
                 </h5>
-                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
-                    <li>What are the biggest challenges you face when managing courses and users on a learning platform?</li>
-                    <li>What features in an admin dashboard would save you the most time?</li>
-                    <li>How important is a clean, uncluttered interface for your daily tasks?</li>
-                </ul>
+                <div class="space-y-2 text-sm text-muted-foreground">
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What are the biggest challenges you face when managing courses and users on a learning platform?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What features in an admin dashboard would save you the most time?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>How important is a clean, uncluttered interface for your daily tasks?</span></div>
+                </div>
             </div>
             <div class="bg-muted/40 border rounded-lg p-6">
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
                     Key Findings
                 </h5>
-                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
-                    <li>Users were often frustrated with cluttered interfaces and too many clicks to perform simple tasks.</li>
-                    <li>A centralized dashboard with key metrics (like new users and course completions) was highly desired.</li>
-                    <li>Easy navigation between course, user, and instructor management was a top priority.</li>
-                </ul>
+                <div class="space-y-2 text-sm text-muted-foreground">
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Users were often frustrated with cluttered interfaces and too many clicks to perform simple tasks.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>A centralized dashboard with key metrics (like new users and course completions) was highly desired.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Easy navigation between course, user, and instructor management was a top priority.</span></div>
+                </div>
             </div>
           </div>
         </div>
@@ -119,22 +119,22 @@ export const projects: Project[] = [
                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
                     Key Questions
                 </h5>
-                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
-                    <li>How do you currently track your expenses and calculate Zakat?</li>
-                    <li>What are the biggest pain points in managing your finances in a Halal way?</li>
-                    <li>What features would you most want to see in a finance app designed for Muslims?</li>
-                </ul>
+                <div class="space-y-2 text-sm text-muted-foreground">
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>How do you currently track your expenses and calculate Zakat?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What are the biggest pain points in managing your finances in a Halal way?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What features would you most want to see in a finance app designed for Muslims?</span></div>
+                </div>
             </div>
             <div class="bg-muted/40 border rounded-lg p-6">
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
                     Key Findings
                 </h5>
-                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
-                    <li>Many users rely on manual methods like spreadsheets for Zakat calculation, which can be complex and error-prone.</li>
-                    <li>There is a strong desire for an all-in-one app that handles both general expense tracking and faith-specific needs.</li>
-                    <li>Simplicity and trustworthiness were repeatedly mentioned as crucial factors.</li>
-                </ul>
+                <div class="space-y-2 text-sm text-muted-foreground">
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Many users rely on manual methods like spreadsheets for Zakat calculation, which can be complex and error-prone.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>There is a strong desire for an all-in-one app that handles both general expense tracking and faith-specific needs.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Simplicity and trustworthiness were repeatedly mentioned as crucial factors.</span></div>
+                </div>
             </div>
           </div>
         </div>
@@ -187,22 +187,22 @@ export const projects: Project[] = [
                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
                     Key Questions
                 </h5>
-                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
-                    <li>What is the single most important action a visitor should take on this page?</li>
-                    <li>Who is our primary audience, and what information is most critical to them?</li>
-                    <li>What tone should the website convey: modern, corporate, friendly?</li>
-                </ul>
+                <div class="space-y-2 text-sm text-muted-foreground">
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What is the single most important action a visitor should take on this page?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Who is our primary audience, and what information is most critical to them?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What tone should the website convey: modern, corporate, friendly?</span></div>
+                </div>
             </div>
             <div class="bg-muted/40 border rounded-lg p-6">
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
                     Key Findings
                 </h5>
-                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
-                    <li>The primary goal was lead generation through the contact form.</li>
-                    <li>The audience needed to quickly understand the core services without getting lost in technical jargon.</li>
-                    <li>A modern and professional, yet approachable, design was the desired direction.</li>
-                </ul>
+                <div class="space-y-2 text-sm text-muted-foreground">
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>The primary goal was lead generation through the contact form.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>The audience needed to quickly understand the core services without getting lost in technical jargon.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>A modern and professional, yet approachable, design was the desired direction.</span></div>
+                </div>
             </div>
           </div>
         </div>
@@ -256,22 +256,22 @@ export const projects: Project[] = [
                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
                     Key Questions
                 </h5>
-                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
-                    <li>How do you typically find new podcasts to listen to?</li>
-                    <li>What is the most confusing or cluttered part of your current podcast app?</li>
-                    <li>If you could change one thing about your podcast app, what would it be?</li>
-                </ul>
+                <div class="space-y-2 text-sm text-muted-foreground">
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>How do you typically find new podcasts to listen to?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What is the most confusing or cluttered part of your current podcast app?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>If you could change one thing about your podcast app, what would it be?</span></div>
+                </div>
             </div>
             <div class="bg-muted/40 border rounded-lg p-6">
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
                     Key Findings
                 </h5>
-                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
-                    <li>Podcast discovery is often overwhelming. Users want better, more personalized recommendations.</li>
-                    <li>Users disliked apps that mixed music and podcasts too aggressively.</li>
-                    <li>A simple, clean interface for the player and library was a top request.</li>
-                </ul>
+                <div class="space-y-2 text-sm text-muted-foreground">
+                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Podcast discovery is often overwhelming. Users want better, more personalized recommendations.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Users disliked apps that mixed music and podcasts too aggressively.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>A simple, clean interface for the player and library was a top request.</span></div>
+                </div>
             </div>
           </div>
         </div>
@@ -324,22 +324,22 @@ export const projects: Project[] = [
                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
                     Key Questions
                 </h5>
-                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
-                    <li>"Without thinking too hard, what do you expect this icon to do?" (pointing to ambiguous icons).</li>
-                    <li>"Can you quickly find your list of liked songs?"</li>
-                    <li>"Is there anything about the main navigation that feels confusing?"</li>
-                </ul>
+                <div class="space-y-2 text-sm text-muted-foreground">
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>"Without thinking too hard, what do you expect this icon to do?" (pointing to ambiguous icons).</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>"Can you quickly find your list of liked songs?"</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>"Is there anything about the main navigation that feels confusing?"</span></div>
+                </div>
             </div>
             <div class="bg-muted/40 border rounded-lg p-6">
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
                     Key Findings
                 </h5>
-                <ul class="list-disc list-outside pl-5 space-y-2 text-sm text-muted-foreground">
-                    <li>Users confirmed that certain icons, particularly for the library and search functions, were not immediately clear.</li>
-                    <li>The distinction between the 'Home' and 'Search' tabs was sometimes a point of confusion.</li>
-                    <li>All users expressed a desire for clearer, more explicit iconography in the navigation bar.</li>
-                </ul>
+                <div class="space-y-2 text-sm text-muted-foreground">
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Users confirmed that certain icons, particularly for the library and search functions, were not immediately clear.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>The distinction between the 'Home' and 'Search' tabs was sometimes a point of confusion.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>All users expressed a desire for clearer, more explicit iconography in the navigation bar.</span></div>
+                </div>
             </div>
           </div>
         </div>
@@ -423,3 +423,5 @@ export const blogPosts = [
         `
     }
 ];
+
+    
