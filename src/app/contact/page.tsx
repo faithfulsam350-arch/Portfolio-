@@ -19,6 +19,7 @@ import { useToast } from '@/hooks/use-toast';
 import { Card, CardContent } from '@/components/ui/card';
 import Link from 'next/link';
 import { SOCIAL_LINKS } from '@/lib/constants';
+import { ScrollAnimation } from '@/components/scroll-animation';
 
 const formSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters.'),
@@ -58,14 +59,14 @@ export default function ContactPage() {
 
   return (
     <div className="container mx-auto px-4 py-12 md:py-16">
-      <div className="text-center mb-12">
+      <ScrollAnimation className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-headline font-bold mb-2">Get In Touch</h1>
         <p className="text-lg text-muted-foreground">
           Have a project in mind or just want to say hi? I'd love to hear from you.
         </p>
-      </div>
+      </ScrollAnimation>
       <div className="grid lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
-        <div className="lg:col-span-2">
+        <ScrollAnimation className="lg:col-span-2">
             <Card>
                 <CardContent className="p-6">
                     <Form {...form}>
@@ -114,8 +115,8 @@ export default function ContactPage() {
                     </Form>
                 </CardContent>
             </Card>
-        </div>
-        <div className="space-y-6">
+        </ScrollAnimation>
+        <ScrollAnimation delay="200" className="space-y-6">
             <h3 className="text-2xl font-headline font-bold">Contact Details</h3>
             <div className="space-y-4">
                 <a href="mailto:hello@example.com" className="flex items-center gap-4 group">
@@ -139,7 +140,7 @@ export default function ContactPage() {
                     ))}
                 </div>
             </div>
-        </div>
+        </ScrollAnimation>
       </div>
     </div>
   );
