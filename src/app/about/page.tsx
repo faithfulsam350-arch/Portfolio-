@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { skills, experiences } from "@/lib/data";
@@ -8,7 +7,7 @@ export default function AboutPage() {
     <div className="container mx-auto px-4 py-12 md:py-16">
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-headline font-bold mb-2">About Me</h1>
-        <p className="text-lg text-muted-foreground">A little bit about my journey, skills, and experience.</p>
+        <p className="text-lg text-muted-foreground">My design philosophy, skills, and professional journey.</p>
       </div>
 
       <div className="grid lg:grid-cols-3 gap-12 items-start">
@@ -18,9 +17,9 @@ export default function AboutPage() {
                 <AvatarFallback>JD</AvatarFallback>
             </Avatar>
             <h2 className="text-2xl font-headline font-bold">Jane Doe</h2>
-            <p className="text-muted-foreground">Creative Developer & Designer</p>
+            <p className="text-muted-foreground">UI/UX Designer & Researcher</p>
             <p className="mt-4 max-w-xs">
-                Passionate about crafting beautiful and functional digital experiences. With a background in both design and development, I bridge the gap between aesthetics and performance.
+              I am a passionate UI/UX designer dedicated to creating intuitive and impactful digital products that users love.
             </p>
         </div>
         

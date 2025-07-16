@@ -11,10 +11,10 @@ export default function Home() {
     <div className="container mx-auto px-4 py-12 md:py-24">
       <section className="text-center mb-16 md:mb-24">
         <h1 className="text-4xl md:text-6xl font-headline font-bold mb-4 tracking-tighter">
-          Creative Developer & Designer
+          UI/UX Designer & Product Strategist
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-          I build vibrant, modern, and user-friendly web experiences. Explore my work and let's create something amazing together.
+         I design intuitive, beautiful, and user-centric digital experiences that solve real-world problems.
         </p>
         <div className="flex justify-center gap-4">
           <Button asChild size="lg">

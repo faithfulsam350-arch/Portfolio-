@@ -1,16 +1,16 @@
 import type { Project, BlogPost, Skill, Experience } from './types';
-import { Code, Brush, BarChart, Server, Cloud, Bot, Linkedin, Twitter, Github } from 'lucide-react';
+import { Figma, Framer, Users, BrainCircuit, PenTool, Search } from 'lucide-react';
 import { SOCIAL_LINKS } from './constants';
 
 export const projects: Project[] = [
   {
     id: '1',
     title: 'Project Alpha',
-    category: 'Web Development',
+    category: 'UI/UX Design',
     description: 'A cutting-edge e-commerce platform with a focus on user experience.',
     longDescription: 'Project Alpha is a full-stack e-commerce solution built with Next.js, TypeScript, and Stripe. It features a custom CMS for product management, a highly optimized storefront for fast loading times, and a seamless checkout process. The goal was to create a platform that is not only powerful for the business but also intuitive and enjoyable for the customer.',
     imageUrl: 'https://placehold.co/600x400.png',
-    tags: ['Next.js', 'React', 'TypeScript', 'E-commerce', 'Stripe'],
+    tags: ['Figma', 'User Research', 'Prototyping', 'E-commerce'],
     liveUrl: '#',
     caseStudyUrl: '#',
   },
@@ -27,17 +27,17 @@ export const projects: Project[] = [
   {
     id: '3',
     title: 'MobileFirst App',
-    category: 'Web Development',
+    category: 'UI/UX Design',
     description: 'A progressive web app designed for a seamless mobile experience.',
     longDescription: 'This project was a Progressive Web App (PWA) built to provide a native-app-like experience on the web. It features offline capabilities, push notifications, and a responsive design that adapts perfectly to any screen size. The technology stack includes React, Service Workers, and a Firebase backend.',
     imageUrl: 'https://placehold.co/600x400.png',
-    tags: ['React', 'PWA', 'Firebase', 'Mobile'],
+    tags: ['Figma', 'PWA', 'Mobile-First', 'UX Design'],
     caseStudyUrl: '#',
   },
   {
     id: '4',
     title: 'Branding Identity',
-    category: 'UI/UX Design',
+    category: 'Branding',
     description: 'A complete branding package for a new tech startup.',
     longDescription: 'Developed a comprehensive branding identity, including logo design, color palette, typography, and marketing materials. The goal was to create a modern and memorable brand that reflects the startup\'s innovative spirit.',
     imageUrl: 'https://placehold.co/600x400.png',
@@ -76,37 +76,31 @@ export const blogPosts: BlogPost[] = [
 ];
 
 export const skills: Skill[] = [
-  { name: 'Frontend', icon: Code },
-  { name: 'UI/UX Design', icon: Brush },
-  { name: 'Backend', icon: Server },
-  { name: 'DevOps', icon: Cloud },
-  { name: 'Data Analytics', icon: BarChart },
-  { name: 'AI/ML', icon: Bot },
+  { name: 'UI Design', icon: PenTool },
+  { name: 'UX Research', icon: Search },
+  { name: 'Prototyping', icon: Framer },
+  { name: 'Design Systems', icon: Figma },
+  { name: 'User Testing', icon: Users },
+  { name: 'Design Thinking', icon: BrainCircuit },
 ];
 
 export const experiences: Experience[] = [
     {
-        role: 'Senior Frontend Developer',
-        company: 'Tech Solutions Inc.',
+        role: 'Senior UI/UX Designer',
+        company: 'Innovatech',
         period: '2020 - Present',
-        description: 'Leading the development of high-performance web applications using React and Next.js. Mentoring junior developers and collaborating with design teams to create pixel-perfect user interfaces.'
+        description: 'Leading design on flagship products, conducting user research, and building a comprehensive design system to ensure consistency and speed across all platforms.'
     },
     {
-        role: 'UI/UX Designer',
+        role: 'Product Designer',
         company: 'Creative Minds LLC',
         period: '2018 - 2020',
         description: 'Designed user-centric interfaces for mobile and web applications. Conducted user research, created wireframes and prototypes, and worked closely with developers to ensure faithful implementation.'
     },
     {
-        role: 'Junior Web Developer',
+        role: 'Junior UX Designer',
         company: 'Web Wizards',
         period: '2016 - 2018',
-        description: 'Assisted in the development and maintenance of client websites using HTML, CSS, and JavaScript. Gained foundational experience in web development best practices and version control.'
+        description: 'Assisted in user research, usability testing, and creating wireframes for various client websites. Gained foundational experience in UX principles and design tools.'
     }
 ];
-
-export const socialIcons = [
-  { icon: Github, href: SOCIAL_LINKS.github },
-  { icon: Linkedin, href: SOCIAL_LINKS.linkedin },
-  { icon: Twitter, href: SOCIAL_LINKS.twitter },
-]
