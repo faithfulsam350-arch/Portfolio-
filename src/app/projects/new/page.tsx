@@ -2,7 +2,7 @@ import { ProjectForm } from "@/components/project-form";
 
 export default function NewProjectPage() {
   return (
-    <div className="container mx-auto px-4 py-12 md:py-16">
+    <div className="container mx-auto px-6 md:px-8 py-12 md:py-16">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-8">
             <h1 className="text-4xl font-headline font-bold mb-2">Create a New Project</h1>
