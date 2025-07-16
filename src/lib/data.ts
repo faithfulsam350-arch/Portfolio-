@@ -2,7 +2,7 @@ import type { Project, Skill, Experience } from './types';
 import { Figma, Framer, Users, Workflow, PenTool, Search, Layout, Smartphone, PenSquare } from 'lucide-react';
 
 const designProcessHtml = `
-  <div class="my-6 rounded-lg overflow-hidden border">
+  <div class="my-6 mb-8 rounded-lg overflow-hidden border">
     <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
   </div>
 `;
@@ -14,8 +14,9 @@ export const projects: Project[] = [
     category: 'Learning Management System',
     description: 'A web app for managing online learning, focusing on a clear and usable admin experience.',
     longDescription: `
-      <div class="space-y-6">
-        <p class="text-lg text-muted-foreground">Skillfort LMS is an administrative web application designed to manage an online learning platform. It was created for platform administrators to handle courses, instructors, and users efficiently. The main goal was to build a clear, scalable, and intuitive dashboard that would streamline the entire administrative workflow from the ground up.</p>
+      <p class="text-lg text-muted-foreground">Skillfort LMS is an administrative web application designed to manage an online learning platform. It was created for platform administrators to handle courses, instructors, and users efficiently. The main goal was to build a clear, scalable, and intuitive dashboard that would streamline the entire administrative workflow from the ground up.</p>
+      
+      <div class="space-y-6 mt-8">
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>As part of my internship, I was tasked with designing the administrative side of Skillfort. The core challenge was creating an intuitive system for admins to manage a complex set of features. The existing process was non-existent, and the client needed a clear, efficient, and scalable dashboard based on a real-world design brief.</p>
@@ -52,8 +53,9 @@ export const projects: Project[] = [
     category: 'Fintech Mobile App',
     description: 'A mobile-first fintech app for Muslims to manage finances according to Halal principles.',
     longDescription: `
-      <div class="space-y-6">
-        <p class="text-lg text-muted-foreground">This project is a mobile-first fintech application designed to help Muslims manage their finances in accordance with Halal principles. It is created for individuals in the Muslim community who need a dedicated tool for tracking permissible transactions and calculating Zakat. The main goal was to deliver a clean, user-friendly MVP that simplifies faith-based financial management.</p>
+      <p class="text-lg text-muted-foreground">This project is a mobile-first fintech application designed to help Muslims manage their finances in accordance with Halal principles. It is created for individuals in the Muslim community who need a dedicated tool for tracking permissible transactions and calculating Zakat. The main goal was to deliver a clean, user-friendly MVP that simplifies faith-based financial management.</p>
+
+      <div class="space-y-6 mt-8">
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>Many Muslims find it challenging to manage their finances in a way that aligns with their faith, particularly regarding Halal transactions and Zakat obligations. Existing fintech apps often lack these specific features, creating a gap in the market for a dedicated financial tool for the Muslim community.</p>
@@ -89,8 +91,9 @@ export const projects: Project[] = [
     category: 'Landing Page',
     description: 'A clean and informational one-page website for a telecom company.',
     longDescription: `
-      <div class="space-y-6">
-        <p class="text-lg text-muted-foreground">This project is a clean and informational one-page website for a telecom company. It was created for potential customers looking for clear, concise information about the company's services. The main goals were to present their offerings in a modern, professional manner and to provide a simple, effective way for visitors to get in touch, ultimately boosting lead generation.</p>
+      <p class="text-lg text-muted-foreground">This project is a clean and informational one-page website for a telecom company. It was created for potential customers looking for clear, concise information about the company's services. The main goals were to present their offerings in a modern, professional manner and to provide a simple, effective way for visitors to get in touch, ultimately boosting lead generation.</p>
+      
+      <div class="space-y-6 mt-8">
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>A telecom company needed a simple, modern, and effective one-page website to present its services. Their goal was to clearly communicate their offerings and provide an easy way for visitors to get in touch, without overwhelming them with information.</p>
@@ -125,8 +128,9 @@ export const projects: Project[] = [
     category: 'Personal Project',
     description: 'An MVP concept for a podcast platform targeting a younger audience with a simple, clean UI.',
     longDescription: `
-      <div class="space-y-6">
-        <p class="text-lg text-muted-foreground">Yapish is a personal MVP concept for a podcast platform. It is created for a younger, tech-savvy audience who find existing podcast apps cluttered and unintuitive. The main goal of this project is to design a simplified, visually engaging user experience that makes discovering and listening to podcasts seamless and enjoyable.</p>
+      <p class="text-lg text-muted-foreground">Yapish is a personal MVP concept for a podcast platform. It is created for a younger, tech-savvy audience who find existing podcast apps cluttered and unintuitive. The main goal of this project is to design a simplified, visually engaging user experience that makes discovering and listening to podcasts seamless and enjoyable.</p>
+
+      <div class="space-y-6 mt-8">
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>As a personal project, I wanted to address a common frustration I observed among my peers: existing podcast platforms can feel cluttered, especially for new listeners. My goal was to design an MVP for a podcast platform with a simplified user experience tailored to a younger audience.</p>
@@ -162,15 +166,16 @@ export const projects: Project[] = [
     category: 'UI Redesign Concept',
     description: 'A conceptual redesign of the Spotify mobile app, focused on improving navigation and icon clarity.',
     longDescription: `
-      <div class="space-y-6">
-        <p class="text-lg text-muted-foreground">This is a conceptual UI redesign of the Spotify mobile app. It's a personal project aimed at an existing user base that could benefit from enhanced usability. The main goal was to improve the user experience by refining the navigation, increasing button clarity, and replacing ambiguous icons with more universally understood symbols.</p>
+      <p class="text-lg text-muted-foreground">This is a conceptual UI redesign of the Spotify mobile app. It's a personal project aimed at an existing user base that could benefit from enhanced usability. The main goal was to improve the user experience by refining the navigation, increasing button clarity, and replacing ambiguous icons with more universally understood symbols.</p>
+
+      <div class="space-y-6 mt-8">
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>While Spotify is a leader in music streaming, I identified an opportunity to improve its mobile UI as a personal challenge. Some of the navigation icons felt ambiguous, and the layout could be tweaked for better one-handed usability. This concept project aimed to address those minor but impactful usability issues.</p>
         </div>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">My Role & Tools</h3>
-          <p>I was the UI/UX Designer for this concept. I used <strong>Figma</strong> to create the redesigned screens and sourced feedback through personal connections and online design communities.</p>
+          <p>As the UI/UX Designer for this concept. I used <strong>Figma</strong> to create the redesigned screens and sourced feedback through personal connections and online design communities.</p>
         </div>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Design Process</h3>
