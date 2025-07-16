@@ -18,7 +18,7 @@ export function ScrollAnimation({ children, className, delay }: ScrollAnimationP
       ref={ref}
       className={cn(
         'opacity-0', // Start invisible
-        isInView && 'animate-fade-in-up',
+        isInView && 'animate-slide-in-from-left',
         delay === '200' && 'animation-delay-200',
         delay === '400' && 'animation-delay-400',
         delay === '600' && 'animation-delay-600',
