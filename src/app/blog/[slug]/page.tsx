@@ -26,7 +26,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
   }
 
   return (
-    <div className="container mx-auto px-[120px] py-12 md:py-16">
+    <div className="container mx-auto px-[100px] py-12 md:py-16">
         <article className="max-w-3xl mx-auto">
             <Button asChild variant="ghost" className="mb-8 -ml-4">
                 <Link href="/blog">

@@ -5,7 +5,7 @@ import { ScrollAnimation } from "@/components/scroll-animation";
 
 export default function AboutPage() {
   return (
-    <div className="container mx-auto px-[120px] py-12 md:py-16">
+    <div className="container mx-auto px-[100px] py-12 md:py-16">
       <ScrollAnimation className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-headline font-bold mb-2">About Me</h1>
         <p className="text-lg text-muted-foreground">My design philosophy, skills, and professional journey.</p>
