@@ -39,9 +39,9 @@ export default function Home() {
               </Button>
             </ScrollAnimation>
           </div>
-          <ScrollAnimation delay="200" className="relative aspect-square rounded-full overflow-hidden shadow-2xl group border-4 border-primary/20">
+          <ScrollAnimation delay="200" className="relative w-full max-w-sm mx-auto aspect-square rounded-full overflow-hidden shadow-2xl group border-4 border-primary/20">
               <Image
-                src="https://placehold.co/600x600.png"
+                src="https://placehold.co/400x400.png"
                 alt="Abstract design image"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
