@@ -8,14 +8,14 @@ import { cn } from "@/lib/utils";
 import { Card, CardContent } from "@/components/ui/card";
 
 export default function Home() {
-  const featuredProjects = projects.slice(0, 4);
+  const featuredProjects = projects.slice(0, 5);
 
   return (
     <div className="container mx-auto px-4">
       <section className="py-20 md:py-32">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col items-start text-left">
-            <Badge variant="default" className="mb-4">UI/UX Designer & Product Strategist</Badge>
+            <Badge variant="default" className="mb-4">UI/UX Designer & Product Designer</Badge>
             <h1 className="text-5xl md:text-7xl font-headline font-bold mb-6 tracking-tighter">
               Faithful Samuel
             </h1>
