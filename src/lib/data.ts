@@ -1,6 +1,70 @@
 import type { Project, Skill, Experience } from './types';
 import { Figma, Framer, Users, Workflow, PenTool, Search, Layout, Smartphone, PenSquare } from 'lucide-react';
 
+const designProcessHtml = `
+  <div class="my-6">
+    <div class="flex justify-center items-center space-x-2 md:space-x-4 relative">
+      <!-- Empathize -->
+      <div class="flex flex-col items-center text-center w-20 md:w-28 relative">
+        <div class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-green-500/20 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green-500"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        </div>
+        <p class="mt-2 font-semibold text-sm md:text-base">Empathize</p>
+      </div>
+      
+      <div class="flex-1 border-t-2 border-dashed border-muted-foreground/50 relative -top-8 md:-top-10"></div>
+
+      <!-- Define -->
+      <div class="flex flex-col items-center text-center w-20 md:w-28">
+        <div class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-blue-500/20 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue-500"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+        </div>
+        <p class="mt-2 font-semibold text-sm md:text-base">Define</p>
+      </div>
+
+      <div class="flex-1 border-t-2 border-dashed border-muted-foreground/50 relative -top-8 md:-top-10"></div>
+
+      <!-- Ideate -->
+      <div class="flex flex-col items-center text-center w-20 md:w-28 relative">
+        <div class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-purple-500/20 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-purple-500"><path d="M12 2a7 7 0 0 0-7 7c0 2.05.81 3.9 2.11 5.29L6.5 21h11l-1.61-6.71A7 7 0 0 0 12 2z"></path><line x1="12" y1="2" x2="12" y2="5"></line><line x1="12" y1="17" x2="12" y2="22"></line><line x1="7" y1="8" x2="4" y2="8"></line><line x1="20" y1="8" x2="17" y2="8"></line></svg>
+        </div>
+        <p class="mt-2 font-semibold text-sm md:text-base">Ideate</p>
+        <svg width="100%" height="40" class="absolute -top-10 md:-top-12 left-0 hidden md:block">
+          <path d="M 120,35 C 100,0 40,0 20,35" stroke="hsl(var(--muted-foreground)/.5)" fill="none" stroke-width="2" stroke-dasharray="4,4"/>
+          <text x="65" y="15" font-size="10" fill="hsl(var(--muted-foreground))" text-anchor="middle">ITERATE</text>
+          <path d="M 110,32 L 120,35 L 114,28" stroke="hsl(var(--muted-foreground)/.5)" fill="none" stroke-width="2" />
+        </svg>
+      </div>
+
+      <div class="flex-1 border-t-2 border-dashed border-muted-foreground/50 relative -top-8 md:-top-10"></div>
+      
+      <!-- Prototype -->
+      <div class="flex flex-col items-center text-center w-20 md:w-28 relative">
+        <div class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-yellow-500/20 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-yellow-500"><path d="M20.94 13.06a8.5 8.5 0 0 1-5.94 5.94 8.5 8.5 0 0 1-10-10 8.5 8.5 0 0 1 5.94-5.94 8.5 8.5 0 0 1 10 10z"></path><path d="M12 12V7.5"></path><path d="m9 11 3 3 3-3"></path></svg>
+        </div>
+        <p class="mt-2 font-semibold text-sm md:text-base">Prototype</p>
+      </div>
+
+      <div class="flex-1 border-t-2 border-dashed border-muted-foreground/50 relative -top-8 md:-top-10"></div>
+
+      <!-- Test -->
+      <div class="flex flex-col items-center text-center w-20 md:w-28 relative">
+        <div class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-red-500/20 flex items-center justify-center">
+           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-500"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </div>
+        <p class="mt-2 font-semibold text-sm md:text-base">Test</p>
+         <svg width="100%" height="40" class="absolute -top-10 md:-top-12 left-0 hidden md:block">
+          <path d="M 120,35 C 100,0 40,0 20,35" stroke="hsl(var(--muted-foreground)/.5)" fill="none" stroke-width="2" stroke-dasharray="4,4"/>
+          <text x="65" y="15" font-size="10" fill="hsl(var(--muted-foreground))" text-anchor="middle">ITERATE</text>
+          <path d="M 110,32 L 120,35 L 114,28" stroke="hsl(var(--muted-foreground)/.5)" fill="none" stroke-width="2" />
+        </svg>
+      </div>
+    </div>
+  </div>
+`;
+
 export const projects: Project[] = [
   {
     id: '1',
@@ -23,17 +87,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Design Process</h3>
-          <div class="flex flex-wrap items-center justify-center gap-x-2 gap-y-4 my-6 p-4 border rounded-lg text-sm text-center">
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Understand</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Structure</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Sketch</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Design</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Refine</div></div>
-          </div>
+          ${designProcessHtml}
           <p>My process followed a structured approach to ensure the final design met both user and business needs:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I started by deeply analyzing the design brief and client expectations to understand the required features, like the admin dashboard, course manager, and instructor sections.</li>
@@ -74,17 +128,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Design Process</h3>
-          <div class="flex flex-wrap items-center justify-center gap-x-2 gap-y-4 my-6 p-4 border rounded-lg text-sm text-center">
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Understand</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Structure</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Sketch</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Design</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Refine</div></div>
-          </div>
+          ${designProcessHtml}
           <p>My approach was focused on understanding the target user and delivering a clean, mobile-first experience:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I began by developing user personas to represent the target audience, focusing on their financial habits, goals, and pain points.</li>
@@ -124,17 +168,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Design Process</h3>
-          <div class="flex flex-wrap items-center justify-center gap-x-2 gap-y-4 my-6 p-4 border rounded-lg text-sm text-center">
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Understand</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Structure</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Sketch</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Design</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Refine</div></div>
-          </div>
+          ${designProcessHtml}
           <p>The process for this project was straightforward and focused on clarity and conversion:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand & Structure:</strong> I broke down the required content into key sections: a compelling hero, a clear service breakdown, and a simple contact form.</li>
@@ -173,17 +207,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Design Process</h3>
-          <div class="flex flex-wrap items-center justify-center gap-x-2 gap-y-4 my-6 p-4 border rounded-lg text-sm text-center">
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Understand</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Structure</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Sketch</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Design</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Refine</div></div>
-          </div>
+          ${designProcessHtml}
           <p>I followed my complete design process to bring this personal concept to life:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I started with user research to identify what a younger audience wants from a podcast app. Key findings pointed to a need for better discovery features and a cleaner interface.</li>
@@ -223,17 +247,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Design Process</h3>
-          <div class="flex flex-wrap items-center justify-center gap-x-2 gap-y-4 my-6 p-4 border rounded-lg text-sm text-center">
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Understand</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Structure</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Sketch</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Design</div></div>
-            <div class="text-primary font-bold">&rarr;</div>
-            <div class="flex flex-col items-center w-24"><div class="rounded-full bg-primary/20 p-2 mb-1">Refine</div></div>
-          </div>
+          ${designProcessHtml}
           <p>My process for this redesign was quick and focused:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I conducted informal research and gathered personal feedback to validate my assumption that certain icons were confusing to users.</li>
