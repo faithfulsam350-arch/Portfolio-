@@ -19,15 +19,15 @@ export const projects: Project[] = [
       
       <div class="space-y-8 mt-8">
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Project Overview</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>As part of my internship, I was tasked with designing the administrative side of Skillfort. The core challenge was creating an intuitive system for admins to manage a complex set of features. The existing process was non-existent, and the client needed a clear, efficient, and scalable dashboard based on a real-world design brief.</p>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">My Role & Tools</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
           <p>I was the UI/UX Designer for this internship project. My primary tool was <strong>Figma</strong>, which I used for everything from wireframing to high-fidelity mockups.</p>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
            <div class="my-6 mb-12 rounded-lg overflow-hidden border">
                 <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
             </div>
@@ -40,7 +40,7 @@ export const projects: Project[] = [
           </ul>
         </div>
          <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Research Methodology</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Research Methodology</h3>
           <h4 class="text-xl font-semibold mt-4 mb-2">Competitive Research</h4>
           <p>I analyzed several existing Learning Management Systems to identify common patterns, strengths, and weaknesses in their admin dashboards. This helped establish a baseline for features and usability.</p>
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
@@ -71,14 +71,14 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">User Personas</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
           <p>Based on the user research, I developed a user persona to guide the design process. This persona represents the typical administrator who would use the platform, helping to keep their needs and goals at the forefront of every design decision.</p>
           <div class="mt-9 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x400.png" alt="User Persona" class="w-full" data-ai-hint="user persona graphic" />
           </div>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Outcome</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>The result was a usable and clear admin flow that the Skillfort team could implement internally. The project successfully translated a complex set of requirements into a structured and intuitive dashboard design, providing a solid foundation for the platform's administrative functions. The project is still ongoing, with my designs forming the core of the user experience.</p>
         </div>
       </div>
@@ -98,15 +98,15 @@ export const projects: Project[] = [
 
       <div class="space-y-8 mt-8">
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Project Overview</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>Many Muslims find it challenging to manage their finances in a way that aligns with their faith, particularly regarding Halal transactions and Zakat obligations. Existing fintech apps often lack these specific features, creating a gap in the market for a dedicated financial tool for the Muslim community.</p>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">My Role & Tools</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
           <p>As the Product Designer, I was responsible for designing the Minimum Viable Product (MVP) from concept to completion. I used <strong>paper sketches</strong> for initial ideas, <strong>Figma</strong> for wireframes and UI design, and <strong>Notion</strong> for project management.</p>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
            <div class="my-6 mb-12 rounded-lg overflow-hidden border">
                 <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
             </div>
@@ -119,7 +119,7 @@ export const projects: Project[] = [
           </ul>
         </div>
          <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Research Methodology</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Research Methodology</h3>
           <h4 class="text-xl font-semibold mt-4 mb-2">Competitive Research</h4>
           <p>I reviewed both mainstream fintech apps and niche Islamic finance apps to understand existing solutions and identify opportunities for differentiation, particularly in user experience and feature set.</p>
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
@@ -150,14 +150,14 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">User Personas</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
           <p>To ensure the design was deeply rooted in user needs, I created a persona that synthesized the research findings. This persona, "Aisha," a young professional, helped focus the design on creating a simple, trustworthy, and all-in-one financial tool for the Muslim community.</p>
           <div class="mt-9 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x400.png" alt="User Persona" class="w-full" data-ai-hint="user persona graphic" />
           </div>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Outcome</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>I successfully delivered a completed MVP design for the Muslim Finance App. The final design provided a clear, user-friendly solution for tracking expenses, managing budgets, and calculating Zakat, all within a clean and modern mobile interface. This project demonstrated my ability to handle end-to-end design for a specialized fintech product.</p>
         </div>
       </div>
@@ -176,15 +176,15 @@ export const projects: Project[] = [
       
       <div class="space-y-8 mt-8">
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Project Overview</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>A telecom company needed a simple, modern, and effective one-page website to present its services. Their goal was to clearly communicate their offerings and provide an easy way for visitors to get in touch, without overwhelming them with information.</p>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">My Role & Tools</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
           <p>As the UI/UX Designer, my role was to design the entire landing page. I used <strong>Figma</strong> for creating wireframes and the final high-fidelity mockup.</p>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
            <div class="my-6 mb-12 rounded-lg overflow-hidden border">
                 <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
             </div>
@@ -196,7 +196,7 @@ export const projects: Project[] = [
           </ul>
         </div>
          <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Research Methodology</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Research Methodology</h3>
           <h4 class="text-xl font-semibold mt-4 mb-2">Competitive Research</h4>
           <p>I looked at the websites of other telecom providers, both large and small, to understand industry conventions for presenting services and to find opportunities to create a cleaner, more direct user experience.</p>
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
@@ -227,14 +227,14 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">User Personas</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
           <p>From the stakeholder interviews, I created a persona for a typical customer: a small business owner looking for reliable telecom services. This persona helped ensure the language was clear, the value proposition was direct, and the contact process was as simple as possible.</p>
           <div class="mt-9 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x400.png" alt="User Persona" class="w-full" data-ai-hint="user persona graphic" />
           </div>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Outcome</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>I delivered a final layout and mockup that met all the client's requirements. The design was clean, professional, and structured to guide users logically from the service offerings to the contact section, effectively serving its purpose as an informational and lead-generating landing page.</p>
         </div>
       </div>
@@ -253,15 +253,15 @@ export const projects: Project[] = [
 
       <div class="space-y-8 mt-8">
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Project Overview</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>As a personal project, I wanted to address a common frustration I observed among my peers: existing podcast platforms can feel cluttered, especially for new listeners. My goal was to design an MVP for a podcast platform with a simplified user experience tailored to a younger audience.</p>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">My Role & Tools</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
           <p>As the end-to-end Product Designer, I handled every stage of the project. I used <strong>Notion</strong> for research and planning, <strong>paper sketches</strong> for brainstorming, and <strong>Figma</strong> for wireframes, branding, and the final UI design.</p>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
            <div class="my-6 mb-12 rounded-lg overflow-hidden border">
                 <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
             </div>
@@ -274,7 +274,7 @@ export const projects: Project[] = [
           </ul>
         </div>
          <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Research Methodology</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Research Methodology</h3>
           <h4 class="text-xl font-semibold mt-4 mb-2">Competitive Research</h4>
           <p>I analyzed major podcast platforms like Spotify, Apple Podcasts, and Pocket Casts to map out their user flows for discovery and playback. This helped identify opportunities to simplify the experience.</p>
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
@@ -305,14 +305,14 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">User Personas</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
           <p>The research led to the creation of a user persona for "Alex," a college student who listens to podcasts to learn new things but is frustrated with cluttered apps. This persona was a constant reminder to prioritize simplicity, discovery, and a clean visual design throughout the project.</p>
           <div class="mt-9 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x400.png" alt="User Persona" class="w-full" data-ai-hint="user persona graphic" />
           </div>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Outcome</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>This ongoing personal project serves as a key piece in my portfolio, showcasing my ability to manage a project from concept to design. The result is a well-researched and thoughtfully designed UI for a podcast platform MVP. The UI is currently in progress.</p>
         </div>
       </div>
@@ -331,15 +331,15 @@ export const projects: Project[] = [
 
       <div class="space-y-8 mt-8">
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Project Overview</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>While Spotify is a leader in music streaming, I identified an opportunity to improve its mobile UI as a personal challenge. Some of the navigation icons felt ambiguous, and the layout could be tweaked for better one-handed usability. This concept project aimed to address those minor but impactful usability issues.</p>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">My Role & Tools</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
           <p>As the UI/UX Designer for this concept. I used <strong>Figma</strong> to create the redesigned screens and sourced feedback through personal connections and online design communities.</p>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
            <div class="my-6 mb-12 rounded-lg overflow-hidden border">
                 <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
             </div>
@@ -351,7 +351,7 @@ export const projects: Project[] = [
           </ul>
         </div>
          <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Research Methodology</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Research Methodology</h3>
           <h4 class="text-xl font-semibold mt-4 mb-2">Competitive Research</h4>
           <p>I briefly looked at Apple Music and YouTube Music to see how they handled navigation and icon systems. This helped inform my decisions for creating more universally understood icons.</p>
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
@@ -382,14 +382,14 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">User Personas</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
           <p>Even for a concept project, thinking about the user is key. I created a simple persona for a long-time Spotify power user who values efficiency. This helped me focus on making small, targeted changes that would improve their experience without disrupting their existing mental model of the app.</p>
           <div class="mt-9 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x400.png" alt="User Persona" class="w-full" data-ai-hint="user persona graphic" />
           </div>
         </div>
         <div>
-          <h3 class="text-2xl font-headline font-semibold mb-2">Outcome</h3>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>This concept project demonstrates my critical eye for UI details and my ability to propose thoughtful improvements to an existing, large-scale application. The final redesign mockups showcase a cleaner navigation bar with clearer icons, illustrating my strength in improving user flow clarity.</p>
         </div>
       </div>
