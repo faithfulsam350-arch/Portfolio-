@@ -13,20 +13,20 @@ export default function AboutPage() {
       <div className="grid lg:grid-cols-3 gap-12 items-start">
         <div className="lg:col-span-1 flex flex-col items-center text-center">
             <Avatar className="w-48 h-48 mb-4 border-4 border-primary shadow-lg">
-                <AvatarImage src="https://placehold.co/300x300.png" alt="Professional Headshot of Faithful" data-ai-hint="professional headshot" />
-                <AvatarFallback>F</AvatarFallback>
+                <AvatarImage src="https://placehold.co/300x300.png" alt="Professional Headshot of Faithful Samuel" data-ai-hint="professional headshot" />
+                <AvatarFallback>FS</AvatarFallback>
             </Avatar>
-            <h2 className="text-2xl font-headline font-bold">Faithful</h2>
-            <p className="text-muted-foreground">UI/UX Designer & Researcher</p>
+            <h2 className="text-2xl font-headline font-bold">Faithful Samuel</h2>
+            <p className="text-muted-foreground">UI/UX Designer | Product Designer</p>
             <p className="mt-4 max-w-xs">
-              I am a passionate UI/UX designer dedicated to creating intuitive and impactful digital products that users love.
+              I am a passionate UI/UX designer dedicated to creating clean, intuitive, and impactful digital products that users love.
             </p>
         </div>
         
         <div className="lg:col-span-2 space-y-8">
             <Card>
                 <CardHeader>
-                    <CardTitle className="font-headline">My Skills</CardTitle>
+                    <CardTitle className="font-headline">My Skills & Strengths</CardTitle>
                 </CardHeader>
                 <CardContent>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
