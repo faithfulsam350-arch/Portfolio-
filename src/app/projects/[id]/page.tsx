@@ -28,14 +28,14 @@ export default function ProjectPage({ params }: ProjectPageProps) {
   return (
     <div className="container mx-auto px-4 py-12 md:py-16">
         <Button asChild variant="ghost" className="mb-8 -ml-4">
-            <Link href="/projects">
+            <Link href="/">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Projects
+                Back to Home
             </Link>
         </Button>
       <div className="grid lg:grid-cols-5 gap-x-12 gap-y-8">
         <div className="lg:col-span-3">
-          <div className="aspect-[16/9] relative mb-8">
+          <div className="aspect-[16/9] relative mb-4">
             <Image
               src={project.imageUrl}
               alt={project.title}
@@ -44,6 +44,8 @@ export default function ProjectPage({ params }: ProjectPageProps) {
               data-ai-hint="creative work"
             />
           </div>
+           <h1 className="text-3xl md:text-4xl font-headline font-bold mb-2">{project.title}</h1>
+           <Badge variant="secondary" className="mb-8">{project.category}</Badge>
           <div
               className="prose prose-lg dark:prose-invert max-w-none prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline prose-headings:text-2xl prose-h3:text-xl"
               dangerouslySetInnerHTML={{ __html: project.longDescription }}
@@ -51,8 +53,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
         </div>
         <aside className="lg:col-span-2 lg:sticky top-24 self-start">
             <div className="bg-card border rounded-lg p-6">
-                <h1 className="text-3xl md:text-4xl font-headline font-bold mb-2">{project.title}</h1>
-                <Badge variant="secondary" className="mb-4">{project.category}</Badge>
+                <h2 className="text-2xl font-headline font-bold mb-4">Project Details</h2>
                 
                 <div className="mb-6">
                     <h3 className="font-semibold mb-3 text-lg">Technologies & Skills</h3>
