@@ -8,9 +8,10 @@ interface ScrollAnimationProps {
   children: ReactNode;
   className?: string;
   delay?: '200' | '400' | '600';
+  variant?: 'slide-in' | 'grow';
 }
 
-export function ScrollAnimation({ children, className, delay }: ScrollAnimationProps) {
+export function ScrollAnimation({ children, className, delay, variant = 'slide-in' }: ScrollAnimationProps) {
   const { ref, isInView } = useScrollAnimation<HTMLDivElement>();
 
   return (
@@ -18,7 +19,7 @@ export function ScrollAnimation({ children, className, delay }: ScrollAnimationP
       ref={ref}
       className={cn(
         'opacity-0', // Start invisible
-        isInView && 'animate-slide-in-from-bottom',
+        isInView && (variant === 'grow' ? 'animate-grow' : 'animate-slide-in-from-bottom'),
         delay === '200' && 'animation-delay-200',
         delay === '400' && 'animation-delay-400',
         delay === '600' && 'animation-delay-600',

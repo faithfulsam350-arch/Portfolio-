@@ -12,17 +12,21 @@ export default function AboutPage() {
       </ScrollAnimation>
 
       <div className="grid lg:grid-cols-3 gap-12 items-start">
-        <ScrollAnimation className="lg:col-span-1 flex flex-col items-center text-center">
-            <Avatar className="w-48 h-48 mb-4 border-4 border-primary shadow-lg">
-                <AvatarImage src="https://placehold.co/300x300.png" alt="Professional Headshot of Faithful Samuel" data-ai-hint="professional headshot" />
-                <AvatarFallback>FS</AvatarFallback>
-            </Avatar>
-            <h2 className="text-2xl font-headline font-bold">Faithful Samuel</h2>
-            <p className="text-muted-foreground">UI/UX Designer | Product Designer</p>
-            <p className="mt-4 max-w-xs">
-              I am a passionate UI/UX designer dedicated to creating clean, intuitive, and impactful digital products that users love.
-            </p>
-        </ScrollAnimation>
+        <div className="lg:col-span-1 flex flex-col items-center text-center">
+            <ScrollAnimation variant="grow">
+                <Avatar className="w-48 h-48 mb-4 border-4 border-primary shadow-lg">
+                    <AvatarImage src="https://placehold.co/300x300.png" alt="Professional Headshot of Faithful Samuel" data-ai-hint="professional headshot" />
+                    <AvatarFallback>FS</AvatarFallback>
+                </Avatar>
+            </ScrollAnimation>
+            <ScrollAnimation>
+                <h2 className="text-2xl font-headline font-bold">Faithful Samuel</h2>
+                <p className="text-muted-foreground">UI/UX Designer | Product Designer</p>
+                <p className="mt-4 max-w-xs">
+                  I am a passionate UI/UX designer dedicated to creating clean, intuitive, and impactful digital products that users love.
+                </p>
+            </ScrollAnimation>
+        </div>
         
         <div className="lg:col-span-2 space-y-8">
             <ScrollAnimation delay="200">

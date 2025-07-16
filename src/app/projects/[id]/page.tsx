@@ -28,7 +28,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
 
   return (
     <div className="container mx-auto px-[100px] py-12 md:py-16">
-        <ScrollAnimation>
+        <ScrollAnimation variant="grow">
             <Button asChild variant="ghost" className="mb-8 -ml-4">
                 <Link href="/">
                     <ArrowLeft className="mr-2 h-4 w-4" />
@@ -37,23 +37,27 @@ export default function ProjectPage({ params }: ProjectPageProps) {
             </Button>
         </ScrollAnimation>
       <div className="grid lg:grid-cols-5 gap-x-12 gap-y-8">
-        <ScrollAnimation className="lg:col-span-3">
-          <div className="aspect-[16/9] relative mb-4">
-            <Image
-              src={project.imageUrl}
-              alt={project.title}
-              fill
-              className="object-cover rounded-lg shadow-lg"
-              data-ai-hint="creative work"
-            />
-          </div>
-           <h1 className="text-3xl md:text-4xl font-headline font-bold mb-2">{project.title}</h1>
-           <Badge variant="secondary" className="mb-8">{project.category}</Badge>
-          <div
-              className="prose prose-lg dark:prose-invert max-w-none prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline prose-h2:text-4xl prose-h3:text-3xl"
-              dangerouslySetInnerHTML={{ __html: project.longDescription }}
-            />
-        </ScrollAnimation>
+        <div className="lg:col-span-3">
+            <ScrollAnimation variant="grow">
+              <div className="aspect-[16/9] relative mb-4">
+                <Image
+                  src={project.imageUrl}
+                  alt={project.title}
+                  fill
+                  className="object-cover rounded-lg shadow-lg"
+                  data-ai-hint="creative work"
+                />
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation>
+               <h1 className="text-3xl md:text-4xl font-headline font-bold mb-2">{project.title}</h1>
+               <Badge variant="secondary" className="mb-8">{project.category}</Badge>
+              <div
+                  className="prose prose-lg dark:prose-invert max-w-none prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline prose-h2:text-4xl prose-h3:text-3xl"
+                  dangerouslySetInnerHTML={{ __html: project.longDescription }}
+                />
+            </ScrollAnimation>
+        </div>
         <aside className="lg:col-span-2 lg:sticky top-24 self-start">
             <ScrollAnimation delay="200">
                 <div className="bg-card border rounded-lg p-6">

@@ -116,18 +116,20 @@ export default function ContactPage() {
                 </CardContent>
             </Card>
         </ScrollAnimation>
-        <ScrollAnimation delay="200" className="space-y-6">
-            <h3 className="text-2xl font-headline font-bold">Contact Details</h3>
-            <div className="space-y-4">
-                <a href="mailto:hello@example.com" className="flex items-center gap-4 group">
-                    <Mail className="h-6 w-6 text-primary"/>
-                    <span className="text-foreground group-hover:text-primary transition-colors">hello@example.com</span>
-                </a>
-                <p className="text-muted-foreground">
-                    Feel free to send me an email directly or connect with me on social media.
-                </p>
-            </div>
-             <div className="space-y-2">
+        <div className="space-y-6">
+            <ScrollAnimation delay="200">
+                <h3 className="text-2xl font-headline font-bold">Contact Details</h3>
+                <div className="space-y-4">
+                    <a href="mailto:hello@example.com" className="flex items-center gap-4 group">
+                        <Mail className="h-6 w-6 text-primary"/>
+                        <span className="text-foreground group-hover:text-primary transition-colors">hello@example.com</span>
+                    </a>
+                    <p className="text-muted-foreground">
+                        Feel free to send me an email directly or connect with me on social media.
+                    </p>
+                </div>
+            </ScrollAnimation>
+            <ScrollAnimation delay="400" className="space-y-2">
                 <h4 className="font-semibold">Find me on social media</h4>
                 <div className="flex space-x-2">
                     {socialLinks.map(link => (
@@ -139,8 +141,8 @@ export default function ContactPage() {
                         </Button>
                     ))}
                 </div>
-            </div>
-        </ScrollAnimation>
+            </ScrollAnimation>
+        </div>
       </div>
     </div>
   );

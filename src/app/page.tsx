@@ -15,7 +15,7 @@ export default function Home() {
     <div className="container mx-auto px-[100px]">
       <section className="py-20 md:py-32 text-center">
         <div className="flex flex-col items-center">
-            <ScrollAnimation>
+            <ScrollAnimation variant="grow">
                 <Badge variant="default" className="mb-4">UI/UX Designer & Product Designer</Badge>
             </ScrollAnimation>
             <ScrollAnimation delay="200">
@@ -29,7 +29,7 @@ export default function Home() {
                 that solve real-world problems and drive business growth.
                 </p>
             </ScrollAnimation>
-            <ScrollAnimation delay="600" className="flex flex-col sm:flex-row justify-center gap-4">
+            <ScrollAnimation delay="600" className="flex flex-col sm:flex-row justify-center gap-4" variant="grow">
               <Button asChild size="lg">
                 <Link href="#case-studies">View My Work</Link>
               </Button>
@@ -46,11 +46,11 @@ export default function Home() {
             <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">A closer look at my design process and how I've helped translate complex problems into clean, user-friendly solutions.</p>
         </ScrollAnimation>
         {featuredProjects.map((project, index) => (
-          <ScrollAnimation
+          <div
             key={project.id}
             className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center"
           >
-            <div
+            <ScrollAnimation variant="grow"
               className={cn(
                 "relative aspect-[4/3] rounded-lg overflow-hidden shadow-2xl group",
                 index % 2 === 1 && "md:order-last"
@@ -64,8 +64,8 @@ export default function Home() {
                 data-ai-hint="creative work"
               />
                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-            </div>
-            <div className="flex flex-col justify-center">
+            </ScrollAnimation>
+            <ScrollAnimation className="flex flex-col justify-center">
               <Badge variant="secondary" className="mb-4 w-fit">{project.category}</Badge>
               <h3 className="text-3xl font-headline font-bold mb-3">{project.title}</h3>
               <p className="text-muted-foreground mb-6">{project.description}</p>
@@ -74,8 +74,8 @@ export default function Home() {
                   View Case Study <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
-            </div>
-          </ScrollAnimation>
+            </ScrollAnimation>
+          </div>
         ))}
       </section>
 
