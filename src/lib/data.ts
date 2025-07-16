@@ -28,7 +28,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
-          <div class="my-6 mb-8 rounded-lg overflow-hidden border">
+           <div class="my-6 mb-12 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
           </div>
           <p>My process followed a structured approach to ensure the final design met both user and business needs:</p>
@@ -37,6 +37,25 @@ export const projects: Project[] = [
             <li><strong>Structure:</strong> I mapped out the user flows for key tasks, such as adding a new course or viewing instructor profiles. This helped clarify the information architecture and ensure a logical layout.</li>
             <li><strong>Sketch & Design:</strong> I moved into Figma to create wireframes, focusing on building a clean and structured layout. I designed the core components, including the main dashboard, course management tabs, and the "add course" flow.</li>
             <li><strong>Refine:</strong> I refined the high-fidelity designs based on feedback, focusing on creating a visually consistent and easy-to-navigate interface.</li>
+          </ul>
+        </div>
+         <div>
+          <h3 class="text-2xl font-headline font-semibold mb-2">Research Methodology</h3>
+          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">Competitive Research</h4>
+          <p>I analyzed several existing Learning Management Systems to identify common patterns, strengths, and weaknesses in their admin dashboards. This helped establish a baseline for features and usability.</p>
+          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">User Research</h4>
+          <p>I conducted informal interviews with 3 potential users (administrators and instructors) to understand their needs.</p>
+          <p class="font-semibold mt-3 mb-2">Key Questions:</p>
+          <ul class="list-disc list-outside pl-5 space-y-1">
+            <li>What are the biggest challenges you face when managing courses and users on a learning platform?</li>
+            <li>What features in an admin dashboard would save you the most time?</li>
+            <li>How important is a clean, uncluttered interface for your daily tasks?</li>
+          </ul>
+          <p class="font-semibold mt-3 mb-2">Key Findings:</p>
+          <ul class="list-disc list-outside pl-5 space-y-1">
+            <li>Users were often frustrated with cluttered interfaces and too many clicks to perform simple tasks.</li>
+            <li>A centralized dashboard with key metrics (like new users and course completions) was highly desired.</li>
+            <li>Easy navigation between course, user, and instructor management was a top priority.</li>
           </ul>
         </div>
         <div>
@@ -69,7 +88,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
-          <div class="my-6 mb-8 rounded-lg overflow-hidden border">
+           <div class="my-6 mb-12 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
           </div>
           <p>My approach was focused on understanding the target user and delivering a clean, mobile-first experience:</p>
@@ -78,6 +97,25 @@ export const projects: Project[] = [
             <li><strong>Structure:</strong> I created detailed user flows for core features like money tracking, budgeting, and Zakat calculation to ensure the app's navigation was simple and logical.</li>
             <li><strong>Sketch:</strong> I started with low-fidelity paper sketches to quickly explore different layouts for the mobile interface.</li>
             <li><strong>Design:</strong> Using Figma, I translated the sketches into wireframes and then into a high-fidelity UI. The focus was on a clean, minimalist design.</li>
+          </ul>
+        </div>
+         <div>
+          <h3 class="text-2xl font-headline font-semibold mb-2">Research Methodology</h3>
+          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">Competitive Research</h4>
+          <p>I reviewed both mainstream fintech apps and niche Islamic finance apps to understand existing solutions and identify opportunities for differentiation, particularly in user experience and feature set.</p>
+          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">User Research</h4>
+          <p>I interviewed 3 individuals from the target demographic to gather insights into their financial habits and needs.</p>
+          <p class="font-semibold mt-3 mb-2">Key Questions:</p>
+          <ul class="list-disc list-outside pl-5 space-y-1">
+            <li>How do you currently track your expenses and calculate Zakat?</li>
+            <li>What are the biggest pain points in managing your finances in a Halal way?</li>
+            <li>What features would you most want to see in a finance app designed for Muslims?</li>
+          </ul>
+          <p class="font-semibold mt-3 mb-2">Key Findings:</p>
+          <ul class="list-disc list-outside pl-5 space-y-1">
+            <li>Many users rely on manual methods like spreadsheets for Zakat calculation, which can be complex and error-prone.</li>
+            <li>There is a strong desire for an all-in-one app that handles both general expense tracking and faith-specific needs.</li>
+            <li>Simplicity and trustworthiness were repeatedly mentioned as crucial factors.</li>
           </ul>
         </div>
         <div>
@@ -109,14 +147,33 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
-          <div class="my-6 mb-8 rounded-lg overflow-hidden border">
+           <div class="my-6 mb-12 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
           </div>
           <p>The process for this project was straightforward and focused on clarity and conversion:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand & Structure:</strong> I broke down the required content into key sections: a compelling hero, a clear service breakdown, and a simple contact form.</li>
-            <li><strong>Sketch (Wireframe):</strong> I created a simple wireframe in Figma to establish a clean, grid-based layout. This ensured a strong visual hierarchy.</li>
+            <li><strong>Sketch (Wireframe):</strong> I created a simple wireframe in Figma to establish a clean, a grid-based layout. This ensured a strong visual hierarchy.</li>
             <li><strong>Design:</strong> I developed the final mockup, focusing on a strong visual identity, readable typography, and a prominent call-to-action (CTA) to encourage user engagement.</li>
+          </ul>
+        </div>
+         <div>
+          <h3 class="text-2xl font-headline font-semibold mb-2">Research Methodology</h3>
+          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">Competitive Research</h4>
+          <p>I looked at the websites of other telecom providers, both large and small, to understand industry conventions for presenting services and to find opportunities to create a cleaner, more direct user experience.</p>
+          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">User Research</h4>
+          <p>Given the project's simplicity, formal user research was minimal. Instead, I focused on stakeholder interviews (3 key team members) to align on the primary goals.</p>
+          <p class="font-semibold mt-3 mb-2">Key Questions:</p>
+          <ul class="list-disc list-outside pl-5 space-y-1">
+            <li>What is the single most important action a visitor should take on this page?</li>
+            <li>Who is our primary audience, and what information is most critical to them?</li>
+            <li>What tone should the website convey: modern, corporate, friendly?</li>
+          </ul>
+          <p class="font-semibold mt-3 mb-2">Key Findings:</p>
+          <ul class="list-disc list-outside pl-5 space-y-1">
+            <li>The primary goal was lead generation through the contact form.</li>
+            <li>The audience needed to quickly understand the core services without getting lost in technical jargon.</li>
+            <li>A modern and professional, yet approachable, design was the desired direction.</li>
           </ul>
         </div>
         <div>
@@ -148,7 +205,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
-          <div class="my-6 mb-8 rounded-lg overflow-hidden border">
+           <div class="my-6 mb-12 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
           </div>
           <p>I followed my complete design process to bring this personal concept to life:</p>
@@ -157,6 +214,25 @@ export const projects: Project[] = [
             <li><strong>Structure:</strong> I mapped out user flows for discovering new podcasts, playing episodes, and managing a personal library.</li>
             <li><strong>Sketch:</strong> I used paper sketches to quickly iterate on different screen layouts for the mobile app and dashboard.</li>
             <li><strong>Design & Refine:</strong> In Figma, I developed the branding and a full set of UI designs, focusing on a modern aesthetic with clear navigation.</li>
+          </ul>
+        </div>
+         <div>
+          <h3 class="text-2xl font-headline font-semibold mb-2">Research Methodology</h3>
+          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">Competitive Research</h4>
+          <p>I analyzed major podcast platforms like Spotify, Apple Podcasts, and Pocket Casts to map out their user flows for discovery and playback. This helped identify opportunities to simplify the experience.</p>
+          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">User Research</h4>
+          <p>I spoke with 3 friends who are regular podcast listeners to understand their habits and frustrations.</p>
+          <p class="font-semibold mt-3 mb-2">Key Questions:</p>
+          <ul class="list-disc list-outside pl-5 space-y-1">
+            <li>How do you typically find new podcasts to listen to?</li>
+            <li>What is the most confusing or cluttered part of your current podcast app?</li>
+            <li>If you could change one thing about your podcast app, what would it be?</li>
+          </ul>
+          <p class="font-semibold mt-3 mb-2">Key Findings:</p>
+          <ul class="list-disc list-outside pl-5 space-y-1">
+            <li>Podcast discovery is often overwhelming. Users want better, more personalized recommendations.</li>
+            <li>Users disliked apps that mixed music and podcasts too aggressively.</li>
+            <li>A simple, clean interface for the player and library was a top request.</li>
           </ul>
         </div>
         <div>
@@ -188,7 +264,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-2xl font-headline font-semibold mb-2">Design Process</h3>
-          <div class="my-6 mb-8 rounded-lg overflow-hidden border">
+           <div class="my-6 mb-12 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
           </div>
           <p>My process for this redesign was quick and focused:</p>
@@ -196,6 +272,25 @@ export const projects: Project[] = [
             <li><strong>Understand:</strong> I conducted informal research and gathered personal feedback to validate my assumption that certain icons were confusing to users.</li>
             <li><strong>Sketch & Design:</strong> I jumped directly into Figma to experiment with UI tweaks. My main focus was on replacing unclear icons and improving the clarity of interactive buttons.</li>
             <li><strong>Refine:</strong> I refined the concepts based on the feedback, ensuring the new design felt familiar yet noticeably more intuitive.</li>
+          </ul>
+        </div>
+         <div>
+          <h3 class="text-2xl font-headline font-semibold mb-2">Research Methodology</h3>
+          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">Competitive Research</h4>
+          <p>I briefly looked at Apple Music and YouTube Music to see how they handled navigation and icon systems. This helped inform my decisions for creating more universally understood icons.</p>
+          <h4 class="text-xl font-headline font-semibold mt-4 mb-2">User Research</h4>
+          <p>I conducted informal usability tests with 3 long-time Spotify users, asking them to perform specific tasks.</p>
+          <p class="font-semibold mt-3 mb-2">Key Questions:</p>
+          <ul class="list-disc list-outside pl-5 space-y-1">
+            <li>"Without thinking too hard, what do you expect this icon to do?" (pointing to ambiguous icons).</li>
+            <li>"Can you quickly find your list of liked songs?"</li>
+            <li>"Is there anything about the main navigation that feels confusing?"</li>
+          </ul>
+          <p class="font-semibold mt-3 mb-2">Key Findings:</p>
+          <ul class="list-disc list-outside pl-5 space-y-1">
+            <li>Users confirmed that certain icons, particularly for the library and search functions, were not immediately clear.</li>
+            <li>The distinction between the 'Home' and 'Search' tabs was sometimes a point of confusion.</li>
+            <li>All users expressed a desire for clearer, more explicit iconography in the navigation bar.</li>
           </ul>
         </div>
         <div>
