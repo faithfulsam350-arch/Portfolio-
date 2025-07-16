@@ -5,6 +5,7 @@ import Image from "next/image";
 import { ArrowRight, MoveRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
+import { Card, CardContent } from "@/components/ui/card";
 
 export default function Home() {
   const featuredProjects = projects.slice(0, 4);
@@ -81,6 +82,20 @@ export default function Home() {
             </div>
           </div>
         ))}
+      </section>
+
+      <section className="py-20 md:py-32 text-center">
+        <Card className="bg-card/50">
+          <CardContent className="p-10 md:p-16">
+            <h2 className="text-3xl md:text-4xl font-headline font-bold">Thank You!</h2>
+            <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
+              Thanks for stopping by. If you have a project in mind or just want to connect, I'd love to hear from you.
+            </p>
+            <Button asChild size="lg" className="mt-8">
+              <Link href="/contact">Let's Talk</Link>
+            </Button>
+          </CardContent>
+        </Card>
       </section>
     </div>
   );

@@ -3,7 +3,7 @@
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
-import { Linkedin, Mail, Twitter, Github } from 'lucide-react';
+import { Linkedin, Mail, Twitter, Behance } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   Form,
@@ -27,7 +27,7 @@ const formSchema = z.object({
 });
 
 const socialLinks = [
-    { name: 'GitHub', icon: Github, href: SOCIAL_LINKS.github },
+    { name: 'Behance', icon: Behance, href: SOCIAL_LINKS.behance },
     { name: 'LinkedIn', icon: Linkedin, href: SOCIAL_LINKS.linkedin },
     { name: 'Twitter', icon: Twitter, href: SOCIAL_LINKS.twitter },
 ]
