@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { projects } from "@/lib/data";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, MoveRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 
@@ -10,29 +10,44 @@ export default function Home() {
   const featuredProjects = projects.slice(0, 4);
 
   return (
-    <div className="container mx-auto px-4 py-12 md:py-24">
-      <section className="text-center mb-16 md:mb-24">
-        <h1 className="text-4xl md:text-6xl font-headline font-bold mb-4 tracking-tighter">
-          UI/UX Designer & Product Strategist
-        </h1>
-        <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-          I design intuitive, beautiful, and user-centric digital experiences
-          that solve real-world problems.
-        </p>
-        <div className="flex justify-center gap-4">
-          <Button asChild size="lg">
-            <Link href="#case-studies">View My Work</Link>
-          </Button>
-          <Button asChild size="lg" variant="secondary">
-            <Link href="/contact">Get in Touch</Link>
-          </Button>
+    <div className="container mx-auto px-4">
+      <section className="py-20 md:py-32">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="flex flex-col items-start text-left">
+            <Badge variant="default" className="mb-4">UI/UX Designer & Product Strategist</Badge>
+            <h1 className="text-5xl md:text-7xl font-headline font-bold mb-6 tracking-tighter">
+              Faithful Samuel
+            </h1>
+            <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-8">
+              I design intuitive, beautiful, and user-centric digital experiences
+              that solve real-world problems and drive business growth.
+            </p>
+            <div className="flex flex-col sm:flex-row justify-center gap-4">
+              <Button asChild size="lg">
+                <Link href="#case-studies">View My Work</Link>
+              </Button>
+              <Button asChild size="lg" variant="secondary">
+                <Link href="/contact">Get in Touch <MoveRight className="ml-2 h-5 w-5" /></Link>
+              </Button>
+            </div>
+          </div>
+          <div className="relative aspect-square rounded-full overflow-hidden shadow-2xl group border-4 border-primary/20">
+              <Image
+                src="https://placehold.co/600x600.png"
+                alt="Abstract design image"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                data-ai-hint="abstract design"
+              />
+               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+            </div>
         </div>
       </section>
 
-      <section id="case-studies" className="space-y-20 md:space-y-28">
+      <section id="case-studies" className="py-12 md:py-24 space-y-20 md:space-y-28">
         <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-headline font-bold">Case Studies</h2>
-            <p className="text-muted-foreground mt-2">A closer look at my design process and project outcomes.</p>
+            <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">A closer look at my design process and how I've helped translate complex problems into clean, user-friendly solutions.</p>
         </div>
         {featuredProjects.map((project, index) => (
           <div
