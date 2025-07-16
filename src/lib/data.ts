@@ -2,66 +2,8 @@ import type { Project, Skill, Experience } from './types';
 import { Figma, Framer, Users, Workflow, PenTool, Search, Layout, Smartphone, PenSquare } from 'lucide-react';
 
 const designProcessHtml = `
-  <div class="my-6">
-    <div class="flex justify-center items-center space-x-2 md:space-x-4 relative">
-      <!-- Empathize -->
-      <div class="flex flex-col items-center text-center w-20 md:w-28 relative">
-        <div class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-green-500/20 flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green-500"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        </div>
-        <p class="mt-2 font-semibold text-sm md:text-base">Empathize</p>
-      </div>
-      
-      <div class="flex-1 border-t-2 border-dashed border-muted-foreground/50 relative -top-8 md:-top-10"></div>
-
-      <!-- Define -->
-      <div class="flex flex-col items-center text-center w-20 md:w-28">
-        <div class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-blue-500/20 flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue-500"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-        </div>
-        <p class="mt-2 font-semibold text-sm md:text-base">Define</p>
-      </div>
-
-      <div class="flex-1 border-t-2 border-dashed border-muted-foreground/50 relative -top-8 md:-top-10"></div>
-
-      <!-- Ideate -->
-      <div class="flex flex-col items-center text-center w-20 md:w-28 relative">
-        <div class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-purple-500/20 flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-purple-500"><path d="M12 2a7 7 0 0 0-7 7c0 2.05.81 3.9 2.11 5.29L6.5 21h11l-1.61-6.71A7 7 0 0 0 12 2z"></path><line x1="12" y1="2" x2="12" y2="5"></line><line x1="12" y1="17" x2="12" y2="22"></line><line x1="7" y1="8" x2="4" y2="8"></line><line x1="20" y1="8" x2="17" y2="8"></line></svg>
-        </div>
-        <p class="mt-2 font-semibold text-sm md:text-base">Ideate</p>
-        <svg width="100%" height="40" class="absolute -top-10 md:-top-12 left-0 hidden md:block" style="overflow: visible;">
-          <path d="M 120,35 C 100,0 40,0 20,35" stroke="hsl(var(--muted-foreground))" fill="none" stroke-width="2" stroke-dasharray="4,4"/>
-          <text x="65" y="15" font-size="10" fill="hsl(var(--muted-foreground))" text-anchor="middle">ITERATE</text>
-          <path d="M 110,32 L 120,35 L 114,28" stroke="hsl(var(--muted-foreground))" fill="none" stroke-width="2" />
-        </svg>
-      </div>
-
-      <div class="flex-1 border-t-2 border-dashed border-muted-foreground/50 relative -top-8 md:-top-10"></div>
-      
-      <!-- Prototype -->
-      <div class="flex flex-col items-center text-center w-20 md:w-28 relative">
-        <div class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-yellow-500/20 flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-yellow-500"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
-        </div>
-        <p class="mt-2 font-semibold text-sm md:text-base">Prototype</p>
-      </div>
-
-      <div class="flex-1 border-t-2 border-dashed border-muted-foreground/50 relative -top-8 md:-top-10"></div>
-
-      <!-- Test -->
-      <div class="flex flex-col items-center text-center w-20 md:w-28 relative">
-        <div class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-red-500/20 flex items-center justify-center">
-           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-500"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
-        </div>
-        <p class="mt-2 font-semibold text-sm md:text-base">Test</p>
-         <svg width="100%" height="40" class="absolute -top-10 md:-top-12 left-0 hidden md:block" style="overflow: visible;">
-          <path d="M 120,35 C 100,0 40,0 20,35" stroke="hsl(var(--muted-foreground))" fill="none" stroke-width="2" stroke-dasharray="4,4"/>
-          <text x="65" y="15" font-size="10" fill="hsl(var(--muted-foreground))" text-anchor="middle">ITERATE</text>
-          <path d="M 110,32 L 120,35 L 114,28" stroke="hsl(var(--muted-foreground))" fill="none" stroke-width="2" />
-        </svg>
-      </div>
-    </div>
+  <div class="my-6 rounded-lg overflow-hidden border">
+    <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
   </div>
 `;
 
@@ -73,12 +15,9 @@ export const projects: Project[] = [
     description: 'A web app for managing online learning, focusing on a clear and usable admin experience.',
     longDescription: `
       <div class="space-y-6">
+        <p class="text-lg text-muted-foreground">Skillfort LMS is an administrative web application designed to manage an online learning platform. It was created for platform administrators to handle courses, instructors, and users efficiently. The main goal was to build a clear, scalable, and intuitive dashboard that would streamline the entire administrative workflow from the ground up.</p>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Project Overview</h3>
-          <p>Skillfort LMS is an administrative web application designed to manage an online learning platform. It was created for platform administrators to handle courses, instructors, and users efficiently. The main goal was to build a clear, scalable, and intuitive dashboard that would streamline the entire administrative workflow from the ground up.</p>
-        </div>
-        <div>
-          <h3 class="text-xl font-headline font-semibold mb-2">The Problem</h3>
           <p>As part of my internship, I was tasked with designing the administrative side of Skillfort. The core challenge was creating an intuitive system for admins to manage a complex set of features. The existing process was non-existent, and the client needed a clear, efficient, and scalable dashboard based on a real-world design brief.</p>
         </div>
         <div>
@@ -114,12 +53,9 @@ export const projects: Project[] = [
     description: 'A mobile-first fintech app for Muslims to manage finances according to Halal principles.',
     longDescription: `
       <div class="space-y-6">
+        <p class="text-lg text-muted-foreground">This project is a mobile-first fintech application designed to help Muslims manage their finances in accordance with Halal principles. It is created for individuals in the Muslim community who need a dedicated tool for tracking permissible transactions and calculating Zakat. The main goal was to deliver a clean, user-friendly MVP that simplifies faith-based financial management.</p>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Project Overview</h3>
-          <p>This project is a mobile-first fintech application designed to help Muslims manage their finances in accordance with Halal principles. It is created for individuals in the Muslim community who need a dedicated tool for tracking permissible transactions and calculating Zakat. The main goal was to deliver a clean, user-friendly MVP that simplifies faith-based financial management.</p>
-        </div>
-        <div>
-          <h3 class="text-xl font-headline font-semibold mb-2">The Problem</h3>
           <p>Many Muslims find it challenging to manage their finances in a way that aligns with their faith, particularly regarding Halal transactions and Zakat obligations. Existing fintech apps often lack these specific features, creating a gap in the market for a dedicated financial tool for the Muslim community.</p>
         </div>
         <div>
@@ -154,12 +90,9 @@ export const projects: Project[] = [
     description: 'A clean and informational one-page website for a telecom company.',
     longDescription: `
       <div class="space-y-6">
+        <p class="text-lg text-muted-foreground">This project is a clean and informational one-page website for a telecom company. It was created for potential customers looking for clear, concise information about the company's services. The main goals were to present their offerings in a modern, professional manner and to provide a simple, effective way for visitors to get in touch, ultimately boosting lead generation.</p>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Project Overview</h3>
-          <p>This project is a clean and informational one-page website for a telecom company. It was created for potential customers looking for clear, concise information about the company's services. The main goals were to present their offerings in a modern, professional manner and to provide a simple, effective way for visitors to get in touch, ultimately boosting lead generation.</p>
-        </div>
-        <div>
-          <h3 class="text-xl font-headline font-semibold mb-2">The Problem</h3>
           <p>A telecom company needed a simple, modern, and effective one-page website to present its services. Their goal was to clearly communicate their offerings and provide an easy way for visitors to get in touch, without overwhelming them with information.</p>
         </div>
         <div>
@@ -193,12 +126,9 @@ export const projects: Project[] = [
     description: 'An MVP concept for a podcast platform targeting a younger audience with a simple, clean UI.',
     longDescription: `
       <div class="space-y-6">
+        <p class="text-lg text-muted-foreground">Yapish is a personal MVP concept for a podcast platform. It is created for a younger, tech-savvy audience who find existing podcast apps cluttered and unintuitive. The main goal of this project is to design a simplified, visually engaging user experience that makes discovering and listening to podcasts seamless and enjoyable.</p>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Project Overview</h3>
-          <p>Yapish is a personal MVP concept for a podcast platform. It is created for a younger, tech-savvy audience who find existing podcast apps cluttered and unintuitive. The main goal of this project is to design a simplified, visually engaging user experience that makes discovering and listening to podcasts seamless and enjoyable.</p>
-        </div>
-        <div>
-          <h3 class="text-xl font-headline font-semibold mb-2">The Problem</h3>
           <p>As a personal project, I wanted to address a common frustration I observed among my peers: existing podcast platforms can feel cluttered, especially for new listeners. My goal was to design an MVP for a podcast platform with a simplified user experience tailored to a younger audience.</p>
         </div>
         <div>
@@ -233,12 +163,9 @@ export const projects: Project[] = [
     description: 'A conceptual redesign of the Spotify mobile app, focused on improving navigation and icon clarity.',
     longDescription: `
       <div class="space-y-6">
+        <p class="text-lg text-muted-foreground">This is a conceptual UI redesign of the Spotify mobile app. It's a personal project aimed at an existing user base that could benefit from enhanced usability. The main goal was to improve the user experience by refining the navigation, increasing button clarity, and replacing ambiguous icons with more universally understood symbols.</p>
         <div>
           <h3 class="text-xl font-headline font-semibold mb-2">Project Overview</h3>
-          <p>This is a conceptual UI redesign of the Spotify mobile app. It's a personal project aimed at an existing user base that could benefit from enhanced usability. The main goal was to improve the user experience by refining the navigation, increasing button clarity, and replacing ambiguous icons with more universally understood symbols.</p>
-        </div>
-        <div>
-          <h3 class="text-xl font-headline font-semibold mb-2">The Problem</h3>
           <p>While Spotify is a leader in music streaming, I identified an opportunity to improve its mobile UI as a personal challenge. Some of the navigation icons felt ambiguous, and the layout could be tweaked for better one-handed usability. This concept project aimed to address those minor but impactful usability issues.</p>
         </div>
         <div>
