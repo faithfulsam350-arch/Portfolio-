@@ -12,7 +12,7 @@ export default function Home() {
   const featuredProjects = projects.slice(0, 5);
 
   return (
-    <div className="container mx-auto px-[100px]">
+    <div className="container mx-auto px-6 md:px-[100px]">
       <section className="py-20 md:py-32 text-center">
         <div className="flex flex-col items-center">
             <ScrollAnimation variant="grow">

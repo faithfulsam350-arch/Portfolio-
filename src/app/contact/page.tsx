@@ -58,7 +58,7 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="container mx-auto px-[100px] py-12 md:py-16">
+    <div className="container mx-auto px-6 md:px-[100px] py-12 md:py-16">
       <ScrollAnimation className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-headline font-bold mb-2">Get In Touch</h1>
         <p className="text-lg text-muted-foreground">
