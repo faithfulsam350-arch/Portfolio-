@@ -98,6 +98,15 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
+          <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border aspect-video">
+            <video class="w-full" controls poster="https://placehold.co/800x450.png" data-ai-hint="prototype video screen recording">
+              <!-- Add a <source> tag here with your video file -->
+            </video>
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>The result was a usable and clear admin flow that the Skillfort team could implement internally. The project successfully translated a complex set of requirements into a structured and intuitive dashboard design, providing a solid foundation for the platform's administrative functions. The project is still ongoing, with my designs forming the core of the user experience.</p>
         </div>
@@ -203,6 +212,15 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
+          <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border aspect-video">
+            <video class="w-full" controls poster="https://placehold.co/800x450.png" data-ai-hint="prototype video screen recording">
+              <!-- Add a <source> tag here with your video file -->
+            </video>
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>I successfully delivered a completed MVP design for the Muslim Finance App. The final design provided a clear, user-friendly solution for tracking expenses, managing budgets, and calculating Zakat, all within a clean and modern mobile interface. This project demonstrated my ability to handle end-to-end design for a specialized fintech product.</p>
         </div>
@@ -303,6 +321,15 @@ export const projects: Project[] = [
           <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
           <div class="mt-9 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x400.png" alt="Final UI Design" class="w-full" data-ai-hint="ui design dashboard" />
+          </div>
+        </div>
+        <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
+          <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border aspect-video">
+            <video class="w-full" controls poster="https://placehold.co/800x450.png" data-ai-hint="prototype video screen recording">
+              <!-- Add a <source> tag here with your video file -->
+            </video>
           </div>
         </div>
         <div>
@@ -410,6 +437,15 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
+          <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border aspect-video">
+            <video class="w-full" controls poster="https://placehold.co/800x450.png" data-ai-hint="prototype video screen recording">
+              <!-- Add a <source> tag here with your video file -->
+            </video>
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>This ongoing personal project serves as a key piece in my portfolio, showcasing my ability to manage a project from concept to design. The result is a well-researched and thoughtfully designed UI for a podcast platform MVP. The UI is currently in progress.</p>
         </div>
@@ -513,6 +549,15 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
+          <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border aspect-video">
+            <video class="w-full" controls poster="https://placehold.co/800x450.png" data-ai-hint="prototype video screen recording">
+              <!-- Add a <source> tag here with your video file -->
+            </video>
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>This concept project demonstrates my critical eye for UI details and my ability to propose thoughtful improvements to an existing, large-scale application. The final redesign mockups showcase a cleaner navigation bar with clearer icons, illustrating my strength in improving user flow clarity.</p>
         </div>
@@ -594,5 +639,6 @@ export const blogPosts = [
 ];
 
     
+
 
 
