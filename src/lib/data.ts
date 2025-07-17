@@ -84,6 +84,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
+          <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Wireframes" class="w-full" data-ai-hint="wireframe ui" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
           <div class="mt-9 rounded-lg overflow-hidden border">
@@ -182,6 +189,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
+          <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Wireframes" class="w-full" data-ai-hint="wireframe ui" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
           <div class="mt-9 rounded-lg overflow-hidden border">
@@ -275,6 +289,13 @@ export const projects: Project[] = [
           <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
           <div class="mt-9 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x400.png" alt="Sketches" class="w-full" data-ai-hint="design sketches" />
+          </div>
+        </div>
+        <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
+          <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Wireframes" class="w-full" data-ai-hint="wireframe ui" />
           </div>
         </div>
         <div>
@@ -375,6 +396,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
+          <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Wireframes" class="w-full" data-ai-hint="wireframe ui" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
           <div class="mt-9 rounded-lg overflow-hidden border">
@@ -471,6 +499,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
+          <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Wireframes" class="w-full" data-ai-hint="wireframe ui" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
           <div class="mt-9 rounded-lg overflow-hidden border">
@@ -559,4 +594,5 @@ export const blogPosts = [
 ];
 
     
+
 
