@@ -79,6 +79,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
+          <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Sketches" class="w-full" data-ai-hint="design sketches" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>The result was a usable and clear admin flow that the Skillfort team could implement internally. The project successfully translated a complex set of requirements into a structured and intuitive dashboard design, providing a solid foundation for the platform's administrative functions. The project is still ongoing, with my designs forming the core of the user experience.</p>
         </div>
@@ -165,6 +172,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
+          <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Sketches" class="w-full" data-ai-hint="design sketches" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>I successfully delivered a completed MVP design for the Muslim Finance App. The final design provided a clear, user-friendly solution for tracking expenses, managing budgets, and calculating Zakat, all within a clean and modern mobile interface. This project demonstrated my ability to handle end-to-end design for a specialized fintech product.</p>
         </div>
@@ -246,6 +260,13 @@ export const projects: Project[] = [
           <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
           <div class="mt-9 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x400.png" alt="Sitemap" class="w-full" data-ai-hint="sitemap diagram" />
+          </div>
+        </div>
+        <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
+          <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Sketches" class="w-full" data-ai-hint="design sketches" />
           </div>
         </div>
         <div>
@@ -334,6 +355,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
+          <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Sketches" class="w-full" data-ai-hint="design sketches" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>This ongoing personal project serves as a key piece in my portfolio, showcasing my ability to manage a project from concept to design. The result is a well-researched and thoughtfully designed UI for a podcast platform MVP. The UI is currently in progress.</p>
         </div>
@@ -415,6 +443,13 @@ export const projects: Project[] = [
           <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
           <div class="mt-9 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x400.png" alt="Sitemap" class="w-full" data-ai-hint="sitemap diagram" />
+          </div>
+        </div>
+        <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
+          <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Sketches" class="w-full" data-ai-hint="design sketches" />
           </div>
         </div>
         <div>
