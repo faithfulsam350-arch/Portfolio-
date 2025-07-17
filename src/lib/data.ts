@@ -72,6 +72,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
+          <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Sitemap" class="w-full" data-ai-hint="sitemap diagram" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>The result was a usable and clear admin flow that the Skillfort team could implement internally. The project successfully translated a complex set of requirements into a structured and intuitive dashboard design, providing a solid foundation for the platform's administrative functions. The project is still ongoing, with my designs forming the core of the user experience.</p>
         </div>
@@ -151,6 +158,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
+          <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Sitemap" class="w-full" data-ai-hint="sitemap diagram" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>I successfully delivered a completed MVP design for the Muslim Finance App. The final design provided a clear, user-friendly solution for tracking expenses, managing budgets, and calculating Zakat, all within a clean and modern mobile interface. This project demonstrated my ability to handle end-to-end design for a specialized fintech product.</p>
         </div>
@@ -225,6 +239,13 @@ export const projects: Project[] = [
           <p>From the stakeholder interviews, I created a persona for a typical customer: a small business owner looking for reliable telecom services. This persona helped ensure the language was clear, the value proposition was direct, and the contact process was as simple as possible.</p>
           <div class="mt-9 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x400.png" alt="User Persona" class="w-full" data-ai-hint="user persona graphic" />
+          </div>
+        </div>
+        <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
+          <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Sitemap" class="w-full" data-ai-hint="sitemap diagram" />
           </div>
         </div>
         <div>
@@ -306,6 +327,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
+          <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Sitemap" class="w-full" data-ai-hint="sitemap diagram" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>This ongoing personal project serves as a key piece in my portfolio, showcasing my ability to manage a project from concept to design. The result is a well-researched and thoughtfully designed UI for a podcast platform MVP. The UI is currently in progress.</p>
         </div>
@@ -380,6 +408,13 @@ export const projects: Project[] = [
           <p>Even for a concept project, thinking about the user is key. I created a simple persona for a long-time Spotify power user who values efficiency. This helped me focus on making small, targeted changes that would improve their experience without disrupting their existing mental model of the app.</p>
           <div class="mt-9 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x400.png" alt="User Persona" class="w-full" data-ai-hint="user persona graphic" />
+          </div>
+        </div>
+        <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
+          <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Sitemap" class="w-full" data-ai-hint="sitemap diagram" />
           </div>
         </div>
         <div>
