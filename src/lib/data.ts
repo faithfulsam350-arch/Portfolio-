@@ -35,8 +35,6 @@ export const projects: Project[] = [
         </div>
          <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Research Methodology</h3>
-          <h4 class="text-xl font-semibold mt-4 mb-2">Competitive Research</h4>
-          <p>I analyzed several existing Learning Management Systems to identify common patterns, strengths, and weaknesses in their admin dashboards. This helped establish a baseline for features and usability.</p>
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>I conducted informal interviews with 3 potential users (administrators and instructors) to understand their needs.</p>
           <div class="grid md:grid-cols-2 gap-6 mt-9">
@@ -86,6 +84,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
+          <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Final UI Design" class="w-full" data-ai-hint="ui design dashboard" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>The result was a usable and clear admin flow that the Skillfort team could implement internally. The project successfully translated a complex set of requirements into a structured and intuitive dashboard design, providing a solid foundation for the platform's administrative functions. The project is still ongoing, with my designs forming the core of the user experience.</p>
         </div>
@@ -128,8 +133,6 @@ export const projects: Project[] = [
         </div>
          <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Research Methodology</h3>
-          <h4 class="text-xl font-semibold mt-4 mb-2">Competitive Research</h4>
-          <p>I reviewed both mainstream fintech apps and niche Islamic finance apps to understand existing solutions and identify opportunities for differentiation, particularly in user experience and feature set.</p>
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>I interviewed 3 individuals from the target demographic to gather insights into their financial habits and needs.</p>
           <div class="grid md:grid-cols-2 gap-6 mt-9">
@@ -179,6 +182,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
+          <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Final UI Design" class="w-full" data-ai-hint="ui design dashboard" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>I successfully delivered a completed MVP design for the Muslim Finance App. The final design provided a clear, user-friendly solution for tracking expenses, managing budgets, and calculating Zakat, all within a clean and modern mobile interface. This project demonstrated my ability to handle end-to-end design for a specialized fintech product.</p>
         </div>
@@ -219,8 +229,6 @@ export const projects: Project[] = [
         </div>
          <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Research Methodology</h3>
-          <h4 class="text-xl font-semibold mt-4 mb-2">Competitive Research</h4>
-          <p>I looked at the websites of other telecom providers, both large and small, to understand industry conventions for presenting services and to find opportunities to create a cleaner, more direct user experience.</p>
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>Given the project's simplicity, formal user research was minimal. Instead, I focused on stakeholder interviews (3 key team members) to align on the primary goals.</p>
           <div class="grid md:grid-cols-2 gap-6 mt-9">
@@ -270,6 +278,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
+          <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Final UI Design" class="w-full" data-ai-hint="ui design dashboard" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>I delivered a final layout and mockup that met all the client's requirements. The design was clean, professional, and structured to guide users logically from the service offerings to the contact section, effectively serving its purpose as an informational and lead-generating landing page.</p>
         </div>
@@ -311,8 +326,6 @@ export const projects: Project[] = [
         </div>
          <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Research Methodology</h3>
-          <h4 class="text-xl font-semibold mt-4 mb-2">Competitive Research</h4>
-          <p>I analyzed major podcast platforms like Spotify, Apple Podcasts, and Pocket Casts to map out their user flows for discovery and playback. This helped identify opportunities to simplify the experience.</p>
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>I spoke with 3 friends who are regular podcast listeners to understand their habits and frustrations.</p>
           <div class="grid md:grid-cols-2 gap-6 mt-9">
@@ -362,6 +375,13 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
+          <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Final UI Design" class="w-full" data-ai-hint="ui design dashboard" />
+          </div>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>This ongoing personal project serves as a key piece in my portfolio, showcasing my ability to manage a project from concept to design. The result is a well-researched and thoughtfully designed UI for a podcast platform MVP. The UI is currently in progress.</p>
         </div>
@@ -402,8 +422,6 @@ export const projects: Project[] = [
         </div>
          <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Research Methodology</h3>
-          <h4 class="text-xl font-semibold mt-4 mb-2">Competitive Research</h4>
-          <p>I briefly looked at Apple Music and YouTube Music to see how they handled navigation and icon systems. This helped inform my decisions for creating more universally understood icons.</p>
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>I conducted informal usability tests with 3 long-time Spotify users, asking them to perform specific tasks.</p>
           <div class="grid md:grid-cols-2 gap-6 mt-9">
@@ -450,6 +468,13 @@ export const projects: Project[] = [
           <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
           <div class="mt-9 rounded-lg overflow-hidden border">
             <img src="https://placehold.co/800x400.png" alt="Sketches" class="w-full" data-ai-hint="design sketches" />
+          </div>
+        </div>
+        <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
+          <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
+          <div class="mt-9 rounded-lg overflow-hidden border">
+            <img src="https://placehold.co/800x400.png" alt="Final UI Design" class="w-full" data-ai-hint="ui design dashboard" />
           </div>
         </div>
         <div>

@@ -4,7 +4,7 @@ import { projects } from "@/lib/data";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { ArrowLeft, ExternalLink } from "lucide-react";
+import { ArrowLeft, ExternalLink, ArrowRight } from "lucide-react";
 import { ScrollAnimation } from "@/components/scroll-animation";
 
 type ProjectPageProps = {
@@ -20,11 +20,14 @@ export async function generateStaticParams() {
 }
 
 export default function ProjectPage({ params }: ProjectPageProps) {
-  const project = projects.find((p) => p.id === params.id);
+  const projectIndex = projects.findIndex((p) => p.id === params.id);
+  const project = projects[projectIndex];
 
   if (!project) {
     notFound();
   }
+
+  const nextProject = projectIndex < projects.length - 1 ? projects[projectIndex + 1] : null;
 
   return (
     <div className="container mx-auto px-6 md:px-[100px] py-12 md:py-16">
@@ -57,6 +60,16 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                   dangerouslySetInnerHTML={{ __html: project.longDescription }}
                 />
             </ScrollAnimation>
+
+            {nextProject && (
+              <ScrollAnimation className="mt-16 text-center">
+                <Button asChild size="lg">
+                    <Link href={`/projects/${nextProject.id}`}>
+                        Next Project <ArrowRight className="ml-2 h-5 w-5" />
+                    </Link>
+                </Button>
+              </ScrollAnimation>
+            )}
         </div>
         <aside className="lg:col-span-2 lg:sticky top-24 self-start">
             <ScrollAnimation delay="200">
@@ -74,7 +87,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
 
                     <div className="flex gap-4">
                         {project.liveUrl && (
-                        <ScrollAnimation variant="grow" className="w-full" delay="400">
+                        <ScrollAnimation variant="grow" className="w-full" delay="600">
                             <Button asChild className="w-full">
                                 <Link href={project.liveUrl} target="_blank">
                                 Live Site <ExternalLink className="ml-2 h-4 w-4" />
@@ -83,7 +96,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                         </ScrollAnimation>
                         )}
                         {project.caseStudyUrl && (
-                        <ScrollAnimation variant="grow" className="w-full" delay="400">
+                        <ScrollAnimation variant="grow" className="w-full" delay="600">
                             <Button asChild variant="secondary" className="w-full">
                                 <Link href={project.caseStudyUrl} target="_blank">
                                 Case Study <ExternalLink className="ml-2 h-4 w-4" />
