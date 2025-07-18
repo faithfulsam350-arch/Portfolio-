@@ -1,6 +1,6 @@
 
 import type { Project, Skill, Experience } from './types';
-import { Figma, Framer, Users, Workflow, PenTool, Search, Layout, Smartphone, PenSquare, Lightbulb, HeartHandshake, Presentation } from 'lucide-react';
+import { Figma, Framer, Users, Workflow, PenTool, Search, Layout, Smartphone, PenSquare, Lightbulb, HeartHandshake, Presentation, Clock, CheckSquare } from 'lucide-react';
 
 export const projects: Project[] = [
   {
@@ -391,7 +391,7 @@ export const projects: Project[] = [
           <div class="space-y-6 mt-9">
             <div class="bg-muted/40 border rounded-lg p-6">
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
                     Key Questions
                 </h5>
                 <div class="space-y-2 text-sm text-muted-foreground">
@@ -603,6 +603,8 @@ export const softSkills: Skill[] = [
     { name: 'Problem Solving', icon: Lightbulb },
     { name: 'User Feedback', icon: Users },
     { name: 'Presentation', icon: Presentation },
+    { name: 'Time Management', icon: Clock },
+    { name: 'Detail-Oriented', icon: CheckSquare },
 ];
 
 export const experiences: Experience[] = [
@@ -666,6 +668,7 @@ export const blogPosts = [
 ];
 
     
+
 
 
 
