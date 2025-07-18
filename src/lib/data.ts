@@ -110,6 +110,10 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>The result was a usable and clear admin flow that the Skillfort team could implement internally. The project successfully translated a complex set of requirements into a structured and intuitive dashboard design, providing a solid foundation for the platform's administrative functions. The project is still ongoing, with my designs forming the core of the user experience.</p>
         </div>
+        <div>
+            <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
+            <p>The next steps would involve conducting usability testing with the interactive prototype to gather feedback from real administrators. This feedback would be crucial for refining the UI, validating the user flows, and identifying any new features that could further enhance the admin experience.</p>
+        </div>
       </div>
     `,
     imageUrl: 'https://placehold.co/600x400.png',
@@ -224,6 +228,10 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>I successfully delivered a completed MVP design for the Muslim Finance App. The final design provided a clear, user-friendly solution for tracking expenses, managing budgets, and calculating Zakat, all within a clean and modern mobile interface. This project demonstrated my ability to handle end-to-end design for a specialized fintech product.</p>
         </div>
+        <div>
+            <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
+            <p>For future iterations, I plan to incorporate features like investment tracking for Halal stocks and educational content on Islamic finance. Gathering user feedback on the MVP will be the first step to guide the product roadmap and ensure it continues to meet the community's needs.</p>
+        </div>
       </div>
     `,
     imageUrl: 'https://placehold.co/600x400.png',
@@ -335,6 +343,10 @@ export const projects: Project[] = [
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>I delivered a final layout and mockup that met all the client's requirements. The design was clean, professional, and structured to guide users logically from the service offerings to the contact section, effectively serving its purpose as an informational and lead-generating landing page.</p>
+        </div>
+        <div>
+            <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
+            <p>Moving forward, the website could be enhanced with analytics tracking to monitor user engagement and conversion rates on the contact form. A/B testing different headlines and call-to-action buttons could also help optimize the page for even better lead generation results.</p>
         </div>
       </div>
     `,
@@ -449,6 +461,10 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>This ongoing personal project serves as a key piece in my portfolio, showcasing my ability to manage a project from concept to design. The result is a well-researched and thoughtfully designed UI for a podcast platform MVP. The UI is currently in progress.</p>
         </div>
+        <div>
+            <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
+            <p>Future development would focus on building out a recommendation engine based on listening history and user preferences. I would also explore social features, such as sharing clips or episodes with friends, to increase engagement and discoverability.</p>
+        </div>
       </div>
     `,
     imageUrl: 'https://placehold.co/600x400.png',
@@ -561,6 +577,10 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>This concept project demonstrates my critical eye for UI details and my ability to propose thoughtful improvements to an existing, large-scale application. The final redesign mockups showcase a cleaner navigation bar with clearer icons, illustrating my strength in improving user flow clarity.</p>
         </div>
+        <div>
+            <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
+            <p>If this were a real project, the next step would be to A/B test the redesigned navigation with a segment of users to collect quantitative data on its effectiveness. Comparing click-through rates and task completion times would validate whether the new icons improve usability as intended.</p>
+        </div>
       </div>
     `,
     imageUrl: 'https://placehold.co/600x400.png',
@@ -639,6 +659,7 @@ export const blogPosts = [
 ];
 
     
+
 
 
 
