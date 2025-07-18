@@ -7,6 +7,8 @@ import Link from "next/link";
 import { ArrowLeft, ExternalLink, ArrowRight } from "lucide-react";
 import { ScrollAnimation } from "@/components/scroll-animation";
 import { cn } from "@/lib/utils";
+import parse, { domToReact, Element } from 'html-react-parser';
+import { AnimateOnScroll } from "@/components/animate-on-scroll";
 
 type ProjectPageProps = {
   params: {
@@ -20,6 +22,24 @@ export async function generateStaticParams() {
     }));
 }
 
+const AnimateImagesAndVideos = (node: Element) => {
+    if (node.type === 'tag' && (node.name === 'img' || node.name === 'video')) {
+        // Find the parent div wrapper to animate it
+        if(node.parent && node.parent.type === 'tag' && node.parent.name === 'div'){
+             return (
+                <AnimateOnScroll variant="grow">
+                    {domToReact([node.parent])}
+                </AnimateOnScroll>
+            );
+        }
+    }
+     // We return a special object to signal that we want to skip this node and its children from being animated,
+     // but let the default parsing continue. This is to avoid double-rendering the media elements.
+    if(node.type === 'tag' && (node.name === 'img' || node.name === 'video') && node.parent?.type === 'tag' && node.parent.name === 'div') {
+        return <></>;
+    }
+}
+
 export default function ProjectPage({ params }: ProjectPageProps) {
   const projectIndex = projects.findIndex((p) => p.id === params.id);
   const project = projects[projectIndex];
@@ -30,6 +50,20 @@ export default function ProjectPage({ params }: ProjectPageProps) {
 
   const previousProject = projectIndex > 0 ? projects[projectIndex - 1] : null;
   const nextProject = projectIndex < projects.length - 1 ? projects[projectIndex + 1] : null;
+
+  const parsedDescription = parse(project.longDescription, {
+    replace: (domNode) => {
+        if(domNode instanceof Element && domNode.attribs) {
+            // Animate only the top-level divs containing an image or video
+            const hasMediaChild = domNode.children.some(
+                (child) => child instanceof Element && (child.name === 'img' || child.name === 'video')
+            );
+            if(domNode.name === 'div' && hasMediaChild) {
+                 return <AnimateOnScroll variant="grow">{domToReact(domNode.children as any)}</AnimateOnScroll>
+            }
+        }
+    }
+  });
 
   return (
     <div className="container mx-auto px-6 md:px-[100px] py-12 md:py-16">
@@ -59,8 +93,9 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                <Badge variant="secondary" className="mb-8">{project.category}</Badge>
               <div
                   className="prose prose-lg dark:prose-invert max-w-none prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline prose-h2:text-4xl prose-h3:text-3xl"
-                  dangerouslySetInnerHTML={{ __html: project.longDescription }}
-                />
+              >
+                {parsedDescription}
+              </div>
             </ScrollAnimation>
         </div>
         <aside className="lg:col-span-2 lg:sticky top-24 self-start">
