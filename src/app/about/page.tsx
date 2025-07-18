@@ -7,7 +7,7 @@ import { ScrollAnimation } from "@/components/scroll-animation";
 export default function AboutPage() {
   return (
     <div className="container mx-auto px-6 md:px-[100px] py-12 md:py-16">
-      <div className="flex flex-col items-start text-left mb-12">
+      <div className="flex flex-col items-center text-center mb-12">
         <ScrollAnimation>
           <h1 className="text-4xl md:text-5xl font-headline font-bold mb-6">Hello, I'm Faithful Samuel</h1>
         </ScrollAnimation>
@@ -19,7 +19,7 @@ export default function AboutPage() {
         </ScrollAnimation>
         <ScrollAnimation>
           <p className="text-muted-foreground">UI/UX Designer | Product Designer</p>
-          <div className="mt-6 max-w-2xl space-y-4 text-foreground/80">
+          <div className="mt-6 max-w-2xl space-y-4 text-foreground/80 text-left">
             <p>
               I started out in graphic design because I loved making things look good. But I quickly realized design is more than visuals — it’s about how people think, move, and connect with what you create. That curiosity led me into product design, where I could blend creativity with real problem-solving.
             </p>
