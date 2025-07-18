@@ -9,6 +9,7 @@ import { ScrollAnimation } from "@/components/scroll-animation";
 import { cn } from "@/lib/utils";
 import parse, { domToReact, Element } from 'html-react-parser';
 import { AnimateOnScroll } from "@/components/animate-on-scroll";
+import { Card, CardContent } from "@/components/ui/card";
 
 type ProjectPageProps = {
   params: {
@@ -137,7 +138,25 @@ export default function ProjectPage({ params }: ProjectPageProps) {
         </aside>
       </div>
 
-      <div className="mt-16 md:mt-24 border-t pt-8">
+       <section className="py-20 md:py-24 text-center">
+        <ScrollAnimation>
+            <Card className="bg-card/50 max-w-4xl mx-auto">
+            <CardContent className="p-10 md:p-16">
+                <h2 className="text-3xl md:text-4xl font-headline font-bold">Thank You!</h2>
+                <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
+                Thanks for viewing this case study. If you have a project in mind or just want to connect, I'd love to hear from you.
+                </p>
+                 <ScrollAnimation variant="grow" className="mt-8" delay="600">
+                    <Button asChild size="lg">
+                        <Link href="/contact">Let's Talk</Link>
+                    </Button>
+                </ScrollAnimation>
+            </CardContent>
+            </Card>
+        </ScrollAnimation>
+      </section>
+
+      <div className="border-t pt-8">
         <ScrollAnimation>
             <div className={cn("flex justify-between items-center", !previousProject && "justify-end")}>
                 {previousProject && (
