@@ -1,3 +1,4 @@
+
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { skills, experiences } from "@/lib/data";
@@ -11,16 +12,27 @@ export default function AboutPage() {
           <h1 className="text-4xl md:text-5xl font-headline font-bold mb-6">Hello, I'm Faithful Samuel</h1>
         </ScrollAnimation>
         <ScrollAnimation variant="grow">
-          <Avatar className="w-48 h-48 mb-4 border-4 border-primary shadow-lg">
+          <Avatar className="w-72 h-72 mb-4 border-4 border-primary shadow-lg">
             <AvatarImage src="https://placehold.co/300x300.png" alt="Professional Headshot of Faithful Samuel" data-ai-hint="professional headshot" />
             <AvatarFallback>FS</AvatarFallback>
           </Avatar>
         </ScrollAnimation>
         <ScrollAnimation>
           <p className="text-muted-foreground">UI/UX Designer | Product Designer</p>
-          <p className="mt-4 max-w-xl">
-            I am a passionate UI/UX designer dedicated to creating clean, intuitive, and impactful digital products that users love.
-          </p>
+          <div className="mt-6 max-w-2xl space-y-4 text-foreground/80">
+            <p>
+              I started out in graphic design because I loved making things look good. But I quickly realized design is more than visuals — it’s about how people think, move, and connect with what you create. That curiosity led me into product design, where I could blend creativity with real problem-solving.
+            </p>
+            <p>
+              Before stepping fully into UX, I worked on email marketing, SEO, and Shopify, helping brands grow and connect with their audiences. That experience taught me to think beyond the screen — to design with purpose, data, and results in mind.
+            </p>
+            <p>
+              Now, I create digital experiences that are not just beautiful, but intentional and user-focused.
+            </p>
+             <p>
+              And when I’m not designing, I’m usually listening to music, taking photos of nature, or watching the sunset — the calm, reflective moments that inspire how I create.
+            </p>
+          </div>
         </ScrollAnimation>
       </div>
 
