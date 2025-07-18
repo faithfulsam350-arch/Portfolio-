@@ -54,10 +54,10 @@ export default function AboutPage() {
                     ))}
                   </div>
                </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-4">Tools</h3>
+               <div>
+                  <h3 className="text-xl font-semibold mb-4">Soft Skills</h3>
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                    {tools.map(skill => (
+                    {softSkills.map(skill => (
                       <div key={skill.name} className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
                         <skill.icon className="h-6 w-6 text-primary" />
                         <span className="font-medium">{skill.name}</span>
@@ -65,10 +65,10 @@ export default function AboutPage() {
                     ))}
                   </div>
                </div>
-               <div>
-                  <h3 className="text-xl font-semibold mb-4">Soft Skills</h3>
+                <div>
+                  <h3 className="text-xl font-semibold mb-4">Tools</h3>
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                    {softSkills.map(skill => (
+                    {tools.map(skill => (
                       <div key={skill.name} className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
                         <skill.icon className="h-6 w-6 text-primary" />
                         <span className="font-medium">{skill.name}</span>
