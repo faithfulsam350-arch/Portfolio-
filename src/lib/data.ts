@@ -22,7 +22,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
-           <div class="rounded-lg overflow-hidden border mt-6">
+           <div class="rounded-lg overflow-hidden border mt-6 mb-6">
                 <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
             </div>
           <p class="mt-6">My process followed a structured approach to ensure the final design met both user and business needs:</p>
@@ -140,7 +140,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
-           <div class="rounded-lg overflow-hidden border mt-6">
+           <div class="rounded-lg overflow-hidden border mt-6 mb-6">
                 <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
             </div>
           <p class="mt-6">My approach was focused on understanding the target user and delivering a clean, mobile-first experience:</p>
@@ -257,7 +257,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
-           <div class="rounded-lg overflow-hidden border mt-6">
+           <div class="rounded-lg overflow-hidden border mt-6 mb-6">
                 <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
             </div>
           <p class="mt-6">The process for this project was straightforward and focused on clarity and conversion:</p>
@@ -373,7 +373,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
-           <div class="rounded-lg overflow-hidden border mt-6">
+           <div class="rounded-lg overflow-hidden border mt-6 mb-6">
                 <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
             </div>
           <p class="mt-6">I followed my complete design process to bring this personal concept to life:</p>
@@ -490,7 +490,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
-           <div class="rounded-lg overflow-hidden border mt-6">
+           <div class="rounded-lg overflow-hidden border mt-6 mb-6">
                 <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
             </div>
           <p class="mt-6">My process for this redesign was quick and focused:</p>
@@ -659,6 +659,7 @@ export const blogPosts = [
 ];
 
     
+
 
 
 
