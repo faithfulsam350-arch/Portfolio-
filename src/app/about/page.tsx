@@ -1,7 +1,7 @@
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { softSkills, technicalSkills, experiences } from "@/lib/data";
+import { softSkills, technicalSkills, experiences, tools } from "@/lib/data";
 import { ScrollAnimation } from "@/components/scroll-animation";
 
 export default function AboutPage() {
@@ -47,6 +47,17 @@ export default function AboutPage() {
                   <h3 className="text-xl font-semibold mb-4">Technical Skills</h3>
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                     {technicalSkills.map(skill => (
+                      <div key={skill.name} className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
+                        <skill.icon className="h-6 w-6 text-primary" />
+                        <span className="font-medium">{skill.name}</span>
+                      </div>
+                    ))}
+                  </div>
+               </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-4">Tools</h3>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                    {tools.map(skill => (
                       <div key={skill.name} className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
                         <skill.icon className="h-6 w-6 text-primary" />
                         <span className="font-medium">{skill.name}</span>
