@@ -7,7 +7,7 @@ import { Toaster } from "@/components/ui/toaster"
 
 
 export const metadata: Metadata = {
-  title: 'Prismatic Portfolio',
+  title: "Faithful's Portfolio",
   description: 'A vibrant and modern portfolio website to showcase creative work.',
 };
 

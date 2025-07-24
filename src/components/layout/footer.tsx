@@ -24,7 +24,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
             <Gem className="h-6 w-6 text-primary" />
-            <span className="font-bold text-lg font-headline">Prismatic Portfolio</span>
+            <span className="font-bold text-lg font-headline">Faithful's Portfolio</span>
           </div>
           <div className="flex items-center space-x-2">
             <Button key="email" variant="ghost" size="icon" asChild>
@@ -44,7 +44,7 @@ export function Footer() {
           </div>
         </div>
         <div className="text-center text-sm text-muted-foreground mt-8 border-t border-border/40 pt-8">
-          © {new Date().getFullYear()} Prismatic Portfolio. All Rights Reserved.
+          © {new Date().getFullYear()} Faithful's Portfolio. All Rights Reserved.
         </div>
       </div>
     </footer>
