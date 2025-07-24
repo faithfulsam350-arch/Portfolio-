@@ -7,5 +7,5 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = {
   behance: 'https://www.behance.net',
   linkedin: 'https://www.linkedin.com/in/faithful-samuel-6275b8339',
-  twitter: 'https://twitter.com',
+  twitter: 'https://x.com/faithful_uiux',
 };
