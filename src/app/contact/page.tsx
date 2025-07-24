@@ -31,15 +31,9 @@ const BehanceIcon = (props: React.SVGProps<SVGSVGElement>) => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
         <path d="M4.2 9.4h5.1v1.2H4.2zM14.2 14.5a2.2 2.2 0 0 0 2.3-2.3v-.3a2.3 2.3 0 0 0-2.3-2.3h-5.6v4.9h5.6a2.3 2.3 0 0 0 0 0zM14.2 11.1a1 1 0 0 1 1 1.1v.2a1 1 0 0 1-1 1.1h-4.3v-2.4zm-3.3-2.9h4.3v1.2h-4.3z"/>
         <path d="M18.6 7h-3.9v1.2h3.9z"/>
-        <path d="M4.2 6.1a1.2 1.2 0 0 1 1.2-1.2h12.5a1.2 1.2 0 0 1 1.2 1.2v11.8a1.2 1.2 0 0 1-1.2-1.2H5.4a1.2 1.2 0 0 1-1.2-1.2z"/>
+        <path d="M4.2 6.1a1.2 1.2 0 0 1 1.2-1.2h12.5a1.2 1.2 0 0 1 1.2 1.2v11.8a1.2 1.2 0 0 1-1.2 1.2H5.4a1.2 1.2 0 0 1-1.2-1.2z"/>
     </svg>
 )
-
-const socialLinks = [
-    { name: 'Behance', icon: BehanceIcon, href: SOCIAL_LINKS.behance },
-    { name: 'LinkedIn', icon: Linkedin, href: SOCIAL_LINKS.linkedin },
-    { name: 'Twitter', icon: Twitter, href: SOCIAL_LINKS.twitter },
-]
 
 export default function ContactPage() {
   const { toast } = useToast();
@@ -47,6 +41,12 @@ export default function ContactPage() {
     resolver: zodResolver(formSchema),
     defaultValues: { name: '', email: '', message: '' },
   });
+
+  const socialLinks = [
+    { name: 'Behance', icon: BehanceIcon, href: SOCIAL_LINKS.behance },
+    { name: 'LinkedIn', icon: Linkedin, href: SOCIAL_LINKS.linkedin },
+    { name: 'Twitter', icon: Twitter, href: SOCIAL_LINKS.twitter },
+  ];
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     console.log(values);
