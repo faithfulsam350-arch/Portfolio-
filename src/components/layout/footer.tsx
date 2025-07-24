@@ -28,7 +28,7 @@ export function Footer() {
           </div>
           <div className="flex items-center space-x-2">
             <Button key="email" variant="ghost" size="icon" asChild>
-                <Link href="mailto:hello@example.com">
+                <Link href="mailto:faithfulsam350@gmail.com">
                   <Mail className="h-5 w-5" />
                   <span className="sr-only">Email</span>
                 </Link>

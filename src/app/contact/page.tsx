@@ -122,9 +122,9 @@ export default function ContactPage() {
             <ScrollAnimation delay="200">
                 <h3 className="text-2xl font-headline font-bold">Contact Details</h3>
                 <div className="space-y-4">
-                    <a href="mailto:hello@example.com" className="flex items-center gap-4 group">
+                    <a href="mailto:faithfulsam350@gmail.com" className="flex items-center gap-4 group">
                         <Mail className="h-6 w-6 text-primary"/>
-                        <span className="text-foreground group-hover:text-primary transition-colors">hello@example.com</span>
+                        <span className="text-foreground group-hover:text-primary transition-colors">faithfulsam350@gmail.com</span>
                     </a>
                     <p className="text-muted-foreground">
                         Feel free to send me an email directly or connect with me on social media.
