@@ -30,7 +30,7 @@ export default function AboutPage() {
               Now, I create digital experiences that are not just beautiful, but intentional and user-focused.
             </p>
              <p>
-              And when I’m not designing, I’m usually listening to music, taking photos of nature, or watching the sunset — the calm, reflective moments that inspire how I create.
+              And when I’m not designing, you can usually find me listening to music, making beats, taking photos of nature, or watching the sunset—the calm, reflective moments that inspire my creativity.
             </p>
           </div>
         </ScrollAnimation>
