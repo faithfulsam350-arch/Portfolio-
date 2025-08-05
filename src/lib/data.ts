@@ -234,7 +234,7 @@ export const projects: Project[] = [
         </div>
       </div>
     `,
-    imageUrl: 'https://firebasestudio.ai/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fproject-images-prod%2Fe903a45c-0975-4c07-ba71-477a4149e6f9&w=1920&q=75',
+    imageUrl: '/lariba.png',
     tags: ['Figma', 'Fintech', 'Landing Page', 'Web Design'],
     liveUrl: '#',
   },
