@@ -123,11 +123,11 @@ export const projects: Project[] = [
   },
   {
     id: '2',
-    title: 'Muslim Finance App',
-    category: 'Fintech Mobile App',
-    description: 'A mobile-first fintech app for Muslims to manage finances according to Halal principles.',
+    title: 'Muslim Finance website',
+    category: 'Fintech landing page',
+    description: 'A landing page for a fintech service helping Muslims manage their finances according to Halal principles.',
     longDescription: `
-      <p>This project is a mobile-first fintech application designed to help Muslims manage their finances in accordance with Halal principles. It is created for individuals in the Muslim community who need a dedicated tool for tracking permissible transactions and calculating Zakat. The main goal was to deliver a clean, user-friendly MVP that simplifies faith-based financial management.</p>
+      <p>This project is a landing page for a fintech service designed to help Muslims manage their finances in accordance with Halal principles. It is created for individuals in the Muslim community who need a dedicated tool for tracking permissible transactions and calculating Zakat. The main goal was to deliver a clean, user-friendly design that simplifies faith-based financial management.</p>
 
       <div class="space-y-8 mt-8">
         <div>
@@ -356,7 +356,7 @@ export const projects: Project[] = [
   },
    {
     id: '4',
-    title: 'Yapish Podcast Platform',
+    title: 'Yapish Podcast App',
     category: 'Personal Project',
     description: 'An MVP concept for a podcast platform targeting a younger audience with a simple, clean UI.',
     longDescription: `
@@ -672,6 +672,7 @@ export const blogPosts = [
 ];
 
     
+
 
 
 
