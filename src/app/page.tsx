@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { projects } from "@/lib/data";
 import Link from "next/link";
@@ -65,7 +66,7 @@ export default function Home() {
                 alt={project.title}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
-                data-ai-hint="creative work"
+                data-ai-hint={project.id === '2' ? 'finance website' : 'creative work'}
               />
                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
             </ScrollAnimation>
