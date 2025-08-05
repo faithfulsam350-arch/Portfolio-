@@ -1,5 +1,5 @@
 
-import type { Project, Skill, Experience } from './types';
+import type { Project, Skill, Experience, BlogPost } from './types';
 import { Figma, Framer, Users, Workflow, PenTool, Search, Layout, Smartphone, PenSquare, Lightbulb, HeartHandshake, Presentation, Clock, CheckSquare, Network } from 'lucide-react';
 
 export const projects: Project[] = [
@@ -357,7 +357,7 @@ export const projects: Project[] = [
    {
     id: '4',
     title: 'Yapish Podcast App',
-    category: 'Personal Project',
+    category: 'Mobile App',
     description: 'An MVP concept for a podcast platform targeting a younger audience with a simple, clean UI.',
     longDescription: `
       <p>Yapish is a personal MVP concept for a podcast platform. It is created for a younger, tech-savvy audience who find existing podcast apps cluttered and unintuitive. The main goal of this project is to design a simplified, visually engaging user experience that makes discovering and listening to podcasts seamless and enjoyable.</p>
@@ -575,112 +575,154 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
-          <p>This concept project demonstrates my critical eye for UI details and my ability to propose thoughtful improvements to an existing, large-scale application. The final redesign mockups showcase a cleaner navigation bar with clearer icons, illustrating my strength in improving user flow clarity.</p>
+          <p>As a conceptual exercise, the project was a success. It allowed me to practice my UI analysis and redesign skills on a real-world product. The final designs offer a subtle but meaningful improvement to the user experience by prioritizing clarity and ease of navigation.</p>
         </div>
         <div>
             <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
-            <p>If this were a real project, the next step would be to A/B test the redesigned navigation with a segment of users to collect quantitative data on its effectiveness. Comparing click-through rates and task completion times would validate whether the new icons improve usability as intended.</p>
+            <p>If this were a real project, the next step would be to conduct A/B testing with the redesigned screens against the current Spotify UI. This would provide quantitative data to validate whether the changes led to faster task completion and higher user satisfaction.</p>
         </div>
       </div>
     `,
     imageUrl: 'https://placehold.co/600x400.png',
-    tags: ['Figma', 'UI Redesign', 'Concept', 'Mobile App'],
+    tags: ['Figma', 'Concept', 'UI/UX Redesign', 'Mobile App'],
     caseStudyUrl: '#',
   },
 ];
 
-export const technicalSkills: Skill[] = [
-    { name: 'Wireframing', icon: PenSquare },
-    { name: 'Prototyping', icon: Smartphone },
-    { name: 'User Flow', icon: Workflow },
-    { name: 'Layout Design', icon: Layout },
-    { name: 'User Research', icon: Search },
-    { name: 'Information Architecture', icon: Network },
+
+export const blogPosts: BlogPost[] = [
+  {
+    slug: 'the-art-of-user-centric-design',
+    title: 'The Art of User-Centric Design',
+    date: '2024-05-15',
+    summary: 'Discover how putting users at the center of your design process can lead to more successful and engaging products.',
+    imageUrl: 'https://placehold.co/600x400.png',
+    author: 'Faithful Samuel',
+    content: `
+      <p>User-centric design is more than just a buzzword; it's a philosophy that places the user at the heart of the design process. It involves understanding their needs, behaviors, and motivations to create products that are not only functional but also enjoyable to use. In this post, we'll explore the key principles of user-centric design and how you can apply them to your own projects.</p>
+      
+      <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">Understanding Your Users</h2>
+      <p>The first step in user-centric design is to gain a deep understanding of your target audience. This involves conducting user research, such as interviews, surveys, and usability testing, to gather insights into their goals and pain points. By developing user personas and mapping out their journeys, you can create a clear picture of who you're designing for and what they need to succeed.</p>
+      
+      <div class="rounded-lg overflow-hidden border my-8">
+        <img src="https://placehold.co/800x400.png" alt="User research" class="w-full" data-ai-hint="user research" />
+      </div>
+      
+      <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">Iterative Design and Prototyping</h2>
+      <p>User-centric design is an iterative process. It involves creating prototypes, testing them with users, and refining the design based on their feedback. This cycle of building, testing, and learning ensures that the final product is a true reflection of users' needs and expectations. By involving users throughout the design process, you can avoid costly mistakes and create a product that truly resonates with your audience.</p>
+      
+      <blockquote class="border-l-4 border-primary pl-4 italic text-muted-foreground my-8">
+        "Design is not just what it looks like and feels like. Design is how it works." - Steve Jobs
+      </blockquote>
+      
+      <p>Ultimately, the goal of user-centric design is to create a seamless and intuitive experience that empowers users to achieve their goals. By focusing on their needs and involving them in the design process, you can create products that are not only successful but also a joy to use.</p>
+    `
+  },
+    {
+    slug: 'design-trends-for-2024',
+    title: 'Top 5 Design Trends to Watch in 2024',
+    date: '2024-04-22',
+    summary: 'From AI-driven design to nostalgic interfaces, we explore the top design trends that are shaping the digital landscape this year.',
+    imageUrl: 'https://placehold.co/600x400.png',
+    author: 'Faithful Samuel',
+    content: `
+      <p>The world of design is constantly evolving, and 2024 is no exception. This year, we're seeing a fascinating blend of futuristic technology and nostalgic aesthetics. In this post, we'll dive into the top 5 design trends that are making waves and how you can incorporate them into your work.</p>
+      
+      <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">1. AI-Driven Design</h2>
+      <p>Artificial intelligence is no longer just a futuristic concept; it's a powerful tool for designers. From generating unique color palettes to creating complex layouts, AI is streamlining the creative process and opening up new possibilities. Expect to see more AI-powered design tools that assist with everything from image generation to user flow optimization.</p>
+      
+      <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">2. Bolder, More Expressive Typography</h2>
+      <p>Typography is taking center stage, with designers opting for bold, expressive fonts that make a statement. This trend is all about personality and grabbing the user's attention. Think oversized headlines, custom typefaces, and a playful approach to text that blurs the line between reading and seeing.</p>
+      
+      <div class="rounded-lg overflow-hidden border my-8">
+        <img src="https://placehold.co/800x400.png" alt="Expressive typography" class="w-full" data-ai-hint="bold typography" />
+      </div>
+
+      <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">3. Nostalgic Interfaces (Y2K Revival)</h2>
+      <p>The Y2K aesthetic is back, but with a modern twist. Designers are drawing inspiration from the early 2000s, incorporating elements like glossy buttons, pixelated icons, and vibrant, almost-garish color schemes. It's a fun, playful trend that taps into a collective sense of nostalgia for a simpler digital age.</p>
+
+      <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">4. Immersive 3D Graphics</h2>
+      <p>Thanks to advancements in browser technology, 3D graphics are becoming more accessible and integrated into web design. From interactive product models to abstract animated backgrounds, 3D elements add depth and a sense of realism that makes digital experiences more engaging and memorable.</p>
+
+      <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">5. A Focus on Accessibility and Inclusivity</h2>
+      <p>Perhaps the most important trend is the growing emphasis on designing for everyone. This means creating experiences that are accessible to people with disabilities, considering factors like color contrast, screen reader compatibility, and keyboard navigation. Inclusive design is not just a trend; it's a fundamental principle of good design.</p>
+    `
+  },
+  {
+    slug: 'the-power-of-prototyping',
+    title: 'Why Prototyping is a Designer\'s Superpower',
+    date: '2024-03-10',
+    summary: 'Learn how prototyping can save time, reduce risk, and lead to better products by allowing you to test ideas before committing to code.',
+    imageUrl: 'https://placehold.co/600x400.png',
+    author: 'Faithful Samuel',
+    content: `
+      <p>In the fast-paced world of product development, it can be tempting to jump straight from idea to implementation. However, skipping the prototyping phase is a risky move. Prototyping is a designer's superpower, allowing you to test, refine, and validate your ideas before a single line of code is written.</p>
+      
+      <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">What is a Prototype?</h2>
+      <p>A prototype is a preliminary model of your product that allows you to test its functionality and user flow. Prototypes can range from simple paper sketches (low-fidelity) to interactive digital mockups (high-fidelity). The goal is to create a tangible representation of your idea that can be tested with users and stakeholders.</p>
+      
+      <div class="rounded-lg overflow-hidden border my-8">
+        <img src="https://placehold.co/800x400.png" alt="Prototyping" class="w-full" data-ai-hint="ui prototype" />
+      </div>
+
+      <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">The Benefits of Prototyping</h2>
+      <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
+        <li><strong>Early Feedback:</strong> Prototyping allows you to get feedback from users and stakeholders early in the design process, when changes are still easy and inexpensive to make.</li>
+        <li><strong>Risk Reduction:</strong> By testing your ideas before development, you can identify potential usability issues and design flaws, reducing the risk of building the wrong product.</li>
+        <li><strong>Improved Collaboration:</strong> A prototype provides a common ground for designers, developers, and product managers to discuss and refine ideas, leading to better alignment and a more cohesive final product.</li>
+        <li><strong>Faster Iteration:</strong> It's much quicker to iterate on a prototype than it is to make changes to a fully coded product. This allows you to explore more ideas and arrive at a better solution faster.</li>
+      </ul>
+      
+      <p class="mt-6">Ultimately, prototyping is an essential part of the design process. It bridges the gap between imagination and reality, enabling you to create products that are not only innovative but also intuitive and user-friendly. So, the next time you have a great idea, don't rush to build it. Prototype it first.</p>
+    `
+  }
 ];
 
-export const tools: Skill[] = [
-    { name: 'Figma', icon: Figma },
+
+export const technicalSkills: Skill[] = [
+    { name: 'UI/UX Design', icon: PenTool },
+    { name: 'Prototyping', icon: Smartphone },
+    { name: 'Wireframing', icon: Layout },
+    { name: 'User Research', icon: Search },
+    { name: 'Information Architecture', icon: Network },
+    { name: 'Design Systems', icon: PenSquare },
 ];
 
 export const softSkills: Skill[] = [
     { name: 'Empathy', icon: HeartHandshake },
+    { name: 'Collaboration', icon: Users },
     { name: 'Problem Solving', icon: Lightbulb },
-    { name: 'User Feedback', icon: Users },
-    { name: 'Presentation', icon: Presentation },
     { name: 'Time Management', icon: Clock },
-    { name: 'Detail-Oriented', icon: CheckSquare },
+    { name: 'Presentation', icon: Presentation },
+    { name: 'Task Management', icon: CheckSquare },
 ];
+
+export const tools: Skill[] = [
+    { name: 'Figma', icon: Figma },
+    { name: 'Framer', icon: Framer },
+    { name: 'Notion', icon: PenSquare },
+    { name: 'Trello', icon: Layout },
+    { name: 'Webflow', icon: Workflow },
+];
+
 
 export const experiences: Experience[] = [
-    {
-        role: 'UI/UX Design Intern',
-        company: 'Skillfort LMS',
-        period: '2024 - Present',
-        description: 'Designing the administrative dashboard for an online learning platform, focusing on user flow clarity, layout structure, and implementing features based on a real-world design brief.'
-    },
-    {
-        role: 'Freelance Product Designer',
-        company: 'Various Projects',
-        period: 'Started Feb 2024',
-        description: 'Working on end-to-end design for mobile and web applications, including fintech and informational websites. Responsibilities include user research, wireframing, and high-fidelity UI design.'
-    },
+  {
+    role: 'Product Designer Intern',
+    company: 'SkillFort',
+    period: '2023',
+    description: 'Designed an administrative web application for an LMS from scratch, focusing on user flow, information architecture, and creating a scalable and intuitive dashboard.'
+  },
+  {
+    role: 'Product Designer',
+    company: 'Muslim Finance App',
+    period: '2023 - Present',
+    description: 'Led the end-to-end design of an MVP for a fintech app, including user research, wireframing, UI design, and prototyping to create a user-friendly financial management tool.'
+  },
+  {
+    role: 'UI/UX Designer',
+    company: 'Yapish - Personal Project',
+    period: '2024 - Present',
+    description: 'Developing a podcast platform concept with a focus on simplified UX, branding, and a clean interface to address the cluttered experience of existing apps.'
+  },
 ];
-
-export const blogPosts = [
-    {
-        slug: 'design-thinking-demystified',
-        title: 'Design Thinking Demystified',
-        date: '2024-05-15',
-        summary: 'A beginner\'s guide to the design thinking process and how it can improve your projects.',
-        imageUrl: 'https://placehold.co/600x400.png',
-        author: 'Faithful Samuel',
-        content: `
-            <div class="space-y-4">
-                <p>Design thinking is a powerful problem-solving approach that puts the user first. It's a non-linear, iterative process that teams use to understand users, challenge assumptions, redefine problems, and create innovative solutions to prototype and test. This post breaks down the five stages: Empathize, Define, Ideate, Prototype, and Test.</p>
-                <h3 class="text-2xl font-headline font-semibold pt-4">1. Empathize</h3>
-                <p>The first stage is all about gaining an empathetic understanding of the problem you're trying to solve. This involves consulting experts and immersing yourself in the physical environment to understand the issues and challenges involved.</p>
-                <h3 class="text-2xl font-headline font-semibold pt-4">2. Define</h3>
-                <p>During the Define stage, you put together the information you have created and gathered during the Empathize stage. You will analyze your observations and synthesize them in order to define the core problems that you and your team have identified up to this point.</p>
-                 <h3 class="text-2xl font-headline font-semibold pt-4">3. Ideate</h3>
-                <p>During the third stage of the Design Thinking process, designers are ready to start generating ideas. You’ve grown to understand your users and their needs in the Empathize stage, and you’ve analyzed and synthesized your observations in the Define stage, and ended up with a human-centered problem statement.</p>
-                 <h3 class="text-2xl font-headline font-semibold pt-4">4. Prototype</h3>
-                <p>The design team will now produce a number of inexpensive, scaled down versions of the product or specific features in the product, so they can investigate the problem solutions generated in the previous stage.</p>
-                 <h3 class="text-2xl font-headline font-semibold pt-4">5. Test</h3>
-                <p>Designers or evaluators rigorously test the complete product using the best solutions identified during the prototyping phase. This is the final stage of the 5 stage-model, but in an iterative process, the results generated during the testing phase are often used to redefine one or more problems and inform the understanding of the users, the conditions of use, how people think, behave, and feel, and to empathise.</p>
-            </div>
-        `
-    },
-    {
-        slug: 'ux-vs-ui-whats-the-difference',
-        title: 'UX vs. UI: What\'s the Difference?',
-        date: '2024-06-02',
-        summary: 'Clearing up the confusion between User Experience (UX) and User Interface (UI) design.',
-        imageUrl: 'https://placehold.co/600x400.png',
-        author: 'Faithful Samuel',
-        content: `
-            <div class="space-y-4">
-                <p>It's a common point of confusion for newcomers to the design world. While UX and UI are closely related and often used interchangeably, they refer to different aspects of the design process.</p>
-                <h3 class="text-2xl font-headline font-semibold pt-4">User Experience (UX) Design</h3>
-                <p>UX design is focused on the overall feel of the experience. It's about how a user interacts with a product and their satisfaction with that interaction. A UX designer is concerned with the entire process of acquiring and integrating a product, including aspects of branding, design, usability, and function. It's about making a product useful, usable, and enjoyable.</p>
-                <h3 class="text-2xl font-headline font-semibold pt-4">User Interface (UI) Design</h3>
-                <p>UI design, on the other hand, is the process of making interfaces in software or computerized devices with a focus on looks or style. UI designers are responsible for the graphical layout of an application. They decide what the application is going to look like. They choose color schemes, button shapes, and the fonts used for text.</p>
-                <h3 class="text-2xl font-headline font-semibold pt-4">How They Work Together</h3>
-                <p>A beautiful product that is difficult to use is an example of great UI and poor UX. Conversely, a product that is useful but looks terrible is an example of great UX and poor UI. The two must work together to create a product that is both aesthetically pleasing and efficient to use. UX is the journey, and UI is the destination's appearance.</p>
-            </div>
-        `
-    }
-];
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
