@@ -15,6 +15,10 @@ export const projects: Project[] = [
           <p>Skillfort LMS is an administrative web application designed to manage an online learning platform. It was created for platform administrators to handle courses, instructors, and users efficiently. The main goal was to build a clear, scalable, and intuitive dashboard that would streamline the entire administrative workflow from the ground up. As part of my internship, I was tasked with designing the administrative side of Skillfort. The core challenge was creating an intuitive system for admins to manage a complex set of features. The existing process was non-existent, and the client needed a clear, efficient, and scalable dashboard based on a real-world design brief.</p>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Problem Statement</h3>
+          <p>Platform administrators lacked a centralized or efficient system to manage courses, instructors, and users. The existing process was non-existent, requiring a new dashboard to be designed from the ground up that was clear, scalable, and intuitive enough to handle a complex set of features.</p>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
           <p>I was the UI/UX Designer for this internship project. My primary tool was <strong>Figma</strong>, which I used for everything from wireframing to high-fidelity mockups.</p>
         </div>
@@ -129,6 +133,10 @@ export const projects: Project[] = [
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>This project involved designing the landing page for a fintech service built to help Muslims manage their finances in accordance with Halal principles. The landing page serves as the first point of interaction with the brand, introducing the platform’s value, building trust, and guiding users to take action. While the platform draws inspiration from Halal financial principles, it is designed to be inclusive and useful for anyone seeking transparent and values-driven money management.</p>
+        </div>
+        <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Problem Statement</h3>
+          <p>Many Muslims struggle to find financial tools that align with Islamic principles. While this product offers Halal-compliant financial management, the service needed a landing page that clearly communicates its value, builds trust, and encourages users to explore further.</p>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
@@ -246,6 +254,10 @@ export const projects: Project[] = [
           <p>This project is a clean and informational one-page website for a telecom company. It was created for potential customers looking for clear, concise information about the company's services. The main goals were to present their offerings in a modern, professional manner and to provide a simple, effective way for visitors to get in touch, ultimately boosting lead generation. A telecom company needed a simple, modern, and effective one-page website to present its services. Their goal was to clearly communicate their offerings and provide an easy way for visitors to get in touch, without overwhelming them with information.</p>
         </div>
         <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Problem Statement</h3>
+          <p>A telecom company needed a simple, modern, and effective one-page website to present its services. Their goal was to clearly communicate their offerings and provide an easy way for visitors to get in touch, without overwhelming them with information.</p>
+        </div>
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
           <p>As the UI/UX Designer, my role was to design the entire landing page. I used <strong>Figma</strong> for creating wireframes and the final high-fidelity mockup.</p>
         </div>
@@ -358,6 +370,10 @@ export const projects: Project[] = [
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>Yapish is a personal MVP concept for a podcast platform. It is created for a younger, tech-savvy audience who find existing podcast apps cluttered and unintuitive. The main goal of this project is to design a simplified, visually engaging user experience that makes discovering and listening to podcasts seamless and enjoyable. As a personal project, I wanted to address a common frustration I observed among my peers: existing podcast platforms can feel cluttered, especially for new listeners. My goal was to design an MVP for a podcast platform with a simplified user experience tailored to a younger audience.</p>
+        </div>
+        <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Problem Statement</h3>
+          <p>Existing podcast platforms can feel cluttered and overwhelming, especially for new listeners. The goal of this personal project was to design an MVP for a podcast app with a simplified user experience tailored to a younger audience, focusing on easy discovery and a clean interface.</p>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
@@ -473,6 +489,10 @@ export const projects: Project[] = [
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>This is a conceptual UI redesign of the Spotify mobile app. It's a personal project aimed at an existing user base that could benefit from enhanced usability. The main goal was to improve the user experience by refining the navigation, increasing button clarity, and replacing ambiguous icons with more universally understood symbols. While Spotify is a leader in music streaming, I identified an opportunity to improve its mobile UI as a personal challenge. Some of the navigation icons felt ambiguous, and the layout could be tweaked for better one-handed usability. This concept project aimed to address those minor but impactful usability issues.</p>
+        </div>
+        <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Problem Statement</h3>
+          <p>While Spotify is a leader in music streaming, I identified an opportunity to improve its mobile UI as a personal challenge. Some of the navigation icons felt ambiguous, and the layout could be tweaked for better one-handed usability. This concept project aimed to address those minor but impactful usability issues.</p>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
