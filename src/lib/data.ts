@@ -128,7 +128,7 @@ export const projects: Project[] = [
       <div class="space-y-8">
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
-          <p>This project involved designing the landing page for a fintech service created to help people manage their finances ethically and responsibly. While the platform draws inspiration from Halal financial principles, it is designed to be inclusive and useful for anyone seeking transparent and values-driven money management.</p><p>The landing page serves as the first point of interaction with the brand, introducing the platform’s value, building trust, and guiding users to take action. The goal of the design was to communicate ethical financial management in a clear and approachable way, while ensuring the interface feels trustworthy, modern, and easy to navigate.</p><p>By balancing clean visuals, subtle cultural cues, and a clear content hierarchy, the landing page positions the product as both professional and inclusive, appealing to Muslim users while remaining accessible to a wider audience.</p>
+          <p>This project involved designing the landing page for a fintech service built to help Muslims manage their finances in accordance with Halal principles. The landing page serves as the first point of interaction with the brand, introducing the platform’s value, building trust, and guiding users to take action. While the platform draws inspiration from Halal financial principles, it is designed to be inclusive and useful for anyone seeking transparent and values-driven money management.</p>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
