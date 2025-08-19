@@ -76,67 +76,67 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                 </Link>
             </Button>
         </ScrollAnimation>
-      <div className="grid lg:grid-cols-5 gap-x-12 gap-y-8">
-        <div className="lg:col-span-3">
+        
+        <article className="max-w-4xl mx-auto">
+            <ScrollAnimation>
+               <h1 className="text-4xl md:text-5xl font-headline font-bold mb-2">{project.title}</h1>
+               <Badge variant="secondary" className="mb-8">{project.category}</Badge>
+            </ScrollAnimation>
+
             <ScrollAnimation variant="grow">
-              <div className="aspect-[16/9] relative mb-4">
+              <div className="aspect-[16/9] relative mb-8 rounded-lg overflow-hidden shadow-2xl">
                 <Image
                   src={project.imageUrl}
                   alt={project.title}
                   fill
-                  className="object-cover rounded-lg shadow-lg"
+                  className="object-cover"
                   data-ai-hint="creative work"
                 />
               </div>
             </ScrollAnimation>
+            
             <ScrollAnimation>
-               <h1 className="text-3xl md:text-4xl font-headline font-bold mb-2">{project.title}</h1>
-               <Badge variant="secondary" className="mb-8">{project.category}</Badge>
               <div
                   className="prose prose-lg dark:prose-invert max-w-none prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline prose-h2:text-4xl prose-h3:text-3xl"
               >
                 {parsedDescription}
               </div>
             </ScrollAnimation>
-        </div>
-        <aside className="lg:col-span-2 lg:sticky top-24 self-start">
-            <ScrollAnimation delay="200">
-                <div className="bg-card border rounded-lg p-6">
-                    <h2 className="text-2xl font-headline font-bold mb-4">Project Details</h2>
-                    
-                    <div className="mb-6">
-                        <h3 className="font-semibold mb-3 text-lg">Technologies & Skills</h3>
-                        <div className="flex flex-wrap gap-2">
-                        {project.tags.map((tag) => (
-                            <Badge key={tag}>{tag}</Badge>
-                        ))}
-                        </div>
-                    </div>
 
-                    <div className="flex gap-4">
-                        {project.liveUrl && (
-                        <ScrollAnimation variant="grow" className="w-full" delay="600">
-                            <Button asChild className="w-full">
-                                <Link href={project.liveUrl} target="_blank">
-                                Live Site <ExternalLink className="ml-2 h-4 w-4" />
-                                </Link>
-                            </Button>
-                        </ScrollAnimation>
-                        )}
-                        {project.caseStudyUrl && (
-                        <ScrollAnimation variant="grow" className="w-full" delay="600">
-                            <Button asChild variant="secondary" className="w-full">
-                                <Link href={project.caseStudyUrl} target="_blank">
-                                Case Study <ExternalLink className="ml-2 h-4 w-4" />
-                                </Link>
-                            </Button>
-                        </ScrollAnimation>
-                        )}
-                    </div>
-                </div>
+            <ScrollAnimation delay="200" className="mt-12">
+                <Card>
+                    <CardContent className="p-6">
+                        <h2 className="text-2xl font-headline font-bold mb-4">Project Details</h2>
+                        
+                        <div className="mb-6">
+                            <h3 className="font-semibold mb-3 text-lg">Technologies & Skills</h3>
+                            <div className="flex flex-wrap gap-2">
+                            {project.tags.map((tag) => (
+                                <Badge key={tag}>{tag}</Badge>
+                            ))}
+                            </div>
+                        </div>
+
+                        <div className="flex flex-col sm:flex-row gap-4">
+                            {project.liveUrl && (
+                                <Button asChild className="w-full">
+                                    <Link href={project.liveUrl} target="_blank">
+                                    Live Site <ExternalLink className="ml-2 h-4 w-4" />
+                                    </Link>
+                                </Button>
+                            )}
+                            {project.caseStudyUrl && (
+                                <Button asChild variant="secondary" className="w-full">
+                                    <Link href={project.caseStudyUrl} target="_blank">
+                                    Case Study <ExternalLink className="ml-2 h-4 w-4" />
+                                    </Link>
+                                </Button>
+                            )}
+                        </div>
+                    </CardContent>
+                </Card>
             </ScrollAnimation>
-        </aside>
-      </div>
+        </article>
 
        <section className="py-20 md:py-24 text-center">
         <ScrollAnimation>
@@ -156,7 +156,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
         </ScrollAnimation>
       </section>
 
-      <div className="border-t pt-8">
+      <div className="border-t pt-8 max-w-4xl mx-auto">
         <ScrollAnimation>
             <div className={cn("flex justify-between items-center", !previousProject && "justify-end")}>
                 {previousProject && (
