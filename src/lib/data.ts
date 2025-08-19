@@ -187,7 +187,7 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
           <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
           <div class="rounded-lg overflow-hidden border mt-6">
-            <img src="https://placehold.co/800x400.png" alt="Sitemap" class="w-full" data-ai-hint="sitemap diagram" />
+            <img src="/lariba-flow.png" alt="Sitemap" class="w-full" data-ai-hint="sitemap diagram" />
           </div>
         </div>
         <div>
