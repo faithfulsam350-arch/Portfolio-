@@ -19,10 +19,6 @@ export const projects: Project[] = [
           <p>Platform administrators lacked a centralized or efficient system to manage courses, instructors, and users. The existing process was non-existent, requiring a new dashboard to be designed from the ground up that was clear, scalable, and intuitive enough to handle a complex set of features.</p>
         </div>
         <div>
-          <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
-          <p>I was the UI/UX Designer for this internship project. My primary tool was <strong>Figma</strong>, which I used for everything from wireframing to high-fidelity mockups.</p>
-        </div>
-        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
            <div class="rounded-lg overflow-hidden border mt-6 mb-6">
                 <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
@@ -137,10 +133,6 @@ export const projects: Project[] = [
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Problem Statement</h3>
           <p>Many Muslims struggle to find financial tools that align with Islamic principles. While this product offers Halal-compliant financial management, the service needed a landing page that clearly communicates its value, builds trust, and encourages users to explore further.</p>
-        </div>
-        <div>
-          <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
-          <p>As the Product Designer, I was responsible for designing the Minimum Viable Product (MVP) from concept to completion. I used <strong>paper sketches</strong> for initial ideas, <strong>Figma</strong> for wireframes and UI design, and <strong>Notion</strong> for project management.</p>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
@@ -258,10 +250,6 @@ export const projects: Project[] = [
           <p>A telecom company needed a simple, modern, and effective one-page website to present its services. Their goal was to clearly communicate their offerings and provide an easy way for visitors to get in touch, without overwhelming them with information.</p>
         </div>
         <div>
-          <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
-          <p>As the UI/UX Designer, my role was to design the entire landing page. I used <strong>Figma</strong> for creating wireframes and the final high-fidelity mockup.</p>
-        </div>
-        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
            <div class="rounded-lg overflow-hidden border mt-6 mb-6">
                 <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full" data-ai-hint="design process flowchart" />
@@ -374,10 +362,6 @@ export const projects: Project[] = [
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Problem Statement</h3>
           <p>Existing podcast platforms can feel cluttered and overwhelming, especially for new listeners. The goal of this personal project was to design an MVP for a podcast app with a simplified user experience tailored to a younger audience, focusing on easy discovery and a clean interface.</p>
-        </div>
-        <div>
-          <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
-          <p>As the end-to-end Product Designer, I handled every stage of the project. I used <strong>Notion</strong> for research and planning, <strong>paper sketches</strong> for brainstorming, and <strong>Figma</strong> for wireframes, branding, and the final UI design.</p>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
@@ -493,10 +477,6 @@ export const projects: Project[] = [
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Problem Statement</h3>
           <p>While Spotify is a leader in music streaming, I identified an opportunity to improve its mobile UI as a personal challenge. Some of the navigation icons felt ambiguous, and the layout could be tweaked for better one-handed usability. This concept project aimed to address those minor but impactful usability issues.</p>
-        </div>
-        <div>
-          <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
-          <p>As the UI/UX Designer for this concept. I used <strong>Figma</strong> to create the redesigned screens and sourced feedback through personal connections and online design communities.</p>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
