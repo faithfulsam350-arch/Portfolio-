@@ -9,12 +9,10 @@ export const projects: Project[] = [
     category: 'Learning Management System',
     description: 'A web app for managing online learning, focusing on a clear and usable admin experience.',
     longDescription: `
-      <p>Skillfort LMS is an administrative web application designed to manage an online learning platform. It was created for platform administrators to handle courses, instructors, and users efficiently. The main goal was to build a clear, scalable, and intuitive dashboard that would streamline the entire administrative workflow from the ground up.</p>
-      
-      <div class="space-y-8 mt-8">
+      <div class="space-y-8">
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
-          <p>As part of my internship, I was tasked with designing the administrative side of Skillfort. The core challenge was creating an intuitive system for admins to manage a complex set of features. The existing process was non-existent, and the client needed a clear, efficient, and scalable dashboard based on a real-world design brief.</p>
+          <p>Skillfort LMS is an administrative web application designed to manage an online learning platform. It was created for platform administrators to handle courses, instructors, and users efficiently. The main goal was to build a clear, scalable, and intuitive dashboard that would streamline the entire administrative workflow from the ground up. As part of my internship, I was tasked with designing the administrative side of Skillfort. The core challenge was creating an intuitive system for admins to manage a complex set of features. The existing process was non-existent, and the client needed a clear, efficient, and scalable dashboard based on a real-world design brief.</p>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
@@ -127,12 +125,10 @@ export const projects: Project[] = [
     category: 'Fintech landing page',
     description: 'A landing page for a fintech service helping Muslims manage their finances according to Halal principles.',
     longDescription: `
-      <p>This project is a landing page for a fintech service designed to help Muslims manage their finances in accordance with Halal principles. It is created for individuals in the Muslim community who need a dedicated tool for tracking permissible transactions and calculating Zakat. The main goal was to deliver a clean, user-friendly design that simplifies faith-based financial management.</p>
-
-      <div class="space-y-8 mt-8">
+      <div class="space-y-8">
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
-          <p>Many Muslims find it challenging to manage their finances in a way that aligns with their faith, particularly regarding Halal transactions and Zakat obligations. Existing fintech apps often lack these specific features, creating a gap in the market for a dedicated financial tool for the Muslim community.</p>
+          <p>This project is a landing page for a fintech service designed to help Muslims manage their finances in accordance with Halal principles. It is created for individuals in the Muslim community who need a dedicated tool for tracking permissible transactions and calculating Zakat. The main goal was to deliver a clean, user-friendly design that simplifies faith-based financial management. Many Muslims find it challenging to manage their finances in a way that aligns with their faith, particularly regarding Halal transactions and Zakat obligations. Existing fintech apps often lack these specific features, creating a gap in the market for a dedicated financial tool for the Muslim community.</p>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
@@ -244,12 +240,10 @@ export const projects: Project[] = [
     category: 'Landing Page',
     description: 'A clean and informational one-page website for a telecom company.',
     longDescription: `
-      <p>This project is a clean and informational one-page website for a telecom company. It was created for potential customers looking for clear, concise information about the company's services. The main goals were to present their offerings in a modern, professional manner and to provide a simple, effective way for visitors to get in touch, ultimately boosting lead generation.</p>
-      
-      <div class="space-y-8 mt-8">
+      <div class="space-y-8">
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
-          <p>A telecom company needed a simple, modern, and effective one-page website to present its services. Their goal was to clearly communicate their offerings and provide an easy way for visitors to get in touch, without overwhelming them with information.</p>
+          <p>This project is a clean and informational one-page website for a telecom company. It was created for potential customers looking for clear, concise information about the company's services. The main goals were to present their offerings in a modern, professional manner and to provide a simple, effective way for visitors to get in touch, ultimately boosting lead generation. A telecom company needed a simple, modern, and effective one-page website to present its services. Their goal was to clearly communicate their offerings and provide an easy way for visitors to get in touch, without overwhelming them with information.</p>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
@@ -360,12 +354,10 @@ export const projects: Project[] = [
     category: 'Mobile App',
     description: 'An MVP concept for a podcast platform targeting a younger audience with a simple, clean UI.',
     longDescription: `
-      <p>Yapish is a personal MVP concept for a podcast platform. It is created for a younger, tech-savvy audience who find existing podcast apps cluttered and unintuitive. The main goal of this project is to design a simplified, visually engaging user experience that makes discovering and listening to podcasts seamless and enjoyable.</p>
-
-      <div class="space-y-8 mt-8">
+      <div class="space-y-8">
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
-          <p>As a personal project, I wanted to address a common frustration I observed among my peers: existing podcast platforms can feel cluttered, especially for new listeners. My goal was to design an MVP for a podcast platform with a simplified user experience tailored to a younger audience.</p>
+          <p>Yapish is a personal MVP concept for a podcast platform. It is created for a younger, tech-savvy audience who find existing podcast apps cluttered and unintuitive. The main goal of this project is to design a simplified, visually engaging user experience that makes discovering and listening to podcasts seamless and enjoyable. As a personal project, I wanted to address a common frustration I observed among my peers: existing podcast platforms can feel cluttered, especially for new listeners. My goal was to design an MVP for a podcast platform with a simplified user experience tailored to a younger audience.</p>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
@@ -477,12 +469,10 @@ export const projects: Project[] = [
     category: 'UI Redesign Concept',
     description: 'A conceptual redesign of the Spotify mobile app, focused on improving navigation and icon clarity.',
     longDescription: `
-      <p>This is a conceptual UI redesign of the Spotify mobile app. It's a personal project aimed at an existing user base that could benefit from enhanced usability. The main goal was to improve the user experience by refining the navigation, increasing button clarity, and replacing ambiguous icons with more universally understood symbols.</p>
-
-      <div class="space-y-8 mt-8">
+      <div class="space-y-8">
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
-          <p>While Spotify is a leader in music streaming, I identified an opportunity to improve its mobile UI as a personal challenge. Some of the navigation icons felt ambiguous, and the layout could be tweaked for better one-handed usability. This concept project aimed to address those minor but impactful usability issues.</p>
+          <p>This is a conceptual UI redesign of the Spotify mobile app. It's a personal project aimed at an existing user base that could benefit from enhanced usability. The main goal was to improve the user experience by refining the navigation, increasing button clarity, and replacing ambiguous icons with more universally understood symbols. While Spotify is a leader in music streaming, I identified an opportunity to improve its mobile UI as a personal challenge. Some of the navigation icons felt ambiguous, and the layout could be tweaked for better one-handed usability. This concept project aimed to address those minor but impactful usability issues.</p>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">My Role & Tools</h3>
