@@ -230,7 +230,7 @@ export const projects: Project[] = [
         </div>
       </div>
     `,
-    imageUrl: '/lariba.png',
+    imageUrl: '/lariba hero.png',
     tags: ['Figma', 'Fintech', 'Landing Page', 'Web Design'],
     liveUrl: '#',
   },
