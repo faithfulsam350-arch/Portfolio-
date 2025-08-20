@@ -20,7 +20,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
-           <div class="rounded-lg overflow-hidden border mt-6 mb-6">
+           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 mb-6">
  <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full rounded-lg" data-ai-hint="design process flowchart"/>
             </div>
           <p class="mt-6">My process followed a structured approach to ensure the final design met both user and business needs:</p>
@@ -36,7 +36,7 @@ export const projects: Project[] = [
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>I conducted informal interviews with 3 potential users (administrators and instructors) to understand their needs.</p>
           <div class="grid md:grid-cols-2 gap-6 mt-6">
-            <div class="bg-muted/40 border rounded-lg p-6 flex flex-col" >
+            <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col" >
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
                     Key Questions
@@ -47,7 +47,7 @@ export const projects: Project[] = [
                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>How important is a clean, uncluttered interface for your daily tasks?</span></div>
                 </div>
             </div>
-            <div class="bg-muted/40 border rounded-lg p-6 flex flex-col">
+            <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
                     Key Findings
@@ -63,42 +63,42 @@ export const projects: Project[] = [
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
           <p>Based on the user research, I developed a user persona to guide the design process. This persona represents the typical administrator who would use the platform, helping to keep their needs and goals at the forefront of every design decision.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
           <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sitemap" class="w-full rounded-lg" style="margin: 20px 0px" data-ai-hint="sitemap diagram"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
           <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sketches" class="w-full rounded-lg" data-ai-hint="design sketches"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
           <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
           <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
-          <div class="rounded-lg overflow-hidden border mt-6 aspect-video">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 aspect-video">
             <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" style="margin:20px 0px" data-ai-hint="prototype video screen recording"/>
  <!-- Add a <source> tag here with your video file -->
             </video>
@@ -136,8 +136,8 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
-           <div class="rounded-lg overflow-hidden border mt-6 mb-6">
- <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full rounded-lg" data-ai-hint="design process flowchart"/>
+           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 mb-6">
+ <img src="/Lariba design process.png" alt="Design Process Diagram" class="w-full rounded-lg" data-ai-hint="design process flowchart"/>
             </div>
           <p class="mt-6">My approach was focused on understanding the target user and delivering a clean, mobile-first experience:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
@@ -152,7 +152,7 @@ export const projects: Project[] = [
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>I interviewed 3 individuals from the target demographic to gather insights into their financial habits and needs.</p>
           <div class="grid md:grid-cols-2 gap-6 mt-6">
-            <div class="bg-muted/40 border rounded-lg p-6 flex flex-col">
+            <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
                     Key Questions
@@ -163,7 +163,7 @@ export const projects: Project[] = [
                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What features would you most want to see in a finance app designed for Muslims?</span></div>
                 </div>
             </div>
-            <div class="bg-muted/40 border rounded-lg p-6 flex flex-col">
+            <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
                     Key Findings
@@ -179,7 +179,7 @@ export const projects: Project[] = [
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
           <p>To ensure the design was deeply rooted in user needs, I created a persona that synthesized the research findings. This persona, "Aisha," a young professional, helped focus the design on creating a simple, trustworthy, and all-in-one financial tool for the Muslim community.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
           </div>
         </div>
@@ -187,34 +187,34 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
           <p>This sitemap visually outlines how users will navigate through the website, ensuring a clear and intuitive user flow.</p>
 
- <div class="rounded-lg overflow-hidden border mt-9 mb-9">
+ <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-9 mb-9">
  <img src="/lariba pageflow.png" alt="Sitemap" class="w-full rounded-lg" style="margin: 20px 0px" data-ai-hint="sitemap diagram"/>
 </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
           <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sketches" class="w-full rounded-lg" data-ai-hint="design sketches" />
 </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
           <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui" />
 </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard" />
 </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
           <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
-          <div class="rounded-lg overflow-hidden border mt-6 aspect-video">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 aspect-video">
             <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" style="margin:20px 0px" data-ai-hint="prototype video screen recording">
  <!-- Add a <source> tag here with your video file -->
             </video>
@@ -251,7 +251,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
-           <div class="rounded-lg overflow-hidden border mt-6 mb-6">
+           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 mb-6">
  <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full rounded-lg" data-ai-hint="design process flowchart"/>
             </div>
           <p class="mt-6">The process for this project was straightforward and focused on clarity and conversion:</p>
@@ -266,7 +266,7 @@ export const projects: Project[] = [
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>Given the project's simplicity, formal user research was minimal. Instead, I focused on stakeholder interviews (3 key team members) to align on the primary goals.</p>
           <div class="grid md:grid-cols-2 gap-6 mt-6">
-            <div class="bg-muted/40 border rounded-lg p-6 flex flex-col">
+            <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
                     Key Questions
@@ -277,7 +277,7 @@ export const projects: Project[] = [
                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What tone should the website convey: modern, corporate, friendly?</span></div>
                 </div>
             </div>
-            <div class="bg-muted/40 border rounded-lg p-6 flex flex-col">
+            <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
                     Key Findings
@@ -293,42 +293,42 @@ export const projects: Project[] = [
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
           <p>From the stakeholder interviews, I created a persona for a typical customer: a small business owner looking for reliable telecom services. This persona helped ensure the language was clear, the value proposition was direct, and the contact process was as simple as possible.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
           <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sitemap" class="w-full rounded-lg" style="margin: 20px 0px" data-ai-hint="sitemap diagram"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
           <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sketches" class="w-full rounded-lg" data-ai-hint="design sketches"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
           <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
           <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
-          <div class="rounded-lg overflow-hidden border mt-6 aspect-video">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 aspect-video">
             <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" style="margin:20px 0px" data-ai-hint="prototype video screen recording"/>
  <!-- Add a <source> tag here with your video file -->
             </video>
@@ -365,7 +365,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
-           <div class="rounded-lg overflow-hidden border mt-6 mb-6">
+           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 mb-6">
  <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full rounded-lg" data-ai-hint="design process flowchart"/>
             </div>
           <p class="mt-6">I followed my complete design process to bring this personal concept to life:</p>
@@ -381,7 +381,7 @@ export const projects: Project[] = [
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>I spoke with 3 friends who are regular podcast listeners to understand their habits and frustrations.</p>
           <div class="grid md:grid-cols-2 gap-6 mt-6">
-            <div class="bg-muted/40 border rounded-lg p-6 flex flex-col">
+            <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
                     Key Questions
@@ -392,7 +392,7 @@ export const projects: Project[] = [
                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>If you could change one thing about your podcast app, what would it be?</span></div>
                 </div>
             </div>
-            <div class="bg-muted/40 border rounded-lg p-6 flex flex-col">
+            <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
                     Key Findings
@@ -408,42 +408,42 @@ export const projects: Project[] = [
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
           <p>The research led to the creation of a user persona for "Alex," a college student who listens to podcasts to learn new things but is frustrated with cluttered apps. This persona was a constant reminder to prioritize simplicity, discovery, and a clean visual design throughout the project.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
           <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sitemap" class="w-full rounded-lg" style="margin: 20px 0px" data-ai-hint="sitemap diagram"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
           <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sketches" class="w-full rounded-lg" data-ai-hint="design sketches"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
           <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
           <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
-          <div class="rounded-lg overflow-hidden border mt-6 aspect-video">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 aspect-video">
             <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" style="margin:20px 0px" data-ai-hint="prototype video screen recording"/>
  <!-- Add a <source> tag here with your video file -->
             </video>
@@ -480,7 +480,7 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
-           <div class="rounded-lg overflow-hidden border mt-6 mb-6">
+           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 mb-6">
  <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full rounded-lg" data-ai-hint="design process flowchart"/>
             </div>
           <p class="mt-6">My process for this redesign was quick and focused:</p>
@@ -495,7 +495,7 @@ export const projects: Project[] = [
           <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
           <p>I conducted informal usability tests with 3 long-time Spotify users, asking them to perform specific tasks.</p>
           <div class="grid md:grid-cols-2 gap-6 mt-6">
-            <div class="bg-muted/40 border rounded-lg p-6 flex flex-col">
+            <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
                     Key Questions
@@ -506,7 +506,7 @@ export const projects: Project[] = [
                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>"Is there anything about the main navigation that feels confusing?"</span></div>
                 </div>
             </div>
-            <div class="bg-muted/40 border rounded-lg p-6 flex flex-col">
+            <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
                     Key Findings
@@ -522,42 +522,42 @@ export const projects: Project[] = [
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
           <p>Even for a concept project, thinking about the user is key. I created a simple persona for a long-time Spotify power user who values efficiency. This helped me focus on making small, targeted changes that would improve their experience without disrupting their existing mental model of the app.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
           <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sitemap" class="w-full rounded-lg" style="margin: 20px 0px" data-ai-hint="sitemap diagram"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
           <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sketches" class="w-full rounded-lg" data-ai-hint="design sketches"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
           <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
-          <div class="rounded-lg overflow-hidden border mt-6">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
           <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
-          <div class="rounded-lg overflow-hidden border mt-6 aspect-video">
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 aspect-video">
             <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" style="margin:20px 0px" data-ai-hint="prototype video screen recording"/>
  <!-- Add a <source> tag here with your video file -->
             </video>
@@ -594,8 +594,8 @@ export const blogPosts: BlogPost[] = [
       <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">Understanding Your Users</h2>
       <p>The first step in user-centric design is to gain a deep understanding of your target audience. This involves conducting user research, such as interviews, surveys, and usability testing, to gather insights into their goals and pain points. By developing user personas and mapping out their journeys, you can create a clear picture of who you're designing for and what they need to succeed.</p>
       
-      <div class="rounded-lg overflow-hidden border my-8">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="User research" class="w-full" data-ai-hint="user research"/>
+      <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 my-8">
+ <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="User research" class="w-full rounded-lg" data-ai-hint="user research"/>
       </div>
       
       <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">Iterative Design and Prototyping</h2>
@@ -624,8 +624,8 @@ export const blogPosts: BlogPost[] = [
       <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">2. Bolder, More Expressive Typography</h2>
       <p>Typography is taking center stage, with designers opting for bold, expressive fonts that make a statement. This trend is all about personality and grabbing the user's attention. Think oversized headlines, custom typefaces, and a playful approach to text that blurs the line between reading and seeing.</p>
       
-      <div class="rounded-lg overflow-hidden border my-8">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Expressive typography" class="w-full" data-ai-hint="bold typography" />
+      <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 my-8">
+ <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Expressive typography" class="w-full rounded-lg" data-ai-hint="bold typography" />
       </div>
 
       <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">3. Nostalgic Interfaces (Y2K Revival)</h2>
@@ -651,8 +651,8 @@ export const blogPosts: BlogPost[] = [
       <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">What is a Prototype?</h2>
       <p>A prototype is a preliminary model of your product that allows you to test its functionality and user flow. Prototypes can range from simple paper sketches (low-fidelity) to interactive digital mockups (high-fidelity). The goal is to create a tangible representation of your idea that can be tested with users and stakeholders.</p>
       
-      <div class="rounded-lg overflow-hidden border my-8">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Prototyping" class="w-full" data-ai-hint="ui prototype"/>
+      <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 my-8">
+ <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Prototyping" class="w-full rounded-lg" data-ai-hint="ui prototype"/>
       </div>
 
       <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">The Benefits of Prototyping</h2>
