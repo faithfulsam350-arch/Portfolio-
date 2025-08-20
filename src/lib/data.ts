@@ -144,7 +144,7 @@ export const projects: Project[] = [
             <li><strong>Discover:</strong> Researched and explored user needs and expectations.</li>
             <li><strong>Define:</strong> Narrowed down insights to clearly identify the core problem.</li>
             <li><strong>Ideate:</strong> Brainstormed and explored possible solutions through sketches and concepts.</li>
-            <li><strong>Design:</strong> Translated ideas into wireframes and final UI design.</li>
+            <li><strong>Design:</strong> Translated ideas into wireframes, a final UI design, and an interactive prototype.</li>
           </ul>
         </div>
          <div>
@@ -183,13 +183,6 @@ export const projects: Project[] = [
  <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-9 mb-9">
  <img src="/lariba pageflow.png" alt="Sitemap" class="w-full rounded-lg" style="margin: 20px 0px" data-ai-hint="sitemap diagram"/>
 </div>
-        <div>
-          <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
-          <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
-          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sketches" class="w-full rounded-lg" data-ai-hint="design sketches" />
-</div>
-        </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
           <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
