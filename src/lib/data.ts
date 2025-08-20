@@ -139,12 +139,12 @@ export const projects: Project[] = [
            <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 mb-6">
  <img src="/Lariba design process.png" alt="Design Process Diagram" class="w-full rounded-lg" data-ai-hint="design process flowchart"/>
             </div>
-          <p class="mt-6">My approach was focused on understanding the target user and delivering a clean, mobile-first experience:</p>
+          <p class="mt-6">I followed a structured process to create this project:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
-            <li><strong>Understand:</strong> I began by developing user personas to represent the target audience, focusing on their financial habits, goals, and pain points.</li>
-            <li><strong>Structure:</strong> I created detailed user flows for core features like money tracking, budgeting, and Zakat calculation to ensure the app's navigation was simple and logical.</li>
-            <li><strong>Sketch:</strong> I started with low-fidelity paper sketches to quickly explore different layouts for the mobile interface.</li>
-            <li><strong>Design:</strong> Using Figma, I translated the sketches into wireframes and then into a high-fidelity UI. The focus was on a clean, minimalist design.</li>
+            <li><strong>Discover:</strong> Researched and explored user needs and expectations.</li>
+            <li><strong>Define:</strong> Narrowed down insights to clearly identify the core problem.</li>
+            <li><strong>Ideate:</strong> Brainstormed and explored possible solutions through sketches and concepts.</li>
+            <li><strong>Design:</strong> Translated ideas into wireframes and final UI design.</li>
           </ul>
         </div>
          <div>
