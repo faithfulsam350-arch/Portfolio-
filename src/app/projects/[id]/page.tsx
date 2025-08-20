@@ -90,7 +90,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                   src={project.imageUrl}
                   alt={project.title}
                   fill
-                  className="object-cover"
+                  className="object-cover rounded-lg"
                   data-ai-hint="creative work"
                 />
               </div>
