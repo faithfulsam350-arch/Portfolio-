@@ -109,7 +109,7 @@ export const projects: Project[] = [
           <p>The result was a usable and clear admin flow that the Skillfort team could implement internally. The project successfully translated a complex set of requirements into a structured and intuitive dashboard design, providing a solid foundation for the platform's administrative functions. The project is still ongoing, with my designs forming the core of the user experience.</p>
         </div>
         <div>
-            <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
+            <h3 class="text-3xl font-headline font-semibold mb-2" style="margin: 20px 0px">Future Improvements</h3>
             <p>The next steps would involve conducting usability testing with the interactive prototype to gather feedback from real administrators. This feedback would be crucial for refining the UI, validating the user flows, and identifying any new features that could further enhance the admin experience.</p>
         </div>
       </div>
@@ -125,7 +125,7 @@ export const projects: Project[] = [
     category: 'Fintech landing page',
     description: 'A landing page for a fintech service helping Muslims manage their finances according to Halal principles.',
     longDescription: `
-      <div class="space-y-8">
+      <div class="space-y-8" style="text-align: justify">
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
           <p>This project involved designing the landing page for a fintech service built to help Muslims manage their finances in accordance with Halal principles. The landing page serves as the first point of interaction with the brand, introducing the platform’s value, building trust, and guiding users to take action. While the platform draws inspiration from Halal financial principles, it is designed to be inclusive and useful for anyone seeking transparent and values-driven money management.</p>
@@ -225,7 +225,7 @@ export const projects: Project[] = [
           <p>I successfully delivered a completed MVP design for the Muslim Finance App. The final design provided a clear, user-friendly solution for tracking expenses, managing budgets, and calculating Zakat, all within a clean and modern mobile interface. This project demonstrated my ability to handle end-to-end design for a specialized fintech product.</p>
         </div>
         <div>
-            <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
+            <h3 class="text-3xl font-headline font-semibold mb-2" style="margin: 20px 0px">Future Improvements</h3>
             <p>For future iterations, I plan to incorporate features like investment tracking for Halal stocks and educational content on Islamic finance. Gathering user feedback on the MVP will be the first step to guide the product roadmap and ensure it continues to meet the community's needs.</p>
         </div>
       </div>
@@ -339,7 +339,7 @@ export const projects: Project[] = [
           <p>I delivered a final layout and mockup that met all the client's requirements. The design was clean, professional, and structured to guide users logically from the service offerings to the contact section, effectively serving its purpose as an informational and lead-generating landing page.</p>
         </div>
         <div>
-            <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
+            <h3 class="text-3xl font-headline font-semibold mb-2" style="margin: 20px 0px">Future Improvements</h3>
             <p>Moving forward, the website could be enhanced with analytics tracking to monitor user engagement and conversion rates on the contact form. A/B testing different headlines and call-to-action buttons could also help optimize the page for even better lead generation results.</p>
         </div>
       </div>
@@ -454,7 +454,7 @@ export const projects: Project[] = [
           <p>This ongoing personal project serves as a key piece in my portfolio, showcasing my ability to manage a project from concept to design. The result is a well-researched and thoughtfully designed UI for a podcast platform MVP. The UI is currently in progress.</p>
         </div>
         <div>
-            <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
+            <h3 class="text-3xl font-headline font-semibold mb-2" style="margin: 20px 0px">Future Improvements</h3>
             <p>Future development would focus on building out a recommendation engine based on listening history and user preferences. I would also explore social features, such as sharing clips or episodes with friends, to increase engagement and discoverability.</p>
         </div>
       </div>
@@ -568,7 +568,7 @@ export const projects: Project[] = [
           <p>As a conceptual exercise, the project was a success. It allowed me to practice my UI analysis and redesign skills on a real-world product. The final designs offer a subtle but meaningful improvement to the user experience by prioritizing clarity and ease of navigation.</p>
         </div>
         <div>
-            <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
+            <h3 class="text-3xl font-headline font-semibold mb-2" style="margin: 20px 0px">Future Improvements</h3>
             <p>If this were a real project, the next step would be to conduct A/B testing with the redesigned screens against the current Spotify UI. This would provide quantitative data to validate whether the changes led to faster task completion and higher user satisfaction.</p>
         </div>
       </div>

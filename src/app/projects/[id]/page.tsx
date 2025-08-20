@@ -99,7 +99,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
             <ScrollAnimation>
               <div
                   className="prose prose-lg dark:prose-invert max-w-none prose-p:text-justify prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline prose-h2:text-4xl prose-h3:text-3xl"
-              >
+ style={{ textAlign: 'justify' }}>
                 {parsedDescription}
               </div>
             </ScrollAnimation>
