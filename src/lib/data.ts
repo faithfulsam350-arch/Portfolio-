@@ -187,7 +187,7 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
           <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui" />
+ <img src="/lariba wireframe.png" style="margin: 20px 0px" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui" />
 </div>
         </div>
         <div>
