@@ -179,10 +179,10 @@ export const projects: Project[] = [
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
           <p>This sitemap visually outlines how users will navigate through the website, ensuring a clear and intuitive user flow.</p>
-
- <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-9 mb-9">
- <img src="/lariba pageflow.png" alt="Sitemap" class="w-full rounded-lg" style="margin: 20px 0px" data-ai-hint="sitemap diagram"/>
-</div>
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-9 mb-9">
+            <img src="/lariba pageflow.png" alt="Sitemap" class="w-full rounded-lg" style="margin: 20px 0px" data-ai-hint="sitemap diagram"/>
+          </div>
+        </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
           <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
@@ -192,9 +192,9 @@ export const projects: Project[] = [
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
-          <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
+          <p>After iterating through wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard" />
+ <img src="/lariba desktop full ui.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard" />
 </div>
         </div>
         <div>
