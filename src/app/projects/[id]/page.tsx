@@ -90,6 +90,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                   src={project.imageUrl}
                   alt={project.title}
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 60vw"
                   className="object-cover rounded-lg"
                   data-ai-hint="creative work"
                 />
