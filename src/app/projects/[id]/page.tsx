@@ -1,4 +1,6 @@
 
+'use client';
+
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { projects } from "@/lib/data";
@@ -11,6 +13,8 @@ import { cn } from "@/lib/utils";
 import parse, { domToReact, Element } from 'html-react-parser';
 import { AnimateOnScroll } from "@/components/animate-on-scroll";
 import { Card, CardContent } from "@/components/ui/card";
+import { useState, useEffect } from 'react';
+import { ImageLightbox } from "@/components/image-lightbox";
 
 type ProjectPageProps = {
   params: {
@@ -18,33 +22,27 @@ type ProjectPageProps = {
   };
 };
 
-export async function generateStaticParams() {
-    return projects.map((project) => ({
-      id: project.id,
-    }));
-}
-
-const AnimateImagesAndVideos = (node: Element) => {
-    if (node.type === 'tag' && (node.name === 'img' || node.name === 'video')) {
-        // Find the parent div wrapper to animate it
-        if(node.parent && node.parent.type === 'tag' && node.parent.name === 'div'){
-             return (
-                <AnimateOnScroll variant="grow">
-                    {domToReact([node.parent])}
-                </AnimateOnScroll>
-            );
-        }
-    }
-     // We return a special object to signal that we want to skip this node and its children from being animated,
-     // but let the default parsing continue. This is to avoid double-rendering the media elements.
-    if(node.type === 'tag' && (node.name === 'img' || node.name === 'video') && node.parent?.type === 'tag' && node.parent.name === 'div') {
-        return <></>;
-    }
-}
-
 export default function ProjectPage({ params }: ProjectPageProps) {
   const projectIndex = projects.findIndex((p) => p.id === params.id);
   const project = projects[projectIndex];
+
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
+
+  useEffect(() => {
+    // Add click listeners to images within the parsed HTML
+    const contentArea = document.getElementById('project-content');
+    if (contentArea) {
+      const images = contentArea.getElementsByTagName('img');
+      for (let i = 0; i < images.length; i++) {
+        const img = images[i];
+        img.style.cursor = 'pointer';
+        img.addEventListener('click', () => {
+          setLightboxImage(img.src);
+        });
+      }
+    }
+  }, [project]);
+
 
   if (!project) {
     notFound();
@@ -69,6 +67,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
 
   return (
     <div className="container mx-auto px-6 md:px-[100px] py-12 md:py-16">
+        <ImageLightbox imageUrl={lightboxImage} onClose={() => setLightboxImage(null)} />
         <ScrollAnimation variant="grow">
             <Button asChild variant="ghost" className="mb-8 -ml-4">
                 <Link href="/">
@@ -85,7 +84,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
             </ScrollAnimation>
 
             <ScrollAnimation variant="grow">
-              <div className="aspect-[16/9] relative mb-8 rounded-lg overflow-hidden shadow-2xl">
+              <div className="aspect-[16/9] relative mb-8 rounded-lg overflow-hidden shadow-2xl cursor-pointer" onClick={() => setLightboxImage(project.imageUrl)}>
                 <Image
                   src={project.imageUrl}
                   alt={project.title}
@@ -99,8 +98,9 @@ export default function ProjectPage({ params }: ProjectPageProps) {
             
             <ScrollAnimation>
               <div
+                  id="project-content"
                   className="prose prose-lg dark:prose-invert max-w-none prose-p:text-justify prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline prose-h2:text-4xl prose-h3:text-3xl"
- style={{ textAlign: 'justify' }}>
+              >
                 {parsedDescription}
               </div>
             </ScrollAnimation>
