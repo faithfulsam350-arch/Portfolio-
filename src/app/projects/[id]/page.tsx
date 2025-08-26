@@ -2,7 +2,7 @@
 'use client';
 
 import Image from "next/image";
-import { notFound } from "next/navigation";
+import { notFound, useParams } from "next/navigation";
 import { projects } from "@/lib/data";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -16,14 +16,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import { useState, useEffect } from 'react';
 import { ImageLightbox } from "@/components/image-lightbox";
 
-type ProjectPageProps = {
-  params: {
-    id: string;
-  };
-};
+export default function ProjectPage() {
+  const params = useParams();
+  const projectId = params.id as string;
 
-export default function ProjectPage({ params }: ProjectPageProps) {
-  const projectIndex = projects.findIndex((p) => p.id === params.id);
+  const projectIndex = projects.findIndex((p) => p.id === projectId);
   const project = projects[projectIndex];
 
   const [lightboxImage, setLightboxImage] = useState<string | null>(null);
