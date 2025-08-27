@@ -194,23 +194,22 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="/lariba desktop full ui.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard" />
-</div>
-<div>
-  <h3 class="text-3xl font-headline font-semibold mb-2">Mobile View</h3>
-  <p>To ensure accessibility and usability across devices, I designed a responsive mobile version of the application. This view adapts seamlessly to smaller screens while maintaining clarity, functionality, and a smooth user experience.</p>
-  <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
-    <img src="/mobile.png" style="margin: 20px 0px" alt="Mobile View" class="w-full rounded-lg" />
-  </div>
-</div>
-
+            <img src="/lariba desktop full ui.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard" />
+          </div>
+        </div>
+        <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">Mobile View</h3>
+          <p>To ensure accessibility and usability across devices, I designed a responsive mobile version of the application. This view adapts seamlessly to smaller screens while maintaining clarity, functionality, and a smooth user experience.</p>
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
+            <img src="/lariba mobile.png" style="margin: 20px 0px" alt="Mobile View" class="w-full rounded-lg" data-ai-hint="mobile ui" />
+          </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
           <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 aspect-video">
             <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" style="margin:20px 0px" data-ai-hint="prototype video screen recording">
- <!-- Add a <source> tag here with your video file -->
+              <source src="/lariba-prototype.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
