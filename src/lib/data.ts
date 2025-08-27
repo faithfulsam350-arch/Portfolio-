@@ -201,7 +201,7 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">Mobile View</h3>
           <p>To ensure accessibility and usability across devices, I designed a responsive mobile version of the application. This view adapts seamlessly to smaller screens while maintaining clarity, functionality, and a smooth user experience.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
-            <img src="/lariba mobile.png" style="margin: 20px 0px" alt="Mobile View" class="w-full rounded-lg" data-ai-hint="mobile ui" />
+            <img src="/lol.png" style="margin: 20px 0px" alt="Mobile View" class="w-full rounded-lg" data-ai-hint="mobile ui" />
           </div>
         </div>
         <div>
