@@ -196,6 +196,14 @@ export const projects: Project[] = [
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="/lariba desktop full ui.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard" />
 </div>
+<div>
+  <h3 class="text-3xl font-headline font-semibold mb-2">Mobile View</h3>
+  <p>To ensure accessibility and usability across devices, I designed a responsive mobile version of the application. This view adapts seamlessly to smaller screens while maintaining clarity, functionality, and a smooth user experience.</p>
+  <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
+    <img src="/lariba-mobile.png" style="margin: 20px 0px" alt="Mobile View" class="w-full rounded-lg" />
+  </div>
+</div>
+
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>

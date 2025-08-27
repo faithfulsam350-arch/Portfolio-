@@ -6,6 +6,7 @@ import {
   DialogContent,
   DialogOverlay,
   DialogClose,
+  DialogPortal,
 } from '@/components/ui/dialog';
 import Image from 'next/image';
 import { X } from 'lucide-react';
