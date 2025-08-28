@@ -62,6 +62,8 @@ export default function ProjectPage() {
     }
   });
 
+  const heroImage = project.heroImageUrl || project.imageUrl;
+
   return (
     <div className="container mx-auto px-6 md:px-[100px] py-12 md:py-16">
         <ImageLightbox imageUrl={lightboxImage} onClose={() => setLightboxImage(null)} />
@@ -81,9 +83,9 @@ export default function ProjectPage() {
             </ScrollAnimation>
 
             <ScrollAnimation variant="grow">
-              <div className="aspect-[16/9] relative mb-8 rounded-lg overflow-hidden shadow-2xl cursor-pointer" onClick={() => setLightboxImage(project.imageUrl)}>
+              <div className="aspect-[16/9] relative mb-8 rounded-lg overflow-hidden shadow-2xl cursor-pointer" onClick={() => setLightboxImage(heroImage)}>
                 <Image
-                  src={project.imageUrl}
+                  src={heroImage}
                   alt={project.title}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 60vw"

@@ -1,3 +1,4 @@
+
 import type { LucideIcon } from 'lucide-react';
 
 export type Project = {
@@ -7,6 +8,7 @@ export type Project = {
   description: string;
   longDescription: string;
   imageUrl: string;
+  heroImageUrl?: string;
   tags: string[];
   liveUrl?: string;
   caseStudyUrl?: string;
