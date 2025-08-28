@@ -83,7 +83,7 @@ export default function ProjectPage() {
             </ScrollAnimation>
 
             <ScrollAnimation variant="grow">
-              <div className="aspect-[16/9] relative mb-8 rounded-lg overflow-hidden shadow-2xl cursor-pointer" onClick={() => setLightboxImage(heroImage)}>
+              <div className="aspect-[4/3] relative mb-8 rounded-lg overflow-hidden shadow-2xl cursor-pointer" onClick={() => setLightboxImage(heroImage)}>
                 <Image
                   src={heroImage}
                   alt={project.title}
