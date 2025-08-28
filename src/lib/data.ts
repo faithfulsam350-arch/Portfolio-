@@ -366,12 +366,6 @@ export const projects: Project[] = [
            <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 mb-6">
  <img src=" /Yap-designprocess.png" alt="Design Process Diagram" class="w-full rounded-lg" data-ai-hint="design process flowchart"/>
             </div>
-          <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
-            <li><strong>Understand:</strong> I started with user research to identify what a younger audience wants from a podcast app. Key findings pointed to a need for better discovery features and a cleaner interface.</li>
-            <li><strong>Structure:</strong> I mapped out user flows for discovering new podcasts, playing episodes, and managing a personal library.</li>
-            <li><strong>Sketch:</strong> I used paper sketches to quickly iterate on different screen layouts for the mobile app and dashboard.</li>
-            <li><strong>Design & Refine:</strong> In Figma, I developed the branding and a full set of UI designs, focusing on a modern aesthetic with clear navigation.</li>
-          </ul>
         </div>
          <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Research Methodology</h3>
