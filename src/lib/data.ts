@@ -355,11 +355,11 @@ export const projects: Project[] = [
       <div class="space-y-8">
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
-          <p>Yapish is a personal MVP concept for a podcast platform. It is created for a younger, tech-savvy audience who find existing podcast apps cluttered and unintuitive. The main goal of this project is to design a simplified, visually engaging user experience that makes discovering and listening to podcasts seamless and enjoyable. As a personal project, I wanted to address a common frustration I observed among my peers: existing podcast platforms can feel cluttered, especially for new listeners. My goal was to design an MVP for a podcast platform with a simplified user experience tailored to a younger audience.</p>
+          <p>Yapish is a podcast brand that shares real conversations on culture, lifestyle, and everyday topics that matter to young people. It is built to be relatable, engaging, and entertaining, giving listeners a fresh take on the stories and issues around them.</p>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Problem Statement</h3>
-          <p>Existing podcast platforms can feel cluttered and overwhelming, especially for new listeners. The goal of this personal project was to design an MVP for a podcast app with a simplified user experience tailored to a younger audience, focusing on easy discovery and a clean interface.</p>
+          <p>Many podcast listeners enjoy the content but often feel disconnected, with little opportunity to share their own thoughts or engage in meaningful discussions around the topics that matter to them. Traditional podcast platforms are one-sided, focusing only on consumption rather than participation. This leaves audiences feeling unheard and reduces the potential for genuine community building. Yapish seeks to bridge this gap by creating an interactive podcast platform that combines listening with engagement — allowing users to drop voice notes, join topic-based chat rooms, and actively contribute to the conversations.</p>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
