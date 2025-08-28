@@ -198,19 +198,10 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
-        <div style="display:none">
           <h3 class="text-3xl font-headline font-semibold mb-2">Mobile View</h3>
           <p>To ensure accessibility and usability across devices, I designed a responsive mobile version of the application. This view adapts seamlessly to smaller screens while maintaining clarity, functionality, and a smooth user experience.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
-            <img src="/l.png" style="margin: 20px 0px" alt="Mobile View" class="w-full rounded-lg" data-ai-hint="mobile ui" />
-          </div> 
-        </div>
-        <div>
-          <div>
-          <h3 class="text-3xl font-headline font-semibold mb-2">Mobile View</h3>
-          <p>To ensure accessibility and usability across devices, I designed a responsive mobile version of the application. This view adapts seamlessly to smaller screens while maintaining clarity, functionality, and a smooth user experience.</p>
-          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
-            <img src="/mobile-view.png" style="margin: 20px 0px" alt="Mobile View" class="w-full rounded-lg" data-ai-hint="mobile ui" />
+            <img src="/lol.png" style="margin: 20px 0px" alt="Mobile View" class="w-full rounded-lg" data-ai-hint="mobile ui" />
           </div>  
         </div>  
                
@@ -218,11 +209,9 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
           <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 aspect-video">
-            
-            <video width="320" height="240" controls>
-  <source src="/lariba-prototype.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+            <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" style="margin:20px 0px" data-ai-hint="prototype video screen recording">
+                <source src="/lariba-prototype.mp4" type="video/mp4">
+            </video>
           </div>
         </div>
           
@@ -298,7 +287,7 @@ Your browser does not support the video tag.
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
-          <p>From the stakeholder interviews, I created a persona for a typical customer: a small business owner looking for reliable telecom services. This persona helped ensure the language was clear, the value proposition was direct, and the contact process was as simple as possible.</p>
+          <p>From the stakeholder interviews, I created a persona for a typical customer: a small business owner looking for reliable telecom services. This helped ensure the language was clear, the value proposition was direct, and the contact process was as simple as possible.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
  <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
           </div>
@@ -465,7 +454,7 @@ Your browser does not support the video tag.
         </div>
       </div>
     `,
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: '/yapish-cover.png',
     tags: ['Figma', 'Personal Project', 'Product Design', 'UI/UX'],
     caseStudyUrl: '#',
   },
