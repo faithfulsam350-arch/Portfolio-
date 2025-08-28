@@ -364,9 +364,8 @@ export const projects: Project[] = [
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
            <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 mb-6">
- <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full rounded-lg" data-ai-hint="design process flowchart"/>
+ <img src=" /Yap-designprocess.png" alt="Design Process Diagram" class="w-full rounded-lg" data-ai-hint="design process flowchart"/>
             </div>
-          <p class="mt-6">I followed my complete design process to bring this personal concept to life:</p>
           <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
             <li><strong>Understand:</strong> I started with user research to identify what a younger audience wants from a podcast app. Key findings pointed to a need for better discovery features and a cleaner interface.</li>
             <li><strong>Structure:</strong> I mapped out user flows for discovering new podcasts, playing episodes, and managing a personal library.</li>
