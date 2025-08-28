@@ -454,7 +454,7 @@ export const projects: Project[] = [
         </div>
       </div>
     `,
-    imageUrl: '/yapish-cover.png',
+    imageUrl: '/yaphero-cover.png',
     tags: ['Figma', 'Personal Project', 'Product Design', 'UI/UX'],
     caseStudyUrl: '#',
   },
