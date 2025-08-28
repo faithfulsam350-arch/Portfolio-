@@ -11,7 +11,7 @@ interface ScrollAnimationProps {
   variant?: 'slide-in' | 'grow';
 }
 
-export function ScrollAnimation({ children, className, delay, variant = 'slide-in' }: ScrollAnimationProps) {
+export function ScrollAnimation({ children, className, delay, variant = 'grow' }: ScrollAnimationProps) {
   const { ref, isInView } = useScrollAnimation<HTMLDivElement>();
 
   return (
