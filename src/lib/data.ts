@@ -378,9 +378,9 @@ export const projects: Project[] = [
                     Key Questions
                 </h5>
                 <div class="space-y-2 text-sm text-muted-foreground flex-grow">
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>How do you typically find new podcasts to listen to?</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What is the most confusing or cluttered part of your current podcast app?</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>If you could change one thing about your podcast app, what would it be?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>How can Yapish position itself as a relatable and engaging podcast brand for young people?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What topics resonate most with the target audience and encourage them to listen regularly?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What makes Yapish different from other existing podcasts targeting the same demographic?</span></div>
                 </div>
             </div>
             <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
@@ -389,18 +389,19 @@ export const projects: Project[] = [
                     Key Findings
                 </h5>
                 <div class="space-y-2 text-sm text-muted-foreground flex-grow">
-                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Podcast discovery is often overwhelming. Users want better, more personalized recommendations.</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Users disliked apps that mixed music and podcasts too aggressively.</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>A simple, clean interface for the player and library was a top request.</span></div>
+                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Young listeners value authentic and unfiltered conversations over scripted or overly formal content.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Culture, lifestyle, and everyday experiences are the most relatable themes for the audience.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>A podcast brand that feels personal and approachable stands out more than one that tries to feel overly corporate.</span></div>
+                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Consistency in both visual branding and content tone builds trust and recognition.</span></div>
                 </div>
             </div>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
-          <p>The research led to the creation of a user persona for "Alex," a college student who listens to podcasts to learn new things but is frustrated with cluttered apps. This persona was a constant reminder to prioritize simplicity, discovery, and a clean visual design throughout the project.</p>
+          <p>To better understand the target audience for Yapish, a user persona was developed to represent the typical listener. This persona highlights the goals, behaviors, and pain points of young people who enjoy consuming podcasts that feel authentic, relatable, and entertaining.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
+ <img src="/yap-Persona.png" style="margin: 20px 0px" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
           </div>
         </div>
         <div>
