@@ -408,14 +408,21 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
           <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sitemap" class="w-full rounded-lg" style="margin: 20px 0px" data-ai-hint="sitemap diagram"/>
+ <img src="/yap-sitemap.png" style="margin: 20px 0px" alt="Sitemap" class="w-full rounded-lg" style="margin: 20px 0px" data-ai-hint="sitemap diagram"/>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-3xl font-headline font-semibold mb-2">User Flows</h3>
+          <p>To map out the user's journey, I created a detailed user flow that illustrates the paths a user can take to complete key tasks within the app. This helped visualize the entire user experience and ensure a seamless, intuitive navigation from one screen to the next.</p>
+          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
+            <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="User Flows" class="w-full rounded-lg" data-ai-hint="user flow diagram"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
           <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sketches" class="w-full rounded-lg" data-ai-hint="design sketches"/>
+ <img src="/yap-sketch.png" style="margin: 20px 0px" alt="Sketches" class="w-full rounded-lg" data-ai-hint="design sketches"/>
           </div>
         </div>
         <div>
