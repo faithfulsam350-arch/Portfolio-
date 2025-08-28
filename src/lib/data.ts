@@ -198,26 +198,34 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
+        <div style="display:none">
           <h3 class="text-3xl font-headline font-semibold mb-2">Mobile View</h3>
           <p>To ensure accessibility and usability across devices, I designed a responsive mobile version of the application. This view adapts seamlessly to smaller screens while maintaining clarity, functionality, and a smooth user experience.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
             <img src="/l.png" style="margin: 20px 0px" alt="Mobile View" class="w-full rounded-lg" data-ai-hint="mobile ui" />
           </div> 
+        </div>
+        <div>
           <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Mobile View</h3>
           <p>To ensure accessibility and usability across devices, I designed a responsive mobile version of the application. This view adapts seamlessly to smaller screens while maintaining clarity, functionality, and a smooth user experience.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
             <img src="/mobile-view.png" style="margin: 20px 0px" alt="Mobile View" class="w-full rounded-lg" data-ai-hint="mobile ui" />
-          </div>    
-                 <div>
+          </div>  
+        </div>  
+               
+        <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
           <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 aspect-video">
-            <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" style="margin:20px 0px" data-ai-hint="prototype video screen recording">
-              <source src="/lariba-prototype.mp4" type="video/mp4" />
-            </video>
+            
+            <video width="320" height="240" controls>
+  <source src="/lariba-prototype.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
           </div>
         </div>
+          
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
           <p>I successfully delivered a completed MVP design for the Muslim Finance App. The final design provided a clear, user-friendly solution for tracking expenses, managing budgets, and calculating Zakat, all within a clean and modern mobile interface. This project demonstrated my ability to handle end-to-end design for a specialized fintech product.</p>
