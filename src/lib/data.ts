@@ -412,24 +412,17 @@ export const projects: Project[] = [
           </div>
         </div>
         <div>
-          <h3 class="text-3xl font-headline font-semibold mb-2">User Flows</h3>
-          <p>To map out the user's journey, I created a detailed user flow that illustrates the paths a user can take to complete key tasks within the app. This helped visualize the entire user experience and ensure a seamless, intuitive navigation from one screen to the next.</p>
-          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
-            <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="User Flows" class="w-full rounded-lg" data-ai-hint="user flow diagram"/>
-          </div>
-        </div>
-        <div>
-          <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
-          <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
-          <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="/yap-sketch.png" style="margin: 20px 0px" alt="Sketches" class="w-full rounded-lg" data-ai-hint="design sketches"/>
-          </div>
+            <h3 class="text-3xl font-headline font-semibold mb-2">User Flows</h3>
+            <p>To map out the user journey, I designed user flows that outline the key paths a user would take through the app. This helps visualize the entire process from onboarding to core actions like playing a podcast or joining a conversation, ensuring a smooth and intuitive experience.</p>
+            <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
+                <img src="https://placehold.co/800x400.png" alt="User Flows" class="w-full rounded-lg" data-ai-hint="user flow diagram"/>
+            </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
           <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui"/>
+ <img src="/yapwire.png" style="margin: 20px 0px" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui"/>
           </div>
         </div>
         <div>
