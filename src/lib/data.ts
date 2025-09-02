@@ -429,23 +429,23 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="/yap-onboard.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
+            <img src="/yap-onboard.png" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
           </div>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="/yap-home.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
+            <img src="/yap-home.png" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
           </div>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="/yap-discover.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
+            <img src="/yap-discover.png" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
           </div>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="/yap-profile.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
+            <img src="/yap-profile.png" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
           <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 aspect-video">
-            <video class="w-full h-full object-cover rounded-lg" controls poster="https://placehold.co/800x450.png" data-ai-hint="prototype video screen recording">
+            <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" width="800" height="450" data-ai-hint="prototype video screen recording">
                 <source src="/yap-prototype.mp4" type="video/mp4" />
             </video>
           </div>
