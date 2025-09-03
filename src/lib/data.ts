@@ -38,24 +38,24 @@ export const projects: Project[] = [
           <div class="grid md:grid-cols-2 gap-6 mt-6">
             <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col" >
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
                     Key Questions
                 </h5>
                 <div class="space-y-2 text-sm text-muted-foreground flex-grow">
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What are the biggest challenges you face when managing courses and users on a learning platform?</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What features in an admin dashboard would save you the most time?</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>How important is a clean, uncluttered interface for your daily tasks?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What are the biggest challenges you face when managing courses and users on a learning platform?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What features in an admin dashboard would save you the most time?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>How important is a clean, uncluttered interface for your daily tasks?</span></div>
                 </div>
             </div>
             <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
                 <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
                     Key Findings
                 </h5>
                 <div class="space-y-2 text-sm text-muted-foreground flex-grow">
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Users were often frustrated with cluttered interfaces and too many clicks to perform simple tasks.</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>A centralized dashboard with key metrics (like new users and course completions) was highly desired.</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Easy navigation between course, user, and instructor management was a top priority.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Users were often frustrated with cluttered interfaces and too many clicks to perform simple tasks.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>A centralized dashboard with key metrics (like new users and course completions) was highly desired.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Easy navigation between course, user, and instructor management was a top priority.</span></div>
                 </div>
             </div>
           </div>
@@ -64,42 +64,42 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
           <p>Based on the user research, I developed a user persona to guide the design process. This persona represents the typical administrator who would use the platform, helping to keep their needs and goals at the forefront of every design decision.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
+ <img src="https://placehold.co/800x400.png" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
           <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sitemap" class="w-full rounded-lg" style="margin: 20px 0px" data-ai-hint="sitemap diagram"/>
+ <img src="https://placehold.co/800x400.png" alt="Sitemap" class="w-full rounded-lg" data-ai-hint="sitemap diagram"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
           <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sketches" class="w-full rounded-lg" data-ai-hint="design sketches"/>
+ <img src="https://placehold.co/800x400.png" alt="Sketches" class="w-full rounded-lg" data-ai-hint="design sketches"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
           <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui"/>
+ <img src="https://placehold.co/800x400.png" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
+ <img src="https://placehold.co/800x400.png" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
           <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 aspect-video">
-            <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" style="margin:20px 0px" data-ai-hint="prototype video screen recording"/>
+            <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" data-ai-hint="prototype video screen recording"/>
  <!-- Add a <source> tag here with your video file -->
             </video>
           </div>
@@ -109,7 +109,7 @@ export const projects: Project[] = [
           <p>The result was a usable and clear admin flow that the Skillfort team could implement internally. The project successfully translated a complex set of requirements into a structured and intuitive dashboard design, providing a solid foundation for the platform's administrative functions. The project is still ongoing, with my designs forming the core of the user experience.</p>
         </div>
         <div>
-            <h3 class="text-3xl font-headline font-semibold mb-2" style="margin: 20px 0px">Future Improvements</h3>
+            <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
             <p>The next steps would involve conducting usability testing with the interactive prototype to gather feedback from real administrators. This feedback would be crucial for refining the UI, validating the user flows, and identifying any new features that could further enhance the admin experience.</p>
         </div>
       </div>
@@ -159,9 +159,9 @@ export const projects: Project[] = [
                     Key Questions
                 </h5>
                 <div class="space-y-2 text-sm text-muted-foreground flex-grow">
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What do you expect to see first when you land on a Muslim finance website?</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What information helps you quickly trust that a platform is authentic and Shariah-compliant?</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What would motivate you to scroll further or take action (e.g., sign up, learn more)?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What do you expect to see first when you land on a Muslim finance website?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What information helps you quickly trust that a platform is authentic and Shariah-compliant?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What would motivate you to scroll further or take action (e.g., sign up, learn more)?</span></div>
                 </div>
             </div>
             <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
@@ -170,9 +170,9 @@ export const projects: Project[] = [
                     Key Findings
                 </h5>
                 <div class="space-y-2 text-sm text-muted-foreground flex-grow">
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Participants wanted a clear headline that immediately highlights Shariah compliance.</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Users valued visual cues of trust (Islamic symbolism, certifications, or community focus).</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Simple explanations of benefits and transparency encouraged them to continue exploring the page.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Participants wanted a clear headline that immediately highlights Shariah compliance.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Users valued visual cues of trust (Islamic symbolism, certifications, or community focus).</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Simple explanations of benefits and transparency encouraged them to continue exploring the page.</span></div>
                 </div>
             </div>
           </div>
@@ -181,28 +181,28 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
           <p>This sitemap visually outlines how users will navigate through the website, ensuring a clear and intuitive user flow.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-9 mb-9">
-            <img src="/lariba pageflow.png" alt="Sitemap" class="w-full rounded-lg" style="margin: 20px 0px" data-ai-hint="sitemap diagram"/>
+            <img src="/lariba pageflow.png" alt="Sitemap" class="w-full rounded-lg" data-ai-hint="sitemap diagram"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
           <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="/lariba wireframe.png" style="margin: 20px 0px" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui" />
+ <img src="/lariba wireframe.png" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui" />
 </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
-            <img src="/lariba desktop full ui.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard" />
+            <img src="/lariba desktop full ui.png" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard" />
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Mobile View</h3>
           <p>To ensure accessibility and usability across devices, I designed a responsive mobile version of the application. This view adapts seamlessly to smaller screens while maintaining clarity, functionality, and a smooth user experience.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
-            <img src="/lol.png" style="margin: 20px 0px" alt="Mobile View" class="w-full rounded-lg" data-ai-hint="mobile ui" />
+            <img src="/lol.png" alt="Mobile View" class="w-full rounded-lg" data-ai-hint="mobile ui" />
           </div>  
         </div>  
                
@@ -210,7 +210,7 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
           <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 aspect-video">
-            <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" style="margin:20px 0px" data-ai-hint="prototype video screen recording">
+            <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" data-ai-hint="prototype video screen recording">
                 <source src="/lariba-prototype.mp4" type="video/mp4">
             </video>
           </div>
@@ -221,7 +221,7 @@ export const projects: Project[] = [
           <p>I successfully delivered a completed MVP design for the Muslim Finance App. The final design provided a clear, user-friendly solution for tracking expenses, managing budgets, and calculating Zakat, all within a clean and modern mobile interface. This project demonstrated my ability to handle end-to-end design for a specialized fintech product.</p>
         </div>
         <div>
-            <h3 class="text-3xl font-headline font-semibold mb-2" style="margin: 20px 0px">Future Improvements</h3>
+            <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
             <p>For future iterations, I plan to incorporate features like investment tracking for Halal stocks and educational content on Islamic finance. Gathering user feedback on the MVP will be the first step to guide the product roadmap and ensure it continues to meet the community's needs.</p>
         </div>
       </div>
@@ -269,9 +269,9 @@ export const projects: Project[] = [
                     Key Questions
                 </h5>
                 <div class="space-y-2 text-sm text-muted-foreground flex-grow">
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What is the single most important action a visitor should take on this page?</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Who is our primary audience, and what information is most critical to them?</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What tone should the website convey: modern, corporate, friendly?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What is the single most important action a visitor should take on this page?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Who is our primary audience, and what information is most critical to them?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What tone should the website convey: modern, corporate, friendly?</span></div>
                 </div>
             </div>
             <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
@@ -280,9 +280,9 @@ export const projects: Project[] = [
                     Key Findings
                 </h5>
                 <div class="space-y-2 text-sm text-muted-foreground flex-grow">
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>The primary goal was lead generation through the contact form.</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>The audience needed to quickly understand the core services without getting lost in technical jargon.</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>A modern and professional, yet approachable, design was the desired direction.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>The primary goal was lead generation through the contact form.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>The audience needed to quickly understand the core services without getting lost in technical jargon.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>A modern and professional, yet approachable, design was the desired direction.</span></div>
                 </div>
             </div>
           </div>
@@ -291,42 +291,42 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
           <p>From the stakeholder interviews, I created a persona for a typical customer: a small business owner looking for reliable telecom services. This helped ensure the language was clear, the value proposition was direct, and the contact process was as simple as possible.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
+ <img src="https://placehold.co/800x400.png" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
           <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sitemap" class="w-full rounded-lg" style="margin: 20px 0px" data-ai-hint="sitemap diagram"/>
+ <img src="https://placehold.co/800x400.png" alt="Sitemap" class="w-full rounded-lg" data-ai-hint="sitemap diagram"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
           <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sketches" class="w-full rounded-lg" data-ai-hint="design sketches"/>
+ <img src="https://placehold.co/800x400.png" alt="Sketches" class="w-full rounded-lg" data-ai-hint="design sketches"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
           <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui"/>
+ <img src="https://placehold.co/800x400.png" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
+ <img src="https://placehold.co/800x400.png" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
           <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 aspect-video">
-            <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" style="margin:20px 0px" data-ai-hint="prototype video screen recording"/>
+            <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" data-ai-hint="prototype video screen recording"/>
  <!-- Add a <source> tag here with your video file -->
             </video>
           </div>
@@ -336,7 +336,7 @@ export const projects: Project[] = [
           <p>I delivered a final layout and mockup that met all the client's requirements. The design was clean, professional, and structured to guide users logically from the service offerings to the contact section, effectively serving its purpose as an informational and lead-generating landing page.</p>
         </div>
         <div>
-            <h3 class="text-3xl font-headline font-semibold mb-2" style="margin: 20px 0px">Future Improvements</h3>
+            <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
             <p>Moving forward, the website could be enhanced with analytics tracking to monitor user engagement and conversion rates on the contact form. A/B testing different headlines and call-to-action buttons could also help optimize the page for even better lead generation results.</p>
         </div>
       </div>
@@ -378,9 +378,9 @@ export const projects: Project[] = [
                     Key Questions
                 </h5>
                 <div class="space-y-2 text-sm text-muted-foreground flex-grow">
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>How can Yapish position itself as a relatable and engaging podcast brand for young people?</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What topics resonate most with the target audience and encourage them to listen regularly?</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What makes Yapish different from other existing podcasts targeting the same demographic?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>How can Yapish position itself as a relatable and engaging podcast brand for young people?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What topics resonate most with the target audience and encourage them to listen regularly?</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What makes Yapish different from other existing podcasts targeting the same demographic?</span></div>
                 </div>
             </div>
             <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
@@ -389,10 +389,10 @@ export const projects: Project[] = [
                     Key Findings
                 </h5>
                 <div class="space-y-2 text-sm text-muted-foreground flex-grow">
-                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Young listeners value authentic and unfiltered conversations over scripted or overly formal content.</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Culture, lifestyle, and everyday experiences are the most relatable themes for the audience.</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>A podcast brand that feels personal and approachable stands out more than one that tries to feel overly corporate.</span></div>
-                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Consistency in both visual branding and content tone builds trust and recognition.</span></div>
+                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Young listeners value authentic and unfiltered conversations over scripted or overly formal content.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Culture, lifestyle, and everyday experiences are the most relatable themes for the audience.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>A podcast brand that feels personal and approachable stands out more than one that tries to feel overly corporate.</span></div>
+                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Consistency in both visual branding and content tone builds trust and recognition.</span></div>
                 </div>
             </div>
           </div>
@@ -401,28 +401,28 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
           <p>To better understand the target audience for Yapish, a user persona was developed to represent the typical listener. This persona highlights the goals, behaviors, and pain points of young people who enjoy consuming podcasts that feel authentic, relatable, and entertaining.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="/yap-Persona.png" style="margin: 20px 0px" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
+ <img src="/yap-Persona.png" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
           <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="/yap-sitemap.png" style="margin: 20px 0px" alt="Sitemap" class="w-full rounded-lg" style="margin: 20px 0px" data-ai-hint="sitemap diagram"/>
+ <img src="/yap-sitemap.png" alt="Sitemap" class="w-full rounded-lg" data-ai-hint="sitemap diagram"/>
           </div>
         </div>
         <div>
             <h3 class="text-3xl font-headline font-semibold mb-2">User Flows</h3>
             <p>To map out the user journey, I designed user flows that outline the key paths a user would take through the app. This helps visualize the entire process from onboarding to core actions like playing a podcast or joining a conversation, ensuring a smooth and intuitive experience.</p>
             <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
-                <img src="/yap-userflow.png" style="margin: 20px 0px" alt="User Flows" class="w-full rounded-lg" data-ai-hint="user flow diagram"/>
+                <img src="/yap-userflow.png" alt="User Flows" class="w-full rounded-lg" data-ai-hint="user flow diagram"/>
             </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
-            <img src="/yap-fullui.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design mobile app"/>
+            <img src="/yap-fullui.png" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design mobile app"/>
           </div>
         </div>
         <div>
@@ -439,7 +439,7 @@ export const projects: Project[] = [
           <p>This ongoing personal project serves as a key piece in my portfolio, showcasing my ability to manage a project from concept to design. The result is a well-researched and thoughtfully designed UI for a podcast platform MVP. The UI is currently in progress.</p>
         </div>
         <div>
-            <h3 class="text-3xl font-headline font-semibold mb-2" style="margin: 20px 0px">Future Improvements</h3>
+            <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
             <p>Future development would focus on building out a recommendation engine based on listening history and user preferences. I would also explore social features, such as sharing clips or episodes with friends, to increase engagement and discoverability.</p>
         </div>
       </div>
@@ -487,9 +487,9 @@ export const projects: Project[] = [
                     Key Questions
                 </h5>
                 <div class="space-y-2 text-sm text-muted-foreground flex-grow">
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>"Without thinking too hard, what do you expect this icon to do?" (pointing to ambiguous icons).</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>"Can you quickly find your list of liked songs?"</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>"Is there anything about the main navigation that feels confusing?"</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>"Without thinking too hard, what do you expect this icon to do?" (pointing to ambiguous icons).</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>"Can you quickly find your list of liked songs?"</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>"Is there anything about the main navigation that feels confusing?"</span></div>
                 </div>
             </div>
             <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
@@ -498,9 +498,9 @@ export const projects: Project[] = [
                     Key Findings
                 </h5>
                 <div class="space-y-2 text-sm text-muted-foreground flex-grow">
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Users confirmed that certain icons, particularly for the library and search functions, were not immediately clear.</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>The distinction between the 'Home' and 'Search' tabs was sometimes a point of confusion.</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>All users expressed a desire for clearer, more explicit iconography in the navigation bar.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Users confirmed that certain icons, particularly for the library and search functions, were not immediately clear.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>The distinction between the 'Home' and 'Search' tabs was sometimes a point of confusion.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>All users expressed a desire for clearer, more explicit iconography in the navigation bar.</span></div>
                 </div>
             </div>
           </div>
@@ -509,42 +509,42 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
           <p>Even for a concept project, thinking about the user is key. I created a simple persona for a long-time Spotify power user who values efficiency. This helped me focus on making small, targeted changes that would improve their experience without disrupting their existing mental model of the app.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
+ <img src="https://placehold.co/800x400.png" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
           <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sitemap" class="w-full rounded-lg" style="margin: 20px 0px" data-ai-hint="sitemap diagram"/>
+ <img src="https://placehold.co/800x400.png" alt="Sitemap" class="w-full rounded-lg" data-ai-hint="sitemap diagram"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
           <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Sketches" class="w-full rounded-lg" data-ai-hint="design sketches"/>
+ <img src="https://placehold.co/800x400.png" alt="Sketches" class="w-full rounded-lg" data-ai-hint="design sketches"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
           <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui"/>
+ <img src="https://placehold.co/800x400.png" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
+ <img src="https://placehold.co/800x400.png" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
           </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
           <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 aspect-video">
-            <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" style="margin:20px 0px" data-ai-hint="prototype video screen recording"/>
+            <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" data-ai-hint="prototype video screen recording"/>
  <!-- Add a <source> tag here with your video file -->
             </video>
           </div>
@@ -554,7 +554,7 @@ export const projects: Project[] = [
           <p>As a conceptual exercise, the project was a success. It allowed me to practice my UI analysis and redesign skills on a real-world product. The final designs offer a subtle but meaningful improvement to the user experience by prioritizing clarity and ease of navigation.</p>
         </div>
         <div>
-            <h3 class="text-3xl font-headline font-semibold mb-2" style="margin: 20px 0px">Future Improvements</h3>
+            <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
             <p>If this were a real project, the next step would be to conduct A/B testing with the redesigned screens against the current Spotify UI. This would provide quantitative data to validate whether the changes led to faster task completion and higher user satisfaction.</p>
         </div>
       </div>
@@ -582,7 +582,7 @@ export const blogPosts: BlogPost[] = [
       <p>The first step in user-centric design is to gain a deep understanding of your target audience. This involves conducting user research, such as interviews, surveys, and usability testing, to gather insights into their goals and pain points. By developing user personas and mapping out their journeys, you can create a clear picture of who you're designing for and what they need to succeed.</p>
       
       <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 my-8">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="User research" class="w-full rounded-lg" data-ai-hint="user research"/>
+ <img src="https://placehold.co/800x400.png" alt="User research" class="w-full rounded-lg" data-ai-hint="user research"/>
       </div>
       
       <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">Iterative Design and Prototyping</h2>
@@ -612,7 +612,7 @@ export const blogPosts: BlogPost[] = [
       <p>Typography is taking center stage, with designers opting for bold, expressive fonts that make a statement. This trend is all about personality and grabbing the user's attention. Think oversized headlines, custom typefaces, and a playful approach to text that blurs the line between reading and seeing.</p>
       
       <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 my-8">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Expressive typography" class="w-full rounded-lg" data-ai-hint="bold typography" />
+ <img src="https://placehold.co/800x400.png" alt="Expressive typography" class="w-full rounded-lg" data-ai-hint="bold typography" />
       </div>
 
       <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">3. Nostalgic Interfaces (Y2K Revival)</h2>
@@ -639,7 +639,7 @@ export const blogPosts: BlogPost[] = [
       <p>A prototype is a preliminary model of your product that allows you to test its functionality and user flow. Prototypes can range from simple paper sketches (low-fidelity) to interactive digital mockups (high-fidelity). The goal is to create a tangible representation of your idea that can be tested with users and stakeholders.</p>
       
       <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 my-8">
- <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Prototyping" class="w-full rounded-lg" data-ai-hint="ui prototype"/>
+ <img src="https://placehold.co/800x400.png" alt="Prototyping" class="w-full rounded-lg" data-ai-hint="ui prototype"/>
       </div>
 
       <h2 class="text-3xl font-headline font-semibold mt-8 mb-4">The Benefits of Prototyping</h2>
