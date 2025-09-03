@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import type { BlogPost } from '@/lib/types';
 import {
   Card,
@@ -10,6 +9,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { ArrowRight, Calendar } from 'lucide-react';
+import { ClickableImage } from './clickable-image';
 
 interface BlogPostCardProps {
   post: BlogPost;
@@ -20,7 +20,7 @@ export function BlogPostCard({ post }: BlogPostCardProps) {
     <Card className="flex flex-col h-full overflow-hidden transition-transform transform hover:-translate-y-1 hover:shadow-xl">
       <CardHeader className="p-0">
         <div className="aspect-[16/9] relative">
-          <Image
+          <ClickableImage
             src={post.imageUrl}
             alt={post.title}
             fill

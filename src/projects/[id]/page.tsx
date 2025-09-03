@@ -2,7 +2,6 @@
 
 'use client';
 
-import Image from "next/image";
 import { notFound, useParams } from "next/navigation";
 import { projects } from "@/lib/data";
 import { Badge } from "@/components/ui/badge";
@@ -14,8 +13,8 @@ import { cn } from "@/lib/utils";
 import parse, { domToReact, Element } from 'html-react-parser';
 import { AnimateOnScroll } from "@/components/animate-on-scroll";
 import { Card, CardContent } from "@/components/ui/card";
-import { useState, useEffect } from 'react';
-import { ImageLightbox } from "@/components/image-lightbox";
+import { ClickableImage } from "@/components/clickable-image";
+import { ContentRenderer } from "@/components/content-renderer";
 
 export default function ProjectPage() {
   const params = useParams();
@@ -24,31 +23,6 @@ export default function ProjectPage() {
   const projectIndex = projects.findIndex((p) => p.id === projectId);
   const project = projects[projectIndex];
 
-  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
-
-  useEffect(() => {
-    // Add click listeners to images within the parsed HTML
-    const contentArea = document.getElementById('project-content');
-    if (contentArea) {
-      const images = contentArea.getElementsByTagName('img');
-      for (let i = 0; i < images.length; i++) {
-        const img = images[i];
-        img.style.cursor = 'pointer';
-        const clickHandler = () => {
-          setLightboxImage(img.src);
-        };
-        img.addEventListener('click', clickHandler);
-
-        // Cleanup function to remove the event listener
-        // eslint-disable-next-line no-loop-func
-        return () => {
-          img.removeEventListener('click', clickHandler);
-        };
-      }
-    }
-  }, [project]);
-
-
   if (!project) {
     notFound();
   }
@@ -56,25 +30,10 @@ export default function ProjectPage() {
   const previousProject = projectIndex > 0 ? projects[projectIndex - 1] : null;
   const nextProject = projectIndex < projects.length - 1 ? projects[projectIndex + 1] : null;
 
-  const parsedDescription = parse(project.longDescription, {
-    replace: (domNode) => {
-        if(domNode instanceof Element && domNode.attribs) {
-            // Animate only the top-level divs containing an image or video
-            const hasMediaChild = domNode.children.some(
-                (child) => child instanceof Element && (child.name === 'img' || child.name === 'video')
-            );
-            if(domNode.name === 'div' && hasMediaChild) {
-                 return <AnimateOnScroll variant="grow">{domToReact(domNode.children as any)}</AnimateOnScroll>
-            }
-        }
-    }
-  });
-
   const heroImage = project.heroImageUrl || project.imageUrl;
 
   return (
     <div className="container mx-auto px-6 md:px-[100px] py-12 md:py-16">
-        <ImageLightbox imageUrl={lightboxImage} onClose={() => setLightboxImage(null)} />
         <ScrollAnimation variant="grow">
             <Button asChild variant="ghost" className="mb-8 -ml-4">
                 <Link href="/">
@@ -91,8 +50,8 @@ export default function ProjectPage() {
             </ScrollAnimation>
 
             <ScrollAnimation variant="grow">
-              <div className="aspect-[4/3] relative mb-8 rounded-lg overflow-hidden shadow-2xl cursor-pointer" onClick={() => setLightboxImage(heroImage)}>
-                <Image
+              <div className="aspect-[4/3] relative mb-8 rounded-lg overflow-hidden shadow-2xl">
+                <ClickableImage
                   src={heroImage}
                   alt={project.title}
                   fill
@@ -104,12 +63,10 @@ export default function ProjectPage() {
             </ScrollAnimation>
             
             <ScrollAnimation>
-              <div
-                  id="project-content"
-                  className="prose prose-lg dark:prose-invert max-w-none prose-p:text-justify prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline prose-h2:text-4xl prose-h3:text-3xl"
-              >
-                {parsedDescription}
-              </div>
+              <ContentRenderer
+                content={project.longDescription}
+                className="prose prose-lg dark:prose-invert max-w-none prose-p:text-justify prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline prose-h2:text-4xl prose-h3:text-3xl"
+              />
             </ScrollAnimation>
 
             <ScrollAnimation delay="200" className="mt-12">

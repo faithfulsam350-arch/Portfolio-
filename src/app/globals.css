@@ -112,3 +112,15 @@ body {
     animation-delay: 600ms;
   }
 }
+/* Responsive image fix */
+.prose img,
+.prose video {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+}
+
+.prose div {
+  max-width: 100% !important;
+  overflow: hidden !important;
+}

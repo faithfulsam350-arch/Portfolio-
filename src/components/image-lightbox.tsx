@@ -7,8 +7,8 @@ import {
   DialogOverlay,
   DialogClose,
   DialogPortal,
+  DialogTitle,
 } from '@/components/ui/dialog';
-import Image from 'next/image';
 import { X } from 'lucide-react';
 
 interface ImageLightboxProps {
@@ -26,13 +26,12 @@ export function ImageLightbox({ imageUrl, onClose }: ImageLightboxProps) {
       <DialogPortal>
         <DialogOverlay className="bg-black/80" />
         <DialogContent className="w-[95vw] h-[95vh] max-w-none max-h-none p-0 bg-transparent border-0 flex items-center justify-center">
-            <div className="relative w-full h-full">
-                <Image
+            <DialogTitle className="sr-only">Image Preview</DialogTitle>
+            <div className="relative w-full h-full flex items-center justify-center">
+                <img
                     src={imageUrl}
                     alt="Lightbox image"
-                    fill
-                    className="object-contain"
-                    sizes="100vw"
+                    className="max-w-full max-h-full object-contain"
                 />
             </div>
           <DialogClose asChild>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import { blogPosts } from "@/data";
 import { loadBlogContent } from "@/lib/content-loader";
@@ -6,6 +5,7 @@ import { ContentRenderer } from "@/components/content-renderer";
 import Link from "next/link";
 import { ArrowLeft, Calendar, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ClickableImage } from "@/components/clickable-image";
 
 type BlogPostPageProps = {
   params: Promise<{
@@ -51,7 +51,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 </div>
             </div>
             <div className="aspect-[16/9] relative mb-8 rounded-lg overflow-hidden shadow-lg">
-                <Image
+                <ClickableImage
                 src={post.imageUrl}
                 alt={post.title}
                 fill

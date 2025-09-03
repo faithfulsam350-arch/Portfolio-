@@ -4,7 +4,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { useState } from 'react';
-import Image from 'next/image';
+import { ClickableImage } from './clickable-image';
 
 import { Button } from '@/components/ui/button';
 import {
@@ -142,7 +142,7 @@ export function ProjectForm() {
             </FormDescription>
             {imagePreview && (
                 <div className="mt-4 relative aspect-video w-full max-w-sm">
-                    <Image src={imagePreview} alt="Project preview" fill className="rounded-md object-cover" />
+                    <ClickableImage src={imagePreview} alt="Project preview" fill className="rounded-md object-cover" />
                 </div>
             )}
             <FormMessage />

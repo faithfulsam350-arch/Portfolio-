@@ -3,6 +3,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { softSkills, technicalSkills, experiences, tools } from "@/lib/data";
 import { ScrollAnimation } from "@/components/scroll-animation";
+import { ClickableImage } from "@/components/clickable-image";
 
 export default function AboutPage() {
   return (
@@ -12,10 +13,15 @@ export default function AboutPage() {
           <h1 className="text-4xl md:text-5xl font-headline font-bold mb-6">Hello, I'm Faithful</h1>
         </ScrollAnimation>
         <ScrollAnimation variant="grow">
-          <Avatar className="w-72 h-72 mb-4 border-4 border-primary shadow-lg">
-            <AvatarImage src="https://placehold.co/300x300.png" alt="Professional Headshot of Faithful Samuel" data-ai-hint="professional headshot" />
-            <AvatarFallback>FS</AvatarFallback>
-          </Avatar>
+          <div className="w-72 h-72 mb-4 border-4 border-primary shadow-lg rounded-full overflow-hidden relative">
+            <ClickableImage
+              src="https://placehold.co/300x300.png"
+              alt="Professional Headshot of Faithful Samuel"
+              fill
+              className="object-cover"
+              data-ai-hint="professional headshot"
+            />
+          </div>
         </ScrollAnimation>
         <ScrollAnimation>
           <p className="text-muted-foreground">UI/UX Designer | Product Designer</p>

@@ -2,12 +2,12 @@
 import { Button } from "@/components/ui/button";
 import { projects } from "@/lib/data";
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowRight, MoveRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 import { Card, CardContent } from "@/components/ui/card";
 import { ScrollAnimation } from "@/components/scroll-animation";
+import { ClickableImage } from "@/components/clickable-image";
 
 export default function Home() {
   const featuredProjects = projects.slice(0, 5);
@@ -61,7 +61,7 @@ export default function Home() {
                 index % 2 === 1 && "md:order-last"
               )}
             >
-              <Image
+              <ClickableImage
                 src={project.imageUrl}
                 alt={project.title}
                 fill

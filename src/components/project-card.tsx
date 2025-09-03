@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import type { Project } from '@/lib/types';
 import {
   Card,
@@ -11,6 +10,7 @@ import {
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ArrowRight } from 'lucide-react';
+import { ClickableImage } from './clickable-image';
 
 interface ProjectCardProps {
   project: Project;
@@ -21,7 +21,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
     <Card className="flex flex-col h-full overflow-hidden transition-transform transform hover:-translate-y-1 hover:shadow-xl">
       <CardHeader>
         <div className="aspect-[3/2] relative">
-          <Image
+          <ClickableImage
             src={project.imageUrl}
             alt={project.title}
             fill

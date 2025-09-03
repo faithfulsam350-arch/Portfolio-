@@ -1,6 +1,5 @@
 
 
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import { projects } from "@/data";
 import { loadProjectContent } from "@/lib/content-loader";
@@ -12,6 +11,7 @@ import { ScrollAnimation } from "@/components/scroll-animation";
 import { cn } from "@/lib/utils";
 import { ContentRenderer } from "@/components/content-renderer";
 import { Card, CardContent } from "@/components/ui/card";
+import { ClickableImage } from "@/components/clickable-image";
 
 export default async function ProjectPage({ params }: { params: Promise<{ id: string }> }) {
   const { id: projectId } = await params;
@@ -50,7 +50,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
 
             <ScrollAnimation variant="grow">
               <div className="aspect-[4/3] relative mb-8 rounded-lg overflow-hidden shadow-2xl">
-                <Image
+                <ClickableImage
                   src={heroImage}
                   alt={project.title}
                   fill

@@ -1,6 +1,7 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useState } from 'react';
+import { ImageLightbox } from './image-lightbox';
 
 interface ContentRendererProps {
   content: string;
@@ -8,29 +9,27 @@ interface ContentRendererProps {
 }
 
 export function ContentRenderer({ content, className = '' }: ContentRendererProps) {
-  const containerRef = useRef<HTMLDivElement>(null);
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
 
-  useEffect(() => {
-    if (containerRef.current) {
-      // Add responsive classes to all images
-      const images = containerRef.current.querySelectorAll('img');
-      images.forEach(img => {
-        img.classList.add('max-w-full', 'h-auto');
-      });
-
-      // Add responsive classes to all videos
-      const videos = containerRef.current.querySelectorAll('video');
-      videos.forEach(video => {
-        video.classList.add('max-w-full', 'h-auto');
-      });
+  const handleClick = (e: React.MouseEvent) => {
+    const target = e.target as HTMLElement;
+    if (target.tagName === 'IMG') {
+      const img = target as HTMLImageElement;
+      setLightboxImage(img.src);
     }
-  }, [content]);
+  };
 
   return (
-    <div 
-      ref={containerRef}
-      className={className}
-      dangerouslySetInnerHTML={{ __html: content }}
-    />
+    <>
+      <div 
+        onClick={handleClick}
+        className={`${className} [&_img]:max-w-full [&_img]:h-auto [&_img]:cursor-pointer [&_video]:max-w-full [&_video]:h-auto [&_video]:object-contain [&_div]:max-w-full`}
+        dangerouslySetInnerHTML={{ __html: content }}
+      />
+      <ImageLightbox
+        imageUrl={lightboxImage}
+        onClose={() => setLightboxImage(null)}
+      />
+    </>
   );
 }
