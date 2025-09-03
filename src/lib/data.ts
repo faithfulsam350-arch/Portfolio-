@@ -415,7 +415,7 @@ export const projects: Project[] = [
             <h3 class="text-3xl font-headline font-semibold mb-2">User Flows</h3>
             <p>To map out the user journey, I designed user flows that outline the key paths a user would take through the app. This helps visualize the entire process from onboarding to core actions like playing a podcast or joining a conversation, ensuring a smooth and intuitive experience.</p>
             <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
-                <img src="/yap-userflow.png" alt="User Flows" class="w-full rounded-lg" data-ai-hint="user flow diagram"/>
+                <img src="/yap-userflow.png" style="margin: 20px 0px" alt="User Flows" class="w-full rounded-lg" data-ai-hint="user flow diagram"/>
             </div>
         </div>
         <div>
@@ -445,7 +445,7 @@ export const projects: Project[] = [
           <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
           <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 aspect-video">
-            <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" width="800" height="450" data-ai-hint="prototype video screen recording">
+            <video class="w-full rounded-lg h-full object-cover" controls poster="https://placehold.co/800x450.png" data-ai-hint="prototype video screen recording">
                 <source src="/yap-prototype.mp4" type="video/mp4" />
             </video>
           </div>
@@ -516,7 +516,7 @@ export const projects: Project[] = [
                 <div class="space-y-2 text-sm text-muted-foreground flex-grow">
                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Users confirmed that certain icons, particularly for the library and search functions, were not immediately clear.</span></div>
                     <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>The distinction between the 'Home' and 'Search' tabs was sometimes a point of confusion.</span></div>
-                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>All users expressed a desire for clearer, more explicit iconography in the navigation bar.</span></div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-no"><path d="m9 18 6-6-6-6"/></svg><span>All users expressed a desire for clearer, more explicit iconography in the navigation bar.</span></div>
                 </div>
             </div>
           </div>
