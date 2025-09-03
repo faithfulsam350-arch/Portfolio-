@@ -6,7 +6,7 @@ export type Project = {
   title: string;
   category: string;
   description: string;
-  longDescription: string;
+  longDescription: string; // Now references content file ID
   imageUrl: string;
   heroImageUrl?: string;
   tags: string[];
@@ -20,7 +20,7 @@ export type BlogPost = {
   date: string;
   summary: string;
   imageUrl: string;
-  content: string;
+  content: string; // Now references content file ID
   author: string;
 };
 

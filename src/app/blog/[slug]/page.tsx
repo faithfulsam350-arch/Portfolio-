@@ -1,15 +1,16 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { blogPosts } from "@/lib/data";
-import { Badge } from "@/components/ui/badge";
+import { blogPosts } from "@/data";
+import { loadBlogContent } from "@/lib/content-loader";
+import { ContentRenderer } from "@/components/content-renderer";
 import Link from "next/link";
 import { ArrowLeft, Calendar, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 type BlogPostPageProps = {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 };
 
 export async function generateStaticParams() {
@@ -18,12 +19,16 @@ export async function generateStaticParams() {
     }));
 }
 
-export default function BlogPostPage({ params }: BlogPostPageProps) {
-  const post = blogPosts.find((p) => p.slug === params.slug);
+export default async function BlogPostPage({ params }: BlogPostPageProps) {
+  const { slug } = await params;
+  const post = blogPosts.find((p) => p.slug === slug);
 
   if (!post) {
     notFound();
   }
+
+  // Load the HTML content for this blog post
+  const blogContent = await loadBlogContent(post.content);
 
   return (
     <div className="container mx-auto px-6 md:px-[100px] py-12 md:py-16">
@@ -55,9 +60,9 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                 data-ai-hint="blog abstract"
                 />
             </div>
-            <div
+            <ContentRenderer 
+                content={blogContent}
                 className="prose prose-lg dark:prose-invert max-w-none prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline"
-                dangerouslySetInnerHTML={{ __html: post.content }}
             />
         </article>
     </div>

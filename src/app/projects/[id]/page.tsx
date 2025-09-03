@@ -1,86 +1,38 @@
 
 
-'use client';
-
 import Image from "next/image";
-import { notFound, useParams } from "next/navigation";
-import { projects } from "@/lib/data";
+import { notFound } from "next/navigation";
+import { projects } from "@/data";
+import { loadProjectContent } from "@/lib/content-loader";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ArrowLeft, ExternalLink, ArrowRight } from "lucide-react";
 import { ScrollAnimation } from "@/components/scroll-animation";
 import { cn } from "@/lib/utils";
-import parse, { domToReact, Element } from 'html-react-parser';
-import { AnimateOnScroll } from "@/components/animate-on-scroll";
+import { ContentRenderer } from "@/components/content-renderer";
 import { Card, CardContent } from "@/components/ui/card";
-import { useState, useEffect } from 'react';
-import { ImageLightbox } from "@/components/image-lightbox";
 
-export default function ProjectPage() {
-  const params = useParams();
-  const projectId = params.id as string;
+export default async function ProjectPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id: projectId } = await params;
 
   const projectIndex = projects.findIndex((p) => p.id === projectId);
   const project = projects[projectIndex];
-
-  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
-
-  useEffect(() => {
-    // Add click listeners to images within the parsed HTML
-    const contentArea = document.getElementById('project-content');
-    if (contentArea) {
-      const images = contentArea.getElementsByTagName('img');
-      const clickHandlers: (() => void)[] = [];
-      
-      for (let i = 0; i < images.length; i++) {
-        const img = images[i];
-        img.style.cursor = 'pointer';
-        const handler = () => {
-          setLightboxImage(img.src);
-        };
-        img.addEventListener('click', handler);
-        clickHandlers.push(handler);
-      }
-      
-      // Cleanup function to remove all event listeners
-      return () => {
-        for (let i = 0; i < images.length; i++) {
-          if (images[i]) {
-            images[i].removeEventListener('click', clickHandlers[i]);
-          }
-        }
-      };
-    }
-  }, [project]);
-
 
   if (!project) {
     notFound();
   }
 
+  // Load the HTML content for this project
+  const projectContent = await loadProjectContent(project.longDescription);
+
   const previousProject = projectIndex > 0 ? projects[projectIndex - 1] : null;
   const nextProject = projectIndex < projects.length - 1 ? projects[projectIndex + 1] : null;
-
-  const parsedDescription = parse(project.longDescription, {
-    replace: (domNode) => {
-        if(domNode instanceof Element && domNode.attribs) {
-            // Animate only the top-level divs containing an image or video
-            const hasMediaChild = domNode.children.some(
-                (child) => child instanceof Element && (child.name === 'img' || child.name === 'video')
-            );
-            if(domNode.name === 'div' && hasMediaChild) {
-                 return <AnimateOnScroll variant="grow">{domToReact(domNode.children as any)}</AnimateOnScroll>
-            }
-        }
-    }
-  });
 
   const heroImage = project.heroImageUrl || project.imageUrl;
 
   return (
     <div className="container mx-auto px-6 md:px-[100px] py-12 md:py-16">
-        <ImageLightbox imageUrl={lightboxImage} onClose={() => setLightboxImage(null)} />
         <ScrollAnimation variant="grow">
             <Button asChild variant="ghost" className="mb-8 -ml-4">
                 <Link href="/">
@@ -97,7 +49,7 @@ export default function ProjectPage() {
             </ScrollAnimation>
 
             <ScrollAnimation variant="grow">
-              <div className="aspect-[4/3] relative mb-8 rounded-lg overflow-hidden shadow-2xl cursor-pointer" onClick={() => setLightboxImage(heroImage)}>
+              <div className="aspect-[4/3] relative mb-8 rounded-lg overflow-hidden shadow-2xl">
                 <Image
                   src={heroImage}
                   alt={project.title}
@@ -110,12 +62,10 @@ export default function ProjectPage() {
             </ScrollAnimation>
             
             <ScrollAnimation>
-              <div
-                  id="project-content"
-                  className="prose prose-lg dark:prose-invert max-w-none prose-p:text-justify prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline prose-h2:text-4xl prose-h3:text-3xl"
-              >
-                {parsedDescription}
-              </div>
+              <ContentRenderer 
+                content={projectContent}
+                className="prose prose-lg dark:prose-invert max-w-none prose-p:text-justify prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline prose-h2:text-4xl prose-h3:text-3xl"
+              />
             </ScrollAnimation>
 
             <ScrollAnimation delay="200" className="mt-12">

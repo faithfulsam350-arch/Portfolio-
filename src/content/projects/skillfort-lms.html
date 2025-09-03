@@ -1,0 +1,104 @@
+<div class="space-y-8">
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
+    <p>Skillfort LMS is an administrative web application designed to manage an online learning platform. It was created for platform administrators to handle courses, instructors, and users efficiently. The main goal was to build a clear, scalable, and intuitive dashboard that would streamline the entire administrative workflow from the ground up. As part of my internship, I was tasked with designing the administrative side of Skillfort. The core challenge was creating an intuitive system for admins to manage a complex set of features. The existing process was non-existent, and the client needed a clear, efficient, and scalable dashboard based on a real-world design brief.</p>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Problem Statement</h3>
+    <p>Platform administrators lacked a centralized or efficient system to manage courses, instructors, and users. The existing process was non-existent, requiring a new dashboard to be designed from the ground up that was clear, scalable, and intuitive enough to handle a complex set of features.</p>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
+    <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 mb-6">
+      <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full rounded-lg" data-ai-hint="design process flowchart"/>
+    </div>
+    <p class="mt-6">My process followed a structured approach to ensure the final design met both user and business needs:</p>
+    <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
+      <li><strong>Understand:</strong> I started by deeply analyzing the design brief and client expectations to understand the required features, like the admin dashboard, course manager, and instructor sections.</li>
+      <li><strong>Structure:</strong> I mapped out the user flows for key tasks, such as adding a new course or viewing instructor profiles. This helped clarify the information architecture and ensure a logical layout.</li>
+      <li><strong>Sketch & Design:</strong> I moved into Figma to create wireframes, focusing on building a clean and structured layout. I designed the core components, including the main dashboard, course management tabs, and the "add course" flow.</li>
+      <li><strong>Refine:</strong> I refined the high-fidelity designs based on feedback, focusing on creating a visually consistent and easy-to-navigate interface.</li>
+    </ul>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Research Methodology</h3>
+    <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
+    <p>I conducted informal interviews with 3 potential users (administrators and instructors) to understand their needs.</p>
+    <div class="grid md:grid-cols-2 gap-6 mt-6">
+      <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
+        <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
+          Key Questions
+        </h5>
+        <div class="space-y-2 text-sm text-muted-foreground flex-grow">
+          <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What are the biggest challenges you face when managing courses and users on a learning platform?</span></div>
+          <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What features in an admin dashboard would save you the most time?</span></div>
+          <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>How important is a clean, uncluttered interface for your daily tasks?</span></div>
+        </div>
+      </div>
+      <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
+        <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
+          Key Findings
+        </h5>
+        <div class="space-y-2 text-sm text-muted-foreground flex-grow">
+          <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Users were often frustrated with cluttered interfaces and too many clicks to perform simple tasks.</span></div>
+          <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>A centralized dashboard with key metrics (like new users and course completions) was highly desired.</span></div>
+          <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Easy navigation between course, user, and instructor management was a top priority.</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
+    <p>Based on the user research, I developed a user persona to guide the design process. This persona represents the typical administrator who would use the platform, helping to keep their needs and goals at the forefront of every design decision.</p>
+    <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
+      <img src="https://placehold.co/800x400.png" alt="User Persona" class="w-full rounded-lg" data-ai-hint="user persona graphic"/>
+    </div>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Sitemap</h3>
+    <p>A sitemap was created to define the information architecture and ensure a logical and intuitive user flow. This visual blueprint helped organize the content and features in a way that aligns with user expectations and administrative tasks.</p>
+    <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
+      <img src="https://placehold.co/800x400.png" alt="Sitemap" class="w-full rounded-lg" data-ai-hint="sitemap diagram"/>
+    </div>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Sketch</h3>
+    <p>The sketching phase is where ideas take their first visual form. It's a quick, low-fidelity way to explore different layouts and user flows without getting bogged down in details. This step is crucial for iterating on concepts rapidly and building a solid foundation before moving to digital wireframes.</p>
+    <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
+      <img src="https://placehold.co/800x400.png" alt="Sketches" class="w-full rounded-lg" data-ai-hint="design sketches"/>
+    </div>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
+    <p>After sketching, I translate the concepts into digital wireframes. This step focuses on layout, structure, and user flow without the distraction of colors or typography, ensuring the core functionality is solid before moving to high-fidelity design.</p>
+    <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
+      <img src="https://placehold.co/800x400.png" alt="Wireframes" class="w-full rounded-lg" data-ai-hint="wireframe ui"/>
+    </div>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
+    <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
+    <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
+      <img src="https://placehold.co/800x400.png" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design dashboard"/>
+    </div>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
+    <p>To demonstrate the application's interactivity and user flow, I created a click-through prototype. This allows stakeholders to experience the design firsthand, providing a clearer understanding of the final product's behavior and usability.</p>
+    <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 aspect-video">
+      <video class="w-full rounded-lg" controls poster="https://placehold.co/800x450.png" data-ai-hint="prototype video screen recording">
+        <!-- Add a <source> tag here with your video file -->
+      </video>
+    </div>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
+    <p>The result was a usable and clear admin flow that the Skillfort team could implement internally. The project successfully translated a complex set of requirements into a structured and intuitive dashboard design, providing a solid foundation for the platform's administrative functions. The project is still ongoing, with my designs forming the core of the user experience.</p>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
+    <p>The next steps would involve conducting usability testing with the interactive prototype to gather feedback from real administrators. This feedback would be crucial for refining the UI, validating the user flows, and identifying any new features that could further enhance the admin experience.</p>
+  </div>
+</div>
