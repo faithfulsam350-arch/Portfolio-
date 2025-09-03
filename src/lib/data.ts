@@ -415,14 +415,14 @@ export const projects: Project[] = [
             <h3 class="text-3xl font-headline font-semibold mb-2">User Flows</h3>
             <p>To map out the user journey, I designed user flows that outline the key paths a user would take through the app. This helps visualize the entire process from onboarding to core actions like playing a podcast or joining a conversation, ensuring a smooth and intuitive experience.</p>
             <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
-                <img src="/yap-userflow.png" alt="User Flows" class="w-full rounded-lg" data-ai-hint="user flow diagram"/>
+                <img src="/yap-userflow.png" style="margin: 20px 0px" alt="User Flows" class="w-full rounded-lg" data-ai-hint="user flow diagram"/>
             </div>
         </div>
         <div>
           <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
           <p>After iterating through sketches and wireframes, I moved to high-fidelity design in Figma. This phase focused on creating a visually polished, consistent, and user-friendly interface that brings the product's branding and functionality to life.</p>
           <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
-            <img src="https://placehold.co/800x400.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design mobile app"/>
+            <img src="/yap-fullui.png" style="margin: 20px 0px" alt="Final UI Design" class="w-full rounded-lg" data-ai-hint="ui design mobile app"/>
           </div>
         </div>
         <div>
