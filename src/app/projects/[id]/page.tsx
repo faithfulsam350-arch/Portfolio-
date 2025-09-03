@@ -1,4 +1,5 @@
 
+
 'use client';
 
 import Image from "next/image";
@@ -30,13 +31,26 @@ export default function ProjectPage() {
     const contentArea = document.getElementById('project-content');
     if (contentArea) {
       const images = contentArea.getElementsByTagName('img');
+      const clickHandlers: (() => void)[] = [];
+      
       for (let i = 0; i < images.length; i++) {
         const img = images[i];
         img.style.cursor = 'pointer';
-        img.addEventListener('click', () => {
+        const handler = () => {
           setLightboxImage(img.src);
-        });
+        };
+        img.addEventListener('click', handler);
+        clickHandlers.push(handler);
       }
+      
+      // Cleanup function to remove all event listeners
+      return () => {
+        for (let i = 0; i < images.length; i++) {
+          if (images[i]) {
+            images[i].removeEventListener('click', clickHandlers[i]);
+          }
+        }
+      };
     }
   }, [project]);
 
