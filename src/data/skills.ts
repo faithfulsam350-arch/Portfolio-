@@ -40,5 +40,4 @@ export const tools: Skill[] = [
   { name: 'Framer', icon: Framer },
   { name: 'Notion', icon: PenSquare },
   { name: 'Trello', icon: Layout },
-  { name: 'Webflow', icon: Workflow },
 ];
