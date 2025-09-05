@@ -125,23 +125,23 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
         <ScrollAnimation>
             <div className={cn("flex flex-col sm:flex-row justify-between items-center gap-4", !previousProject && "justify-end")}>
                 {previousProject && (
-                <Button asChild variant="outline" className="w-full sm:w-auto">
+                <Button asChild variant="outline" className="w-full sm:w-auto h-auto py-3">
                     <Link href={`/projects/${previousProject.id}`} className="flex items-center gap-4">
                         <ArrowLeft className="h-5 w-5" />
                         <div className="text-left">
                             <div className="text-xs text-muted-foreground">Previous Project</div>
-                            <div className="font-semibold truncate max-w-[150px] md:max-w-xs">{previousProject.title}</div>
+                            <div className="font-semibold text-sm truncate max-w-[150px] md:max-w-xs">{previousProject.title}</div>
                         </div>
                     </Link>
                 </Button>
                 )}
 
                 {nextProject && (
-                <Button asChild variant="outline" className="w-full sm:w-auto">
+                <Button asChild variant="outline" className="w-full sm:w-auto h-auto py-3">
                     <Link href={`/projects/${nextProject.id}`} className="flex items-center gap-4">
                          <div className="text-right">
                             <div className="text-xs text-muted-foreground">Next Project</div>
-                            <div className="font-semibold truncate max-w-[150px] md:max-w-xs">{nextProject.title}</div>
+                            <div className="font-semibold text-sm truncate max-w-[150px] md:max-w-xs">{nextProject.title}</div>
                         </div>
                         <ArrowRight className="h-5 w-5" />
                     </Link>
