@@ -19,7 +19,6 @@ import { useToast } from '@/hooks/use-toast';
 import { Card, CardContent } from '@/components/ui/card';
 import Link from 'next/link';
 import { SOCIAL_LINKS } from '@/lib/constants';
-import { ScrollAnimation } from '@/components/scroll-animation';
 
 const formSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters.'),
@@ -28,7 +27,7 @@ const formSchema = z.object({
 });
 
 const BehanceIcon = (props: React.SVGProps<SVGSVGElement>) => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
         <path d="M4.2 9.4h5.1v1.2H4.2zM14.2 14.5a2.2 2.2 0 0 0 2.3-2.3v-.3a2.3 2.3 0 0 0-2.3-2.3h-5.6v4.9h5.6a2.3 2.3 0 0 0 0 0zM14.2 11.1a1 1 0 0 1 1 1.1v.2a1 1 0 0 1-1 1.1h-4.3v-2.4zm-3.3-2.9h4.3v1.2h-4.3z"/>
         <path d="M18.6 7h-3.9v1.2h3.9z"/>
         <path d="M4.2 6.1a1.2 1.2 0 0 1 1.2-1.2h12.5a1.2 1.2 0 0 1 1.2 1.2v11.8a1.2 1.2 0 0 1-1.2 1.2H5.4a1.2 1.2 0 0 1-1.2-1.2z"/>
@@ -36,7 +35,7 @@ const BehanceIcon = (props: React.SVGProps<SVGSVGElement>) => (
 )
 
 const XIcon = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="currentColor" {...props}>
     <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
   </svg>
 )
@@ -65,14 +64,14 @@ export default function ContactPage() {
 
   return (
     <div className="container mx-auto px-6 md:px-[100px] py-12 md:py-16">
-      <ScrollAnimation className="text-center mb-12">
+      <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-headline font-bold mb-2">Get In Touch</h1>
         <p className="text-lg text-muted-foreground">
           Have a project in mind or just want to say hi? I'd love to hear from you.
         </p>
-      </ScrollAnimation>
+      </div>
       <div className="grid lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
-        <ScrollAnimation className="lg:col-span-2">
+        <div className="lg:col-span-2">
             <Card>
                 <CardContent className="p-6">
                     <Form {...form}>
@@ -116,16 +115,16 @@ export default function ContactPage() {
                             </FormItem>
                             )}
                         />
-                        <ScrollAnimation delay="600">
+                        
                             <Button type="submit">Send Message</Button>
-                        </ScrollAnimation>
+                        
                         </form>
                     </Form>
                 </CardContent>
             </Card>
-        </ScrollAnimation>
+        </div>
         <div className="space-y-6">
-            <ScrollAnimation delay="200">
+            
                 <h3 className="text-2xl font-headline font-bold">Contact Details</h3>
                 <div className="space-y-4">
                     <a href="mailto:faithfulsam350@gmail.com" className="flex items-center gap-4 group">
@@ -136,8 +135,8 @@ export default function ContactPage() {
                         Feel free to send me an email directly or connect with me on social media.
                     </p>
                 </div>
-            </ScrollAnimation>
-            <ScrollAnimation delay="400" className="space-y-2">
+            
+            <div className="space-y-2">
                 <h4 className="font-semibold">Find me on social media</h4>
                 <div className="flex space-x-2">
                     {socialLinks.map(link => (
@@ -149,7 +148,7 @@ export default function ContactPage() {
                         </Button>
                     ))}
                 </div>
-            </ScrollAnimation>
+            </div>
         </div>
       </div>
     </div>
