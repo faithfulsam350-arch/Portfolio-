@@ -1,7 +1,6 @@
 import type { Skill } from '@/lib/types';
 import { 
   Figma, 
-  Framer, 
   Users, 
   Workflow, 
   PenTool, 
@@ -37,7 +36,6 @@ export const softSkills: Skill[] = [
 
 export const tools: Skill[] = [
   { name: 'Figma', icon: Figma },
-  { name: 'Framer', icon: Framer },
   { name: 'Notion', icon: PenSquare },
   { name: 'Trello', icon: Layout },
 ];
