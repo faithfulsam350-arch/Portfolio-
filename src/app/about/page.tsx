@@ -99,7 +99,17 @@ export default function AboutPage() {
                     <p className="text-xs text-muted-foreground">{exp.period}</p>
                     <h3 className="font-semibold text-lg">{exp.role}</h3>
                     <p className="text-primary font-medium">{exp.company}</p>
-                    <p className="text-sm text-muted-foreground mt-1">{exp.description}</p>
+                    <div className="text-sm text-muted-foreground mt-1 space-y-1">
+                      {exp.description.includes('|') ? (
+                        <ul className="list-disc pl-4 space-y-1">
+                          {exp.description.split('|').map((item, i) => (
+                            <li key={i}>{item}</li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <p>{exp.description}</p>
+                      )}
+                    </div>
                   </div>
                 ))}
               </div>
