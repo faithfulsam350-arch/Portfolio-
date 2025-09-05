@@ -11,7 +11,6 @@ export const projects: Project[] = [
     imageUrl: '/yapish-cover.png',
     heroImageUrl: '/yaphero-cover.png',
     tags: ['Figma', 'Personal Project', 'Product Design', 'UI/UX'],
-    caseStudyUrl: '#',
     published: true,
   },
   {
@@ -34,7 +33,6 @@ export const projects: Project[] = [
     imageUrl: 'https://placehold.co/600x400.png',
     heroImageUrl: 'https://placehold.co/600x400.png',
     tags: ['Figma', 'Web App', 'Dashboard', 'Internship'],
-    caseStudyUrl: '#',
     published: false,
   },
   {
@@ -46,7 +44,6 @@ export const projects: Project[] = [
     imageUrl: 'https://placehold.co/600x400.png',
     heroImageUrl: 'https://placehold.co/600x400.png',
     tags: ['Figma', 'UI Design', 'Landing Page', 'Grid Layout'],
-    caseStudyUrl: '#',
     published: false,
   },
   {
@@ -58,7 +55,6 @@ export const projects: Project[] = [
     imageUrl: 'https://placehold.co/600x400.png',
     heroImageUrl: 'https://placehold.co/600x400.png',
     tags: ['Figma', 'Concept', 'UI/UX Redesign', 'Mobile App'],
-    caseStudyUrl: '#',
     published: false,
   },
 ];
