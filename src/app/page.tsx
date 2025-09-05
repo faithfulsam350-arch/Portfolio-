@@ -10,7 +10,7 @@ import { ScrollAnimation } from "@/components/scroll-animation";
 import { ClickableImage } from "@/components/clickable-image";
 
 export default function Home() {
-  const featuredProjects = projects.slice(0, 5);
+  const featuredProjects = projects.filter(p => p.published).slice(0, 5);
 
   return (
     <div className="container mx-auto px-6 md:px-[100px]">

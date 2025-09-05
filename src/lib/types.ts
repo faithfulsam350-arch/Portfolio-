@@ -12,6 +12,7 @@ export type Project = {
   tags: string[];
   liveUrl?: string;
   caseStudyUrl?: string;
+  published: boolean;
 };
 
 export type BlogPost = {
