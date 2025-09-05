@@ -15,7 +15,7 @@ export default function AboutPage() {
         <ScrollAnimation delay={200}>
           <div className="w-72 h-72 mb-4 border-4 border-primary shadow-lg rounded-full overflow-hidden relative">
             <ClickableImage
-              src="/profile-pic.png"
+              src="/profile-img.png"
               alt="Professional Headshot of Faithful Samuel"
               fill
               className="object-cover"
