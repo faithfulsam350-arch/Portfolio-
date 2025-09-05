@@ -1,6 +1,6 @@
 export const NAV_LINKS = [
   { href: '/', label: 'Home' },
-  { href: '/projects', label: 'Case Studies' },
+  { href: '/#case-studies', label: 'Case Studies' },
   { href: '/about', label: 'About' },
 ];
 
