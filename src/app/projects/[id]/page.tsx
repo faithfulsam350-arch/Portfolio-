@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 import { ContentRenderer } from "@/components/content-renderer";
 import { Card, CardContent } from "@/components/ui/card";
 import { ClickableImage } from "@/components/clickable-image";
+import { ScrollAnimation } from "@/components/scroll-animation";
 
 export default async function ProjectPage({ params }: { params: Promise<{ id: string }> }) {
   const { id: projectId } = await params;
@@ -32,22 +33,22 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
 
   return (
     <div className="container mx-auto px-6 md:px-[100px] py-12 md:py-16">
-        
+        <ScrollAnimation>
             <Button asChild variant="ghost" className="mb-8 -ml-4">
                 <Link href="/">
                     <ArrowLeft className="mr-2 h-4 w-4" />
                     Back to Home
                 </Link>
             </Button>
-        
+        </ScrollAnimation>
         
         <article className="max-w-4xl mx-auto">
-            
+            <ScrollAnimation>
                <h1 className="text-4xl md:text-5xl font-headline font-bold mb-2">{project.title}</h1>
                <Badge variant="secondary" className="mb-8">{project.category}</Badge>
-            
+            </ScrollAnimation>
 
-            
+            <ScrollAnimation delay={200}>
               <div className="aspect-[4/3] relative mb-8 rounded-lg overflow-hidden shadow-2xl">
                 <ClickableImage
                   src={heroImage}
@@ -58,16 +59,16 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
                   data-ai-hint="creative work"
                 />
               </div>
+            </ScrollAnimation>
             
-            
-            
+            <ScrollAnimation>
               <ContentRenderer 
                 content={projectContent}
                 className="prose prose-lg dark:prose-invert max-w-none prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline prose-h2:text-4xl prose-h3:text-3xl"
               />
-            
+            </ScrollAnimation>
 
-            <div className="mt-12">
+            <ScrollAnimation className="mt-12">
                 <Card>
                     <CardContent className="p-6">
                         <h2 className="text-2xl font-headline font-bold mb-4">Project Details</h2>
@@ -99,11 +100,11 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
                         </div>
                     </CardContent>
                 </Card>
-            </div>
+            </ScrollAnimation>
         </article>
 
        <section className="py-20 md:py-24 text-center">
-        
+        <ScrollAnimation>
             <Card className="bg-card/50 max-w-4xl mx-auto">
             <CardContent className="p-10 md:p-16">
                 <h2 className="text-3xl md:text-4xl font-headline font-bold">Thank You!</h2>
@@ -117,11 +118,11 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
                 </div>
             </CardContent>
             </Card>
-        
+        </ScrollAnimation>
       </section>
 
       <div className="border-t pt-8 max-w-4xl mx-auto">
-        
+        <ScrollAnimation>
             <div className={cn("flex flex-col sm:flex-row justify-between items-center gap-4", !previousProject && "justify-end")}>
                 {previousProject && (
                 <Button asChild variant="outline" className="w-full sm:w-auto">
@@ -147,7 +148,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
                 </Button>
                 )}
             </div>
-        
+        </ScrollAnimation>
       </div>
     </div>
   );

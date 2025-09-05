@@ -3,15 +3,16 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { softSkills, technicalSkills, experiences, tools } from "@/lib/data";
 import { ClickableImage } from "@/components/clickable-image";
+import { ScrollAnimation } from "@/components/scroll-animation";
 
 export default function AboutPage() {
   return (
     <div className="container mx-auto px-6 md:px-[100px] py-12 md:py-16">
       <div className="flex flex-col items-center text-center mb-12">
-        
+        <ScrollAnimation>
           <h1 className="text-4xl md:text-5xl font-headline font-bold mb-6">Hello, I'm Faithful</h1>
-        
-        
+        </ScrollAnimation>
+        <ScrollAnimation delay={200}>
           <div className="w-72 h-72 mb-4 border-4 border-primary shadow-lg rounded-full overflow-hidden relative">
             <ClickableImage
               src="https://placehold.co/300x300.png"
@@ -21,8 +22,8 @@ export default function AboutPage() {
               data-ai-hint="professional headshot"
             />
           </div>
-        
-        
+        </ScrollAnimation>
+        <ScrollAnimation delay={400}>
           <p className="text-muted-foreground">UI/UX Designer | Product Designer</p>
           <div className="mt-6 max-w-2xl space-y-4 text-foreground/80 text-left">
             <p>
@@ -38,11 +39,11 @@ export default function AboutPage() {
               And when I’m not designing, you can usually find me listening to music, making beats, taking photos of nature, or watching the sunset—the calm, reflective moments that inspire my creativity.
             </p>
           </div>
-        
+        </ScrollAnimation>
       </div>
 
       <div className="max-w-4xl mx-auto space-y-8">
-        
+        <ScrollAnimation>
           <Card>
             <CardHeader>
               <CardTitle className="font-headline">My Skills & Strengths</CardTitle>
@@ -83,9 +84,9 @@ export default function AboutPage() {
                </div>
             </CardContent>
           </Card>
-        
+        </ScrollAnimation>
 
-        
+        <ScrollAnimation>
           <Card>
             <CardHeader>
               <CardTitle className="font-headline">Work Experience</CardTitle>
@@ -104,7 +105,7 @@ export default function AboutPage() {
               </div>
             </CardContent>
           </Card>
-        
+        </ScrollAnimation>
       </div>
     </div>
   );
