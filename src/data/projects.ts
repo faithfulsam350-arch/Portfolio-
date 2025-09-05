@@ -16,7 +16,7 @@ export const projects: Project[] = [
   },
   {
     id: '2',
-    title: 'Muslim Finance Website',
+    title: 'Ethical Finance Website',
     category: 'Fintech landing page',
     description: 'A landing page for a fintech service helping Muslims manage their finances according to Halal principles.',
     longDescription: 'muslim-finance-website',
