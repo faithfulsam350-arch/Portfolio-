@@ -27,16 +27,16 @@ export default function AboutPage() {
           <p className="text-muted-foreground">UI/UX Designer | Product Designer</p>
           <div className="mt-6 max-w-2xl space-y-4 text-foreground/80 text-left">
             <p>
-              I started out in graphic design because I loved making things look good. But I quickly realized design is more than visuals — it’s about how people think, move, and connect with what you create. That curiosity led me into product design, where I could blend creativity with real problem-solving.
+              I started out in graphic design because I loved making things look good. But I quickly realized design is more than visuals, it’s about how people think, move, and connect with what you create. That curiosity led me into product design, where I could blend creativity with real problem-solving.
             </p>
             <p>
-              Before stepping fully into UX, I worked on email marketing, SEO, and Shopify, helping brands grow and connect with their audiences. That experience taught me to think beyond the screen — to design with purpose, data, and results in mind.
+              Before stepping fully into UX, I worked on email marketing, SEO, and Shopify, helping brands grow and connect with their audiences. That experience taught me to think beyond the screen and to design with purpose, data, and results in mind.
             </p>
             <p>
               Now, I create digital experiences that are not just beautiful, but intentional and user-focused.
             </p>
              <p>
-              And when I’m not designing, you can usually find me listening to music, making beats, taking photos of nature, or watching the sunset—the calm, reflective moments that inspire my creativity.
+              And when I’m not designing, you can usually find me listening to music, making beats, taking photos of nature, or watching the sunset they are the calm, reflective moments that inspire my creativity.
             </p>
           </div>
         </ScrollAnimation>
