@@ -74,7 +74,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
                         <h2 className="text-2xl font-headline font-bold mb-4">Project Details</h2>
                         
                         <div className="mb-6">
-                            <h3 className="font-semibold mb-3 text-lg">Technologies & Skills</h3>
+                            <h3 className="font-semibold mb-3 text-lg">podcast mobile app</h3>
                             <div className="flex flex-wrap gap-2">
                             {project.tags.map((tag) => (
                                 <Badge key={tag}>{tag}</Badge>
