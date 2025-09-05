@@ -7,27 +7,32 @@ export function useScrollAnimation<T extends HTMLElement>() {
   const ref = useRef<T>(null);
 
   useEffect(() => {
+    const element = ref.current;
+    if (!element) return;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
-        // We only want to trigger this once
         if (entry.isIntersecting) {
           setIsInView(true);
           observer.disconnect();
         }
       },
       {
-        threshold: 0.1, // Trigger when 10% of the element is visible
+        threshold: 0, // Trigger immediately when any part of the element is visible
       }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
+    observer.observe(element);
+
+    // Check if the element is already in view on mount
+    const rect = element.getBoundingClientRect();
+    if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+        setIsInView(true);
+        observer.disconnect();
     }
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
-      }
+      observer.disconnect();
     };
   }, []);
 
