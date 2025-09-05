@@ -4,7 +4,7 @@ export const experiences: Experience[] = [
   {
     role: 'Product Designer Intern',
     company: 'SkillFort',
-    period: '2023',
+    period: '2025',
     description: 'Designed an administrative web application for an LMS from scratch, focusing on user flow, information architecture, and creating a scalable and intuitive dashboard.'
   },
   {
