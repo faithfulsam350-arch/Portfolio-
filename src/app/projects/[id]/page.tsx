@@ -1,5 +1,6 @@
 
 
+
 import { notFound } from "next/navigation";
 import { projects } from "@/data";
 import { loadProjectContent } from "@/lib/content-loader";
@@ -34,7 +35,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
 
   return (
     <div className="container mx-auto px-6 md:px-[100px] py-12 md:py-16">
-        <ScrollAnimation variant="grow">
+        <ScrollAnimation>
             <Button asChild variant="ghost" className="mb-8 -ml-4">
                 <Link href="/">
                     <ArrowLeft className="mr-2 h-4 w-4" />
@@ -49,7 +50,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
                <Badge variant="secondary" className="mb-8">{project.category}</Badge>
             </ScrollAnimation>
 
-            <ScrollAnimation variant="grow">
+            <ScrollAnimation>
               <div className="aspect-[4/3] relative mb-8 rounded-lg overflow-hidden shadow-2xl">
                 <ClickableImage
                   src={heroImage}
@@ -112,7 +113,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
                 <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
                 Thanks for viewing this case study. If you have a project in mind or just want to connect, I'd love to hear from you.
                 </p>
-                 <ScrollAnimation variant="grow" className="mt-8" delay="600">
+                 <ScrollAnimation className="mt-8" delay="600">
                     <Button asChild size="lg">
                         <Link href="/contact">Let's Talk</Link>
                     </Button>

@@ -72,10 +72,10 @@ body {
 }
 
 @layer utilities {
-  @keyframes slide-in-from-bottom {
+  @keyframes fade-in-up {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(10px);
     }
     to {
       opacity: 1;
@@ -83,25 +83,10 @@ body {
     }
   }
 
-  @keyframes grow {
-    from {
-      opacity: 0;
-      transform: scale(0.9);
-    }
-    to {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
-
-  .animate-slide-in-from-bottom {
-    animation: slide-in-from-bottom 0.4s ease-out forwards;
+  .animate-fade-in-up {
+    animation: fade-in-up 0.5s ease-out forwards;
   }
   
-  .animate-grow {
-    animation: grow 0.4s ease-out forwards;
-  }
-
   .animation-delay-200 {
     animation-delay: 200ms;
   }

@@ -8,10 +8,9 @@ interface ScrollAnimationProps {
   children: ReactNode;
   className?: string;
   delay?: '200' | '400' | '600';
-  variant?: 'slide-in' | 'grow';
 }
 
-export function ScrollAnimation({ children, className, delay, variant = 'grow' }: ScrollAnimationProps) {
+export function ScrollAnimation({ children, className, delay }: ScrollAnimationProps) {
   const { ref, isInView } = useScrollAnimation<HTMLDivElement>();
 
   // Use a state to control the animation and prevent it from re-running.
@@ -27,7 +26,7 @@ export function ScrollAnimation({ children, className, delay, variant = 'grow' }
       ref={ref}
       className={cn(
         'opacity-0', // Start invisible
-        hasAnimated && (variant === 'grow' ? 'animate-grow' : 'animate-slide-in-from-bottom'),
+        hasAnimated && 'animate-fade-in-up',
         delay === '200' && 'animation-delay-200',
         delay === '400' && 'animation-delay-400',
         delay === '600' && 'animation-delay-600',

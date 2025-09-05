@@ -16,7 +16,7 @@ export default function Home() {
     <div className="container mx-auto px-6 md:px-[100px]">
       <section className="py-20 md:py-32 text-center">
         <div className="flex flex-col items-center">
-            <ScrollAnimation variant="grow">
+            <ScrollAnimation>
                 <Badge variant="default" className="mb-4">UI/UX Designer & Product Designer</Badge>
             </ScrollAnimation>
             <ScrollAnimation delay="200">
@@ -31,12 +31,12 @@ export default function Home() {
                 </p>
             </ScrollAnimation>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <ScrollAnimation delay="600" variant="grow">
+              <ScrollAnimation delay="600">
                 <Button asChild size="lg">
                   <Link href="#case-studies">View My Work</Link>
                 </Button>
               </ScrollAnimation>
-              <ScrollAnimation delay="600" variant="grow">
+              <ScrollAnimation delay="600">
                 <Button asChild size="lg" variant="secondary">
                   <Link href="/contact">Get in Touch <MoveRight className="ml-2 h-5 w-5" /></Link>
                 </Button>
@@ -55,7 +55,7 @@ export default function Home() {
             key={project.id}
             className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center"
           >
-            <ScrollAnimation variant="grow"
+            <ScrollAnimation
               className={cn(
                 "relative aspect-[4/3] rounded-lg overflow-hidden shadow-2xl group",
                 index % 2 === 1 && "md:order-last"
@@ -75,7 +75,7 @@ export default function Home() {
               <Badge variant="secondary" className="mb-4 w-fit">{project.category}</Badge>
               <h3 className="text-3xl font-headline font-bold mb-3">{project.title}</h3>
               <p className="text-muted-foreground mb-6">{project.description}</p>
-               <ScrollAnimation variant="grow" className="w-fit">
+               <ScrollAnimation className="w-fit">
                     <Button asChild>
                         <Link href={`/projects/${project.id}`}>
                         View Case Study <ArrowRight className="ml-2 h-4 w-4" />
@@ -95,7 +95,7 @@ export default function Home() {
                 <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
                 Thanks for stopping by. If you have a project in mind or just want to connect, I'd love to hear from you.
                 </p>
-                 <ScrollAnimation variant="grow" className="mt-8" delay="600">
+                 <ScrollAnimation className="mt-8" delay="600">
                     <Button asChild size="lg">
                         <Link href="/contact">Let's Talk</Link>
                     </Button>
