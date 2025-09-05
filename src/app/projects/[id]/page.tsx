@@ -65,7 +65,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
             <ScrollAnimation>
               <ContentRenderer 
                 content={projectContent}
-                className="prose prose-lg dark:prose-invert max-w-none prose-p:text-justify prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline prose-h2:text-4xl prose-h3:text-3xl"
+                className="prose prose-lg dark:prose-invert max-w-none prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline prose-h2:text-4xl prose-h3:text-3xl"
               />
             </ScrollAnimation>
 
