@@ -18,7 +18,7 @@ export const projects: Project[] = [
     id: '2',
     title: 'Ethical Finance Website',
     category: 'Fintech landing page',
-    description: 'A landing page for a fintech service helping Muslims manage their finances according to Halal principles.',
+    description: 'A landing page for a fintech service focused on transparent and values-driven money management.',
     longDescription: 'muslim-finance-website',
     imageUrl: '/lariba hero.png',
     heroImageUrl: '/lariba hero.png',
