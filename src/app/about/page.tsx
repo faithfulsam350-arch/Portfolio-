@@ -46,6 +46,37 @@ export default function AboutPage() {
         <ScrollAnimation>
           <Card>
             <CardHeader>
+              <CardTitle className="font-headline">Work Experience</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-6 relative before:absolute before:inset-y-0 before:w-px before:bg-border before:left-4">
+                {experiences.map((exp, index) => (
+                  <div key={index} className="pl-10 relative">
+                    <div className="absolute left-4 top-1 w-2 h-2 rounded-full bg-primary -translate-x-1/2"></div>
+                    <p className="text-xs text-muted-foreground">{exp.period}</p>
+                    <h3 className="font-semibold text-lg">{exp.role}</h3>
+                    <p className="text-primary font-medium">{exp.company}</p>
+                    <div className="text-sm text-muted-foreground mt-1 space-y-1">
+                      {exp.description.includes('|') ? (
+                        <ul className="list-disc pl-4 space-y-1">
+                          {exp.description.split('|').map((item, i) => (
+                            <li key={i}>{item}</li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <p>{exp.description}</p>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+        </ScrollAnimation>
+
+        <ScrollAnimation>
+          <Card>
+            <CardHeader>
               <CardTitle className="font-headline">My Skills & Strengths</CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -82,37 +113,6 @@ export default function AboutPage() {
                     ))}
                   </div>
                </div>
-            </CardContent>
-          </Card>
-        </ScrollAnimation>
-
-        <ScrollAnimation>
-          <Card>
-            <CardHeader>
-              <CardTitle className="font-headline">Work Experience</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-6 relative before:absolute before:inset-y-0 before:w-px before:bg-border before:left-4">
-                {experiences.map((exp, index) => (
-                  <div key={index} className="pl-10 relative">
-                    <div className="absolute left-4 top-1 w-2 h-2 rounded-full bg-primary -translate-x-1/2"></div>
-                    <p className="text-xs text-muted-foreground">{exp.period}</p>
-                    <h3 className="font-semibold text-lg">{exp.role}</h3>
-                    <p className="text-primary font-medium">{exp.company}</p>
-                    <div className="text-sm text-muted-foreground mt-1 space-y-1">
-                      {exp.description.includes('|') ? (
-                        <ul className="list-disc pl-4 space-y-1">
-                          {exp.description.split('|').map((item, i) => (
-                            <li key={i}>{item}</li>
-                          ))}
-                        </ul>
-                      ) : (
-                        <p>{exp.description}</p>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
             </CardContent>
           </Card>
         </ScrollAnimation>
