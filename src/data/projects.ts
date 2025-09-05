@@ -23,7 +23,6 @@ export const projects: Project[] = [
     imageUrl: '/lariba hero.png',
     heroImageUrl: '/lariba hero.png',
     tags: ['Figma', 'Fintech', 'Landing Page', 'Web Design'],
-    liveUrl: '#',
     published: true,
   },
   {
@@ -35,7 +34,6 @@ export const projects: Project[] = [
     imageUrl: 'https://placehold.co/600x400.png',
     heroImageUrl: 'https://placehold.co/600x400.png',
     tags: ['Figma', 'Web App', 'Dashboard', 'Internship'],
-    liveUrl: '#',
     caseStudyUrl: '#',
     published: false,
   },
