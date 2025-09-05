@@ -49,7 +49,6 @@ export default function ContactPage() {
   });
 
   const socialLinks = [
-    { name: 'Behance', icon: BehanceIcon, href: SOCIAL_LINKS.behance },
     { name: 'LinkedIn', icon: Linkedin, href: SOCIAL_LINKS.linkedin },
     { name: 'X', icon: XIcon, href: SOCIAL_LINKS.twitter },
   ];
