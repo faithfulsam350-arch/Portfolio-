@@ -3,7 +3,7 @@ import type { Experience } from '@/lib/types';
 export const experiences: Experience[] = [
   {
     role: 'Product Designer Intern',
-    company: 'SkillFort',
+    company: 'Omnicom Solutions',
     period: '2025',
     description: 'Designed an administrative web application for an LMS from scratch, focusing on user flow, information architecture, and creating a scalable and intuitive dashboard.'
   },
