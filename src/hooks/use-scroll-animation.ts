@@ -8,14 +8,15 @@ export function useScrollAnimation<T extends HTMLElement>() {
   const ref = useRef<T>(null);
 
   useEffect(() => {
+    const element = ref.current;
+    if (!element) return;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
-        // We only want to trigger the animation once
+        // Update view state
         if (entry.isIntersecting) {
           setIsInView(true);
-          if (ref.current) {
-            observer.unobserve(ref.current);
-          }
+          observer.unobserve(element);
         }
       },
       {
@@ -23,14 +24,11 @@ export function useScrollAnimation<T extends HTMLElement>() {
       }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
-    }
+    observer.observe(element);
 
     return () => {
-      if (ref.current) {
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-        observer.unobserve(ref.current);
+      if (element) {
+        observer.unobserve(element);
       }
     };
   }, []);

@@ -11,7 +11,6 @@ import { ArrowLeft, ExternalLink, ArrowRight } from "lucide-react";
 import { ScrollAnimation } from "@/components/scroll-animation";
 import { cn } from "@/lib/utils";
 import parse, { domToReact, Element } from 'html-react-parser';
-import { AnimateOnScroll } from "@/components/animate-on-scroll";
 import { Card, CardContent } from "@/components/ui/card";
 import { ClickableImage } from "@/components/clickable-image";
 import { ContentRenderer } from "@/components/content-renderer";
@@ -20,15 +19,17 @@ export default function ProjectPage() {
   const params = useParams();
   const projectId = params.id as string;
 
-  const projectIndex = projects.findIndex((p) => p.id === projectId);
-  const project = projects[projectIndex];
+  const publishedProjects = projects.filter(p => p.published);
+  const projectIndex = publishedProjects.findIndex((p) => p.id === projectId);
+  const project = publishedProjects[projectIndex];
+
 
   if (!project) {
     notFound();
   }
 
-  const previousProject = projectIndex > 0 ? projects[projectIndex - 1] : null;
-  const nextProject = projectIndex < projects.length - 1 ? projects[projectIndex + 1] : null;
+  const previousProject = projectIndex > 0 ? publishedProjects[projectIndex - 1] : null;
+  const nextProject = projectIndex < publishedProjects.length - 1 ? publishedProjects[projectIndex + 1] : null;
 
   const heroImage = project.heroImageUrl || project.imageUrl;
 
@@ -63,9 +64,9 @@ export default function ProjectPage() {
             </ScrollAnimation>
             
             <ScrollAnimation>
-              <ContentRenderer
+              <ContentRenderer 
                 content={project.longDescription}
-                className="prose prose-lg dark:prose-invert max-w-none prose-p:text-justify prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline prose-h2:text-4xl prose-h3:text-3xl"
+                className="prose prose-lg dark:prose-invert max-w-none prose-p:text-foreground/80 prose-headings:text-foreground prose-headings:font-headline prose-h2:text-4xl prose-h3:text-3xl"
               />
             </ScrollAnimation>
 
@@ -124,9 +125,9 @@ export default function ProjectPage() {
 
       <div className="border-t pt-8 max-w-4xl mx-auto">
         <ScrollAnimation>
-            <div className={cn("flex justify-between items-center", !previousProject && "justify-end")}>
+            <div className={cn("flex flex-col sm:flex-row justify-between items-center gap-4", !previousProject && "justify-end")}>
                 {previousProject && (
-                <Button asChild variant="outline">
+                <Button asChild variant="outline" className="w-full sm:w-auto">
                     <Link href={`/projects/${previousProject.id}`} className="flex items-center gap-4">
                         <ArrowLeft className="h-5 w-5" />
                         <div className="text-left">
@@ -138,7 +139,7 @@ export default function ProjectPage() {
                 )}
 
                 {nextProject && (
-                <Button asChild variant="outline">
+                <Button asChild variant="outline" className="w-full sm:w-auto">
                     <Link href={`/projects/${nextProject.id}`} className="flex items-center gap-4">
                          <div className="text-right">
                             <div className="text-xs text-muted-foreground">Next Project</div>
