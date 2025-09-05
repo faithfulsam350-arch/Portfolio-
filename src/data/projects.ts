@@ -6,7 +6,7 @@ export const projects: Project[] = [
     id: '4',
     title: 'Yapish Podcast App',
     category: 'Mobile App',
-    description: 'An MVP concept for a podcast platform targeting a younger audience with a simple, clean UI.',
+    description: 'Yapish reimagines the podcast experience for a younger audience, with a focus on simplicity, intuitive navigation, and an engaging user experience.',
     longDescription: 'yapish-podcast-app',
     imageUrl: '/yapish-cover.png',
     heroImageUrl: '/yaphero-cover.png',
