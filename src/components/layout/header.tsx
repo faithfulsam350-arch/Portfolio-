@@ -17,32 +17,35 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-14 items-center">
+      <div className="container flex h-14 items-center justify-between">
+        {/* Logo - always visible */}
+        <Link href="/" className="flex items-center space-x-2">
+          <Gem className="h-6 w-6 text-primary" />
+          <span className="font-bold sm:inline-block font-headline">
+            Faithful
+          </span>
+        </Link>
+        
         {/* Desktop Navigation */}
-        <div className="mr-auto hidden md:flex">
-          <Link href="/" className="mr-6 flex items-center space-x-2">
-            <Gem className="h-6 w-6 text-primary" />
-            <span className="hidden font-bold sm:inline-block font-headline">
-              Faithful
-            </span>
-          </Link>
-          <nav className="flex items-center gap-6 text-sm">
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={cn(
-                  "transition-colors hover:text-foreground/80",
-                  pathname === link.href
-                    ? "text-foreground"
-                    : "text-foreground/60"
-                )}
-              >
-                {link.label}
-              </Link>
-            ))}
-          </nav>
-        </div>
+        <nav className="hidden md:flex items-center gap-6 text-sm">
+          {NAV_LINKS.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={cn(
+                "transition-colors hover:text-foreground/80",
+                pathname === link.href
+                  ? "text-foreground"
+                  : "text-foreground/60"
+              )}
+            >
+              {link.label}
+            </Link>
+          ))}
+          <Button asChild>
+            <Link href="/contact">Contact Me</Link>
+          </Button>
+        </nav>
 
         {/* Mobile: Hamburger Menu Trigger */}
         <div className="flex md:hidden">
@@ -53,7 +56,7 @@ export function Header() {
                         <span className="sr-only">Toggle Menu</span>
                     </Button>
                 </SheetTrigger>
-                <SheetContent side="left" className="flex flex-col">
+                <SheetContent side="right" className="flex flex-col">
                     <SheetTitle className="sr-only">Mobile Menu</SheetTitle>
                     <Link href="/" className="mr-6 flex items-center space-x-2 mb-6" onClick={() => setIsMobileMenuOpen(false)}>
                         <Gem className="h-6 w-6 text-primary" />
@@ -84,27 +87,6 @@ export function Header() {
                 </SheetContent>
             </Sheet>
         </div>
-        
-        {/* Mobile: Centered Logo */}
-        <div className="flex-1 flex justify-center md:hidden">
-          <Link href="/" className="flex items-center space-x-2">
-            <Gem className="h-6 w-6 text-primary" />
-            <span className="font-bold sm:inline-block font-headline">
-              Faithful
-            </span>
-          </Link>
-        </div>
-
-        {/* Desktop: Contact Button */}
-        <div className="hidden md:flex items-center">
-          <Button asChild>
-              <Link href="/contact">Contact Me</Link>
-          </Button>
-        </div>
-        
-        {/* Mobile: Spacer to balance layout */}
-        <div className="w-10 md:hidden"></div>
-
       </div>
     </header>
   );
