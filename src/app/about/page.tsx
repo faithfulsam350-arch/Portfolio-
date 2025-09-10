@@ -82,10 +82,10 @@ export default function AboutPage() {
             <CardContent className="space-y-6">
                <div>
                   <h3 className="text-xl font-semibold mb-4">Technical Skills</h3>
-                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                     {technicalSkills.map(skill => (
                       <div key={skill.name} className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
-                        <skill.icon className="h-6 w-6 text-primary" />
+                        <skill.icon className="h-6 w-6 text-primary flex-shrink-0" />
                         <span className="font-medium">{skill.name}</span>
                       </div>
                     ))}
@@ -93,10 +93,10 @@ export default function AboutPage() {
                </div>
                <div>
                   <h3 className="text-xl font-semibold mb-4">Soft Skills</h3>
-                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                     {softSkills.map(skill => (
                       <div key={skill.name} className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
-                        <skill.icon className="h-6 w-6 text-primary" />
+                        <skill.icon className="h-6 w-6 text-primary flex-shrink-0" />
                         <span className="font-medium">{skill.name}</span>
                       </div>
                     ))}
@@ -104,10 +104,10 @@ export default function AboutPage() {
                </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-4">Tools</h3>
-                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                     {tools.map(skill => (
                       <div key={skill.name} className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
-                        <skill.icon className="h-6 w-6 text-primary" />
+                        <skill.icon className="h-6 w-6 text-primary flex-shrink-0" />
                         <span className="font-medium">{skill.name}</span>
                       </div>
                     ))}
