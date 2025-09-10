@@ -9,7 +9,7 @@ import { useState } from "react";
 import { NAV_LINKS } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 
 export function Header() {
   const pathname = usePathname();
@@ -63,6 +63,7 @@ export function Header() {
                     </Button>
                 </SheetTrigger>
                 <SheetContent side="left" className="flex flex-col">
+                    <SheetTitle className="sr-only">Mobile Menu</SheetTitle>
                     <Link href="/" className="mr-6 flex items-center space-x-2 mb-6" onClick={() => setIsMobileMenuOpen(false)}>
                         <Gem className="h-6 w-6 text-primary" />
                         <span className="font-bold font-headline">Faithful</span>
