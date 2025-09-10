@@ -11,7 +11,7 @@ export default function AboutPage() {
       <div className="flex flex-col items-center text-center mb-12">
         <ScrollAnimation>
           <h1 className="text-4xl md:text-5xl font-headline font-bold mb-6">Hello, I'm Faithful</h1>
-        </ScrollAnimation>
+        </ScrollAnimation>  
         <ScrollAnimation delay={200}>
           <div className="w-72 h-72 mb-4 border-4 border-primary shadow-lg rounded-full overflow-hidden relative">
             <ClickableImage
