@@ -62,7 +62,7 @@ export function Header() {
                         <span className="sr-only">Toggle Menu</span>
                     </Button>
                 </SheetTrigger>
-                <SheetContent side="left">
+                <SheetContent side="left" className="flex flex-col">
                     <Link href="/" className="mr-6 flex items-center space-x-2 mb-6" onClick={() => setIsMobileMenuOpen(false)}>
                         <Gem className="h-6 w-6 text-primary" />
                         <span className="font-bold font-headline">Faithful</span>
@@ -84,6 +84,11 @@ export function Header() {
                         </Link>
                         ))}
                     </nav>
+                    <div className="mt-auto">
+                        <Button asChild className="w-full">
+                            <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>Contact Me</Link>
+                        </Button>
+                    </div>
                 </SheetContent>
             </Sheet>
         </div>
