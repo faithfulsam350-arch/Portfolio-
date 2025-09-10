@@ -3,7 +3,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Gem, Menu, Mountain } from "lucide-react";
+import { Gem, Menu } from "lucide-react";
 import { useState } from "react";
 
 import { NAV_LINKS } from "@/lib/constants";
@@ -18,7 +18,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center">
-        <div className="mr-4 hidden md:flex">
+        {/* Desktop Navigation */}
+        <div className="mr-auto hidden md:flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <Gem className="h-6 w-6 text-primary" />
             <span className="hidden font-bold sm:inline-block font-headline">
@@ -42,19 +43,9 @@ export function Header() {
             ))}
           </nav>
         </div>
-        <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
-          <div className="w-full flex-1 md:w-auto md:flex-none">
-            {/* You can add a command menu here if you want */}
-          </div>
-          <nav className="hidden md:flex items-center">
-            <Button asChild>
-                <Link href="/contact">Contact Me</Link>
-            </Button>
-          </nav>
-        </div>
-        
-        {/* Mobile Menu */}
-        <div className="flex items-center md:hidden">
+
+        {/* Mobile: Hamburger Menu Trigger */}
+        <div className="flex md:hidden">
             <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
                 <SheetTrigger asChild>
                     <Button variant="ghost" size="icon">
@@ -93,6 +84,27 @@ export function Header() {
                 </SheetContent>
             </Sheet>
         </div>
+        
+        {/* Mobile: Centered Logo */}
+        <div className="flex-1 flex justify-center md:hidden">
+          <Link href="/" className="flex items-center space-x-2">
+            <Gem className="h-6 w-6 text-primary" />
+            <span className="font-bold sm:inline-block font-headline">
+              Faithful
+            </span>
+          </Link>
+        </div>
+
+        {/* Desktop: Contact Button */}
+        <div className="hidden md:flex items-center">
+          <Button asChild>
+              <Link href="/contact">Contact Me</Link>
+          </Button>
+        </div>
+        
+        {/* Mobile: Spacer to balance layout */}
+        <div className="w-10 md:hidden"></div>
+
       </div>
     </header>
   );
