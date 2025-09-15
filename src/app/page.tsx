@@ -3,11 +3,12 @@ import { Button } from "@/components/ui/button";
 import { projects } from "@/lib/data";
 import Link from "next/link";
 import { ArrowRight, MoveRight } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 import { Card, CardContent } from "@/components/ui/card";
 import { ClickableImage } from "@/components/clickable-image";
 import { ScrollAnimation } from "@/components/scroll-animation";
+import { TypingAnimation } from "@/components/typing-animation";
+import { Badge } from "@/components/ui/badge";
 
 export default function Home() {
   const featuredProjects = projects.filter(p => p.published);
@@ -17,7 +18,10 @@ export default function Home() {
       <section className="py-20 md:py-32 text-center">
         <div className="flex flex-col items-center">
             <ScrollAnimation>
-                <Badge variant="default" className="mb-4">UI/UX Designer & Product Designer</Badge>
+                <TypingAnimation
+                  className="mb-4 text-lg md:text-xl"
+                  phrases={["UI/UX Designer", "Product Designer"]}
+                />
             </ScrollAnimation>
             <ScrollAnimation delay={200}>
                 <h1 className="text-5xl md:text-7xl font-headline font-bold mb-6 tracking-tighter">
