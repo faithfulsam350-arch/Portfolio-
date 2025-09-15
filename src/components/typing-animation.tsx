@@ -60,7 +60,7 @@ export function TypingAnimation({
     <Badge
       variant="default"
       className={cn(
-        "inline-flex items-center justify-center transition-all duration-300 px-6 py-2 h-12",
+        "inline-flex items-center justify-center transition-all duration-300 px-6 py-2 h-12 whitespace-nowrap",
         className
       )}
     >
