@@ -37,7 +37,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <ScrollAnimation delay={600}>
                 <Button asChild size="lg">
-                  <Link href="#case-studies">View My Work</Link>
+                  <Link href="#projects">View My Work</Link>
                 </Button>
               </ScrollAnimation>
               <ScrollAnimation delay={600}>
@@ -49,9 +49,9 @@ export default function Home() {
           </div>
       </section>
 
-      <section id="case-studies" className="py-12 md:py-24 space-y-20 md:space-y-28">
+      <section id="projects" className="py-12 md:py-24 space-y-20 md:space-y-28">
         <ScrollAnimation className="text-center">
-            <h2 className="text-3xl md:text-4xl font-headline font-bold">Case Studies</h2>
+            <h2 className="text-3xl md:text-4xl font-headline font-bold">Projects</h2>
             <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">A closer look at my design process and how I've helped translate complex problems into clean, user-friendly solutions.</p>
         </ScrollAnimation>
         {featuredProjects.map((project, index) => (
