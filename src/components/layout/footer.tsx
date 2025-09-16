@@ -38,9 +38,6 @@ export function Footer() {
             ))}
           </div>
         </div>
-        <div className="text-center text-sm text-muted-foreground mt-8 border-t border-border/40 pt-8">
-          © {new Date().getFullYear()} Faithful Portfolio. All Rights Reserved.
-        </div>
       </div>
     </footer>
   );
