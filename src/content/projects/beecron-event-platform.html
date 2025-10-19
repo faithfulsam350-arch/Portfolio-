@@ -1,14 +1,90 @@
 <div class="space-y-8">
   <div>
     <h3 class="text-3xl font-headline font-semibold mb-2">Project Overview</h3>
-    <p>This project is a comprehensive event management platform designed to simplify how users create, discover, and manage events. The platform provides tailored experiences for admins, organizers, attendees (host or guest), and vendors to showcase their services, ensuring smooth event planning and participation from start to finish.</p>
+    <p>Beecron is a comprehensive event management platform designed to simplify how users create, discover, and manage events. The platform provides tailored experiences for admins, organizers, attendees (host or guest), and vendors to showcase their services, ensuring smooth event planning and participation from start to finish. The goal was to create a centralized ecosystem that handles everything from ticketing to vendor management, making event coordination seamless and intuitive.</p>
   </div>
   <div>
-    <h3 class="text-3xl font-headline font-semibold mb-2">Key Features</h3>
-    <p>The platform allows organizers to create and customize events, manage ticketing (including installment payments), track attendance, and communicate with guests. Users can explore events, add them to their wishlists, purchase tickets, and get personalized recommendations. The admin dashboard oversees the entire system, including user management, event analytics, and platform settings.</p>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Problem Statement</h3>
+    <p>The event management landscape is fragmented. Organizers often juggle multiple tools for ticketing, promotion, and communication. Attendees struggle to find events that match their interests, and vendors lack a dedicated space to connect with organizers. This creates a disjointed and inefficient experience for everyone involved, leading to missed opportunities and administrative headaches.</p>
   </div>
-   <div>
-    <h3 class="text-3xl font-headline font-semibold mb-2">Design Philosophy</h3>
-    <p>The design focuses on clarity, engagement, and seamless user flow, combining vibrant visuals with thoughtful interactions to make event planning and participation exciting, intuitive, and efficient.</p>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
+    <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 mb-6">
+      <img src="https://placehold.co/800x250.png" alt="Design Process Diagram" class="w-full h-auto rounded-lg" data-ai-hint="design process flowchart"/>
+    </div>
+    <p class="mt-6">I followed a structured design process to ensure the platform was both user-friendly and feature-rich:</p>
+    <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
+      <li><strong>Discover & Define:</strong> I began by researching the event tech market and defining the core user groups: organizers, attendees, and vendors. I identified their key pain points to establish a clear problem statement.</li>
+      <li><strong>Ideate & Structure:</strong> I mapped out user flows for critical tasks like creating an event, buying a ticket, and booking a vendor. This informed the information architecture and helped create a logical and scalable structure.</li>
+      <li><strong>Design & Prototype:</strong> I translated the flows into wireframes, focusing on a clean layout and intuitive navigation. These were then developed into high-fidelity UI designs and an interactive prototype to test and validate the user experience.</li>
+      <li><strong>Iterate:</strong> Based on feedback from the prototype, I refined the design to improve clarity, streamline workflows, and enhance the overall visual appeal.</li>
+    </ul>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Research Methodology</h3>
+    <h4 class="text-xl font-semibold mt-4 mb-2">User Research</h4>
+    <p>To understand the needs of our diverse user base, I conducted interviews with 5 participants, including event organizers and frequent attendees.</p>
+    <div class="grid md:grid-cols-2 gap-6 mt-6">
+      <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
+        <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
+          Key Questions
+        </h5>
+        <div class="space-y-2 text-sm text-muted-foreground flex-grow">
+          <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What are your biggest frustrations when organizing an event?</span></div>
+          <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>How do you typically discover new events to attend?</span></div>
+          <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>What information is most important to you when deciding to buy a ticket?</span></div>
+        </div>
+      </div>
+      <div class="bg-muted/40 border-2 border-muted-foreground/30 rounded-lg p-6 flex flex-col">
+        <h5 class="text-lg font-semibold mb-3 flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
+          Key Findings
+        </h5>
+        <div class="space-y-2 text-sm text-muted-foreground flex-grow">
+          <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Organizers need a single dashboard to track everything from ticket sales to guest lists.</span></div>
+          <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>Attendees want personalized recommendations and a simple, secure checkout process.</span></div>
+          <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24" fill="none" stroke="hsl(var(--primary))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-2 mt-1 shrink-0"><path d="m9 18 6-6-6-6"/></svg><span>A wishlist feature was highly requested by attendees to save events for later.</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">User Personas</h3>
+    <p>Based on the research, I created personas to represent the primary user groups. This helped ensure the design decisions were always user-centric and addressed real-world needs and goals.</p>
+    <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
+      <img src="https://placehold.co/800x400.png" alt="User Personas for Beecron" class="w-full h-auto rounded-lg" data-ai-hint="user persona graphic"/>
+    </div>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Wireframes</h3>
+    <p>With the user flows and architecture defined, I created low-fidelity wireframes. This stage was crucial for mapping out the core screens—like the event creation form, attendee dashboard, and vendor profiles—and establishing a consistent layout before diving into visual design.</p>
+    <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
+      <img src="https://placehold.co/800x600.png" alt="Beecron Wireframes" class="w-full h-auto rounded-lg" data-ai-hint="wireframe ui dashboard"/>
+    </div>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Final UI Design</h3>
+    <p>The final UI combines vibrant, energetic visuals with a clean, organized layout. The design focuses on clarity and engagement, using thoughtful interactions and a clear hierarchy to make event planning feel exciting and effortless. The color palette and typography were chosen to be modern, professional, and approachable.</p>
+    <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6">
+      <img src="/beecron-ui.png" alt="Final UI Design for Beecron" class="w-full h-auto rounded-lg" data-ai-hint="dashboard ui design"/>
+    </div>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Prototype</h3>
+    <p>To simulate the user experience, I developed an interactive prototype. This allowed stakeholders to click through key journeys, such as creating an event or purchasing a ticket, providing valuable feedback on the flow and feel of the platform before development began.</p>
+    <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 aspect-video">
+      <video class="w-full h-full object-contain rounded-lg" controls poster="https://placehold.co/800x450.png" data-ai-hint="prototype video screen recording">
+        <!-- Add a <source> tag here with your video file -->
+      </video>
+    </div>
+  </div>
+    <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Outcome</h3>
+    <p>The final design successfully unified a complex set of features into a cohesive and intuitive platform. The tailored dashboards provide clear, role-specific tools for each user type, while the public-facing pages make discovering and attending events an engaging experience. The structured design ensures the platform is scalable and ready for future feature enhancements.</p>
+  </div>
+  <div>
+    <h3 class="text-3xl font-headline font-semibold mb-2">Future Improvements</h3>
+    <p>The next phase would involve integrating more advanced social features, such as group wishlists and in-app messaging between attendees and organizers. Additionally, building out a more robust analytics dashboard for organizers with real-time data would provide deeper insights into event performance and audience engagement.</p>
   </div>
 </div>
