@@ -31,7 +31,7 @@ export const projects: Project[] = [
     description: 'A comprehensive platform to simplify how users create, discover, and manage events from start to finish.',
     longDescription: 'beecron-event-platform',
     imageUrl: '/beecron-cover.png',
-    heroImageUrl: '/beecron-hero.png',
+    heroImageUrl: '/beecron-top.png',
     tags: ['UI/UX', 'Product Design', 'Web App', 'Dashboard', 'Mobile'],
     published: true,
   },
