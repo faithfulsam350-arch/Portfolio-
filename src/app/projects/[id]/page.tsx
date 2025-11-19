@@ -49,7 +49,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
             </ScrollAnimation>
 
             <ScrollAnimation delay={200}>
-              <div className="aspect-[4/3] relative mb-8 rounded-lg overflow-hidden shadow-2xl">
+              <div className="aspect-[16/9] relative mb-8 rounded-lg overflow-hidden shadow-2xl">
                 <ClickableImage
                   src={heroImage}
                   alt={project.title}
