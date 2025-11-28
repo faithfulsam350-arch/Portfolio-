@@ -9,8 +9,38 @@
   </div>
   <div>
     <h3 class="text-3xl font-headline font-semibold mb-2">Design Process</h3>
-    <div class="rounded-lg overflow-hidden border-2 border-muted-foreground/30 mt-6 mb-6">
-      <img src="https://picsum.photos/seed/designprocess/800/250" alt="Design Process Diagram" class="w-full h-auto rounded-lg" data-ai-hint="design process flowchart"/>
+    <div class="rounded-lg border-2 border-muted-foreground/30 mt-6 mb-6 p-6 bg-muted/20 flex items-center justify-center">
+        <svg width="100%" viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg" class="text-foreground">
+            <defs>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="hsl(var(--primary))" />
+                </marker>
+            </defs>
+            <!-- Lines -->
+            <line x1="100" y1="50" x2="700" y2="50" stroke="hsl(var(--border))" stroke-width="2" marker-end="url(#arrowhead)" />
+            
+            <!-- Circles and Text -->
+            <g class="text-center">
+                <circle cx="100" cy="50" r="15" fill="hsl(var(--primary))" />
+                <text x="100" y="54" font-size="12" fill="hsl(var(--primary-foreground))" text-anchor="middle" dominant-baseline="middle">1</text>
+                <text x="100" y="85" font-size="14" fill="hsl(var(--foreground))" text-anchor="middle">Discover</text>
+            </g>
+            <g>
+                <circle cx="300" cy="50" r="15" fill="hsl(var(--primary))" />
+                <text x="300" y="54" font-size="12" fill="hsl(var(--primary-foreground))" text-anchor="middle" dominant-baseline="middle">2</text>
+                <text x="300" y="85" font-size="14" fill="hsl(var(--foreground))" text-anchor="middle">Ideate</text>
+            </g>
+            <g>
+                <circle cx="500" cy="50" r="15" fill="hsl(var(--primary))" />
+                <text x="500" y="54" font-size="12" fill="hsl(var(--primary-foreground))" text-anchor="middle" dominant-baseline="middle">3</text>
+                <text x="500" y="85" font-size="14" fill="hsl(var(--foreground))" text-anchor="middle">Design</text>
+            </g>
+            <g>
+                <circle cx="700" cy="50" r="15" fill="hsl(var(--primary))" />
+                <text x="700" y="54" font-size="12" fill="hsl(var(--primary-foreground))" text-anchor="middle" dominant-baseline="middle">4</text>
+                <text x="700" y="85" font-size="14" fill="hsl(var(--foreground))" text-anchor="middle">Iterate</text>
+            </g>
+        </svg>
     </div>
     <p class="mt-6">I followed a structured design process to ensure the platform was both user-friendly and feature-rich:</p>
     <ul class="list-disc list-outside pl-5 space-y-2 mt-2">
@@ -88,3 +118,5 @@
     <p>The next phase would involve integrating more advanced social features, such as group wishlists and in-app messaging between attendees and organizers. Additionally, building out a more robust analytics dashboard for organizers with real-time data would provide deeper insights into event performance and audience engagement.</p>
   </div>
 </div>
+
+    
