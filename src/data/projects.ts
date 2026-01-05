@@ -21,7 +21,7 @@ export const projects: Project[] = [
     longDescription: 'muslim-finance-website',
     imageUrl: '/lariba hero.png',
     heroImageUrl: '/lariba hero.png',
-    tags: ['Figma', 'Fintech', 'Landing Page', 'Web Design'],
+    tags: ['Figma', 'Fintech', 'Landing Page', 'Web Design', 'Website'],
     published: true,
   },
   {
