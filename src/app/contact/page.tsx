@@ -1,6 +1,6 @@
 'use client';
 
-import { Linkedin, Mail } from 'lucide-react';
+import { Instagram, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import Link from 'next/link';
@@ -15,6 +15,7 @@ export default function ContactPage() {
   const socialLinks = [
     { name: 'LinkedIn', icon: Linkedin, href: SOCIAL_LINKS.linkedin },
     { name: 'X', icon: XIcon, href: SOCIAL_LINKS.twitter },
+    { name: 'Instagram', icon: Instagram, href: SOCIAL_LINKS.instagram },
   ];
 
   return (

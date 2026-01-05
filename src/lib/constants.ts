@@ -8,4 +8,5 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = {
   linkedin: 'https://www.linkedin.com/in/faithful-samuel-6275b8339',
   twitter: 'https://x.com/faithful_uiux',
+  instagram: 'https://www.instagram.com/faithful_uiux/',
 };
