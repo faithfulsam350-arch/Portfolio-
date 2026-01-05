@@ -27,7 +27,7 @@ export const projects: Project[] = [
   {
     id: '6',
     title: 'Beecron Event Platform',
-    category: 'Event Management Platform',
+    category: 'Web App',
     description: 'A comprehensive platform to simplify how users create, discover, and manage events from start to finish.',
     longDescription: 'beecron-event-platform',
     imageUrl: '/beecron-cover.png',
