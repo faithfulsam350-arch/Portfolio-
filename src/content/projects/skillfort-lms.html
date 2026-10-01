@@ -1,0 +1,325 @@
+<div class="space-y-16">
+  <!-- 1. Project Overview & Fast-Facts Strip -->
+  <div class="case-study-section">
+    <h3 class="text-3xl font-headline font-semibold mb-4">Project Overview</h3>
+    <p class="text-lg leading-relaxed text-foreground/90">SkillFort is a modern online learning and skill-acquisition platform designed to solve one of ed-tech's biggest friction points: <strong>learner decision fatigue</strong>. Traditional course directories overwhelm prospective students with endless walls of unstructured tiles, opaque pricing, and ambiguous time commitments.</p>
+    <p class="mt-4 leading-relaxed">As the <strong>Lead UI/UX &amp; Product Designer</strong>, I owned end-to-end user research, UX architecture, interaction design, visual styling, responsive adaptations, and final frontend implementation to stress-test usability across viewports.</p>
+
+    <!-- Project Metrics / Fast Facts Grid -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-8">
+      <div class="bg-card/70 border border-border/80 rounded-xl p-6 text-center shadow-sm">
+        <span class="text-xs uppercase tracking-wider text-muted-foreground font-medium block">Role</span>
+        <span class="text-base font-bold text-foreground mt-2 block">UI/UX &amp; Frontend</span>
+      </div>
+      <div class="bg-card/70 border border-border/80 rounded-xl p-6 text-center shadow-sm">
+        <span class="text-xs uppercase tracking-wider text-muted-foreground font-medium block">Core Target</span>
+        <span class="text-base font-bold text-foreground mt-2 block">&lt; 3min Discovery</span>
+      </div>
+      <div class="bg-card/70 border border-border/80 rounded-xl p-6 text-center shadow-sm">
+        <span class="text-xs uppercase tracking-wider text-muted-foreground font-medium block">Platform</span>
+        <span class="text-base font-bold text-foreground mt-2 block">Responsive Web</span>
+      </div>
+      <div class="bg-card/70 border border-border/80 rounded-xl p-6 text-center shadow-sm">
+        <span class="text-xs uppercase tracking-wider text-muted-foreground font-medium block">Accessibility</span>
+        <span class="text-base font-bold text-foreground mt-2 block">WCAG 2.1 AA</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Problem Statement (3 Specific Friction Points) -->
+  <div class="case-study-section">
+    <h3 class="text-3xl font-headline font-semibold mb-4">Problem Statement</h3>
+    <p class="leading-relaxed">Online learners seeking in-demand vocational and tech skills encounter three critical hurdles on standard educational landing pages:</p>
+    <div class="grid md:grid-cols-3 gap-6 mt-8">
+      <div class="bg-card/50 border border-border/70 rounded-xl p-6 md:p-8 flex flex-col justify-between shadow-sm">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-destructive/10 text-destructive flex items-center justify-center font-bold text-base mb-4">01</div>
+          <h4 class="font-semibold text-foreground text-lg mb-3">Cluttered Course Catalogs</h4>
+          <p class="text-sm text-muted-foreground leading-relaxed">Lack of clear categorization forces learners to scroll through hundreds of irrelevant modules without quick triage filters.</p>
+        </div>
+      </div>
+      <div class="bg-card/50 border border-border/70 rounded-xl p-6 md:p-8 flex flex-col justify-between shadow-sm">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-destructive/10 text-destructive flex items-center justify-center font-bold text-base mb-4">02</div>
+          <h4 class="font-semibold text-foreground text-lg mb-3">Hidden Commitment Costs</h4>
+          <p class="text-sm text-muted-foreground leading-relaxed">Course cards frequently omit weekly time commitments, prerequisites, and realistic completion rates upfront.</p>
+        </div>
+      </div>
+      <div class="bg-card/50 border border-border/70 rounded-xl p-6 md:p-8 flex flex-col justify-between shadow-sm">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-destructive/10 text-destructive flex items-center justify-center font-bold text-base mb-4">03</div>
+          <h4 class="font-semibold text-foreground text-lg mb-3">Opaque Pricing Models</h4>
+          <p class="text-sm text-muted-foreground leading-relaxed">Unclear distinctions between pay-per-course vs. recurring subscriptions cause buyer hesitation at checkout.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Design Process -->
+  <div class="case-study-section">
+    <h3 class="text-3xl font-headline font-semibold mb-4">Design Process</h3>
+    <div class="rounded-xl border border-border/80 my-8 p-8 bg-card/40 flex items-center justify-center">
+      <svg width="100%" viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg" class="text-foreground max-w-2xl">
+        <defs>
+          <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="hsl(var(--primary))" />
+          </marker>
+        </defs>
+        <line x1="80" y1="50" x2="720" y2="50" stroke="hsl(var(--border))" stroke-width="2" marker-end="url(#arrowhead)" />
+        <g>
+          <circle cx="80" cy="50" r="16" fill="hsl(var(--primary))" />
+          <text x="80" y="54" font-size="12" font-weight="bold" fill="hsl(var(--primary-foreground))" text-anchor="middle" dominant-baseline="middle">1</text>
+          <text x="80" y="85" font-size="13" font-weight="500" fill="hsl(var(--foreground))" text-anchor="middle">Define</text>
+        </g>
+        <g>
+          <circle cx="240" cy="50" r="16" fill="hsl(var(--primary))" />
+          <text x="240" y="54" font-size="12" font-weight="bold" fill="hsl(var(--primary-foreground))" text-anchor="middle" dominant-baseline="middle">2</text>
+          <text x="240" y="85" font-size="13" font-weight="500" fill="hsl(var(--foreground))" text-anchor="middle">Structure</text>
+        </g>
+        <g>
+          <circle cx="400" cy="50" r="16" fill="hsl(var(--primary))" />
+          <text x="400" y="54" font-size="12" font-weight="bold" fill="hsl(var(--primary-foreground))" text-anchor="middle" dominant-baseline="middle">3</text>
+          <text x="400" y="85" font-size="13" font-weight="500" fill="hsl(var(--foreground))" text-anchor="middle">Design</text>
+        </g>
+        <g>
+          <circle cx="560" cy="50" r="16" fill="hsl(var(--primary))" />
+          <text x="560" y="54" font-size="12" font-weight="bold" fill="hsl(var(--primary-foreground))" text-anchor="middle" dominant-baseline="middle">4</text>
+          <text x="560" y="85" font-size="13" font-weight="500" fill="hsl(var(--foreground))" text-anchor="middle">Refine</text>
+        </g>
+        <g>
+          <circle cx="720" cy="50" r="16" fill="hsl(var(--primary))" />
+          <text x="720" y="54" font-size="12" font-weight="bold" fill="hsl(var(--primary-foreground))" text-anchor="middle" dominant-baseline="middle">5</text>
+          <text x="720" y="85" font-size="13" font-weight="500" fill="hsl(var(--foreground))" text-anchor="middle">Implement</text>
+        </g>
+      </svg>
+    </div>
+    <ul class="list-disc list-outside pl-5 space-y-3 mt-4 leading-relaxed">
+      <li><strong>Define:</strong> Outlined the core user journey (<em>Discover &rarr; Explore &rarr; Evaluate &rarr; Enroll</em>) and established fast-triage criteria for course cards.</li>
+      <li><strong>Structure:</strong> Structured a high-conversion information hierarchy that pairs social proof and curriculum transparency upfront.</li>
+      <li><strong>Design:</strong> Built interactive Figma components with responsive auto-layout constraints and clear hover/focus states.</li>
+      <li><strong>Refine:</strong> Tested contrast ratios against WCAG 2.1 AA standards and optimized mobile touch targets (48px minimum).</li>
+      <li><strong>Implement:</strong> Deployed a live React/Next.js frontend to validate typography rendering, DOM performance, and responsiveness.</li>
+    </ul>
+  </div>
+
+  <!-- 4. Research Methodology -->
+  <div class="case-study-section">
+    <h3 class="text-3xl font-headline font-semibold mb-4">Research Methodology</h3>
+    <h4 class="text-xl font-semibold mt-6 mb-3">Target Personas &amp; Cognitive Load Reduction</h4>
+    <p class="leading-relaxed">To ground layout choices in real behavioral habits, I mapped two primary archetypes: the <em>Career Switcher</em> (needs clear skill progression &amp; credentials) and the <em>Working Upskiller</em> (needs quick assessment of weekly hours and project deliverables).</p>
+    
+    <div class="grid md:grid-cols-2 gap-6 mt-8">
+      <div class="bg-card/50 border border-border/80 rounded-xl p-6 md:p-8 flex flex-col shadow-sm">
+        <h5 class="text-lg font-semibold mb-4 flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path><path d="M19.07 4.93a10 10 0 0 0-14.14 0"></path><path d="M12 20v-3"></path></svg>
+          Critical Experience Questions
+        </h5>
+        <div class="space-y-4 text-sm text-muted-foreground flex-grow">
+          <div class="flex items-start">
+            <span class="text-primary font-bold mr-2">&bull;</span>
+            <span><strong>First 5-Second Test:</strong> Can a visitor grasp what SkillFort teaches and why it is credible before scrolling?</span>
+          </div>
+          <div class="flex items-start">
+            <span class="text-primary font-bold mr-2">&bull;</span>
+            <span><strong>Card Triage:</strong> What 3 data points must every course card display to prevent bounce? (Result: Duration, Difficulty, Practical Project Count).</span>
+          </div>
+          <div class="flex items-start">
+            <span class="text-primary font-bold mr-2">&bull;</span>
+            <span><strong>Pricing Trust:</strong> How do we display one-time vs. monthly plans without causing hidden-fee anxiety?</span>
+          </div>
+        </div>
+      </div>
+      <div class="bg-card/50 border border-border/80 rounded-xl p-6 md:p-8 flex flex-col shadow-sm">
+        <h5 class="text-lg font-semibold mb-4 flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><path d="M20.92 14.65A10 10 0 1 1 10 3.08a10 10 0 0 1 10.92 11.57Z"></path><path d="m13 11-2-5-6 3 3 5 2-5Z"></path><path d="m14 20-3-5 5-2 1 4-3 3Z"></path></svg>
+          Core UX Interventions
+        </h5>
+        <div class="space-y-4 text-sm text-muted-foreground flex-grow">
+          <div class="flex items-start">
+            <span class="text-primary font-bold mr-2">&bull;</span>
+            <span><strong>Visual Information Architecture:</strong> High-contrast tags for level (Beginner / Intermediate) paired with verified student ratings.</span>
+          </div>
+          <div class="flex items-start">
+            <span class="text-primary font-bold mr-2">&bull;</span>
+            <span><strong>Progressive Disclosure:</strong> Quick previews show course syllabus snapshots on click rather than navigating away.</span>
+          </div>
+          <div class="flex items-start">
+            <span class="text-primary font-bold mr-2">&bull;</span>
+            <span><strong>Frictionless CTA:</strong> Direct "Start Free Preview" button prominently placed on both hero and sticky navigation.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Core UX Pillars & Design Decisions Deep Dive -->
+  <div class="case-study-section">
+    <h3 class="text-3xl font-headline font-semibold mb-4">Core UX Breakdown &amp; Design Decisions</h3>
+    <p class="leading-relaxed mb-8">Rather than relying solely on visual polish, key sections were engineered to solve specific cognitive and behavioral hurdles:</p>
+
+    <div class="space-y-8">
+      <!-- Breakdown Item 1: Hero Section -->
+      <div class="bg-card/50 border border-border/80 rounded-xl p-6 md:p-8 shadow-sm">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-primary/20 text-primary">UX Pillar 01</span>
+          <h4 class="text-xl font-bold font-headline text-foreground">The Hero Section: Instant Clarity in &lt; 5 Seconds</h4>
+        </div>
+        <p class="text-muted-foreground text-sm leading-relaxed mb-6">Users decide whether to stay on an education site within 3 to 5 seconds. The hero pairs an immediate, outcome-focused value proposition (<em>"Master Practical Digital Skills That Get You Hired"</em>) with instant social proof (active learner stats &amp; ratings) and a low-commitment primary CTA (<em>"Browse Free Courses"</em>) alongside <em>"Join SkillFort"</em>.</p>
+        <div class="grid sm:grid-cols-3 gap-4 text-xs bg-background/50 p-5 rounded-lg border border-border/60">
+          <div><strong class="text-foreground block mb-1 text-sm">Benefit-Driven Copy</strong>Emphasizes real career outcomes rather than generic academic theory.</div>
+          <div><strong class="text-foreground block mb-1 text-sm">Dual Action Flow</strong>Primary path for immediate exploration; secondary for direct sign-up.</div>
+          <div><strong class="text-foreground block mb-1 text-sm">Zero Clutter</strong>No competing promotional banners distracting from the primary task.</div>
+        </div>
+      </div>
+
+      <!-- Breakdown Item 2: Course Card Triage -->
+      <div class="bg-card/50 border border-border/80 rounded-xl p-6 md:p-8 shadow-sm">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-primary/20 text-primary">UX Pillar 02</span>
+          <h4 class="text-xl font-bold font-headline text-foreground">Course Card Scannability &amp; Triage</h4>
+        </div>
+        <p class="text-muted-foreground text-sm leading-relaxed mb-6">Each course card was structured with strict information hierarchy: a clean thumbnail with difficulty badge, course title, total learning hours, and instructor credential. This enables learners to compare 4 to 6 options rapidly without having to open separate tabs.</p>
+        <div class="grid sm:grid-cols-3 gap-4 text-xs bg-background/50 p-5 rounded-lg border border-border/60">
+          <div><strong class="text-foreground block mb-1 text-sm">Micro-Badges</strong>Visual tags for "Beginner", "Hands-On", and "Updated 2026".</div>
+          <div><strong class="text-foreground block mb-1 text-sm">Commitment Clock</strong>Clear display of estimated duration (e.g., "6 Weeks &bull; 4 hrs/wk").</div>
+          <div><strong class="text-foreground block mb-1 text-sm">Clear Action</strong>One-click course overview modal to preview syllabus modules.</div>
+        </div>
+      </div>
+
+      <!-- Breakdown Item 3: Transparent Pricing -->
+      <div class="bg-card/50 border border-border/80 rounded-xl p-6 md:p-8 shadow-sm">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-primary/20 text-primary">UX Pillar 03</span>
+          <h4 class="text-xl font-bold font-headline text-foreground">Transparent Pricing &amp; Trust Assurance</h4>
+        </div>
+        <p class="text-muted-foreground text-sm leading-relaxed mb-6">The pricing tiers explicitly articulate what is included in single-course purchases versus full-access memberships. To overcome payment hesitation, money-back guarantees, offline access, and accredited completion certificates are stated directly below the pricing CTA.</p>
+        <div class="grid sm:grid-cols-3 gap-4 text-xs bg-background/50 p-5 rounded-lg border border-border/60">
+          <div><strong class="text-foreground block mb-1 text-sm">Zero Hidden Fees</strong>Billed monthly or annually with clear toggle savings indicator.</div>
+          <div><strong class="text-foreground block mb-1 text-sm">Value Matrix</strong>Direct checklist showing certificate, mentor reviews, and project files.</div>
+          <div><strong class="text-foreground block mb-1 text-sm">Risk Reversal</strong>Prominently displayed 14-day refund guarantee to build buyer confidence.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. Design System & Accessibility Foundations -->
+  <div class="case-study-section">
+    <h3 class="text-3xl font-headline font-semibold mb-4">Design System &amp; Accessibility</h3>
+    <p class="leading-relaxed mb-6">A modular, scalable component library was created in Figma using atomic design principles, ensuring seamless developer handoff and consistent accessibility.</p>
+
+    <div class="rounded-xl overflow-hidden border border-border/80 mt-6 shadow-xl">
+      <img src="/assets/skillfort/Colour-skillfort.png" alt="Skillfort Colour System &amp; Design Palette" class="w-full h-auto" data-ai-hint="design system colors" />
+    </div>
+  </div>
+
+  <!-- 7. Design Explorations & Hero Iterations -->
+  <div class="case-study-section">
+    <h3 class="text-3xl font-headline font-semibold mb-4">Design Explorations &amp; Hero Iteration</h3>
+    <p class="leading-relaxed mb-6">Before committing to the final landing page layout, I explored multiple hero concepts to evaluate how visual balance and messaging hierarchy influenced first-time learner engagement. The primary challenge was balancing immediate clarity with an inspiring, modern visual presence.</p>
+
+    <!-- Exploration Comparison Image Showcase -->
+    <div class="rounded-xl overflow-hidden border border-border/80 shadow-2xl my-8 bg-card/40">
+      <img src="/assets/skillfort/options-skillfort.png" alt="SkillFort Hero Exploration: Concept A (Dynamic Device Framing) vs. Concept B (Abstract Radial Stat Graphic)" class="w-full h-auto" data-ai-hint="hero exploration wireframe layout comparison" />
+    </div>
+
+    <!-- Rationale / Deep Dive Cards -->
+    <div class="grid md:grid-cols-2 gap-6 mt-8">
+      <div class="bg-card/50 border-2 border-primary/40 rounded-xl p-6 md:p-8 shadow-sm relative">
+        <div class="flex items-center justify-between mb-4">
+          <span class="px-3 py-1 text-xs font-bold rounded-md bg-primary text-primary-foreground">Selected: Option A (Left)</span>
+          <span class="text-xs font-semibold text-primary uppercase tracking-wider">Winning Direction</span>
+        </div>
+        <h4 class="text-xl font-bold font-headline text-foreground mb-3">Dynamic Multi-Device &amp; Organic Flow</h4>
+        <p class="text-sm text-muted-foreground leading-relaxed mb-4">
+          Option A utilizes angled digital viewports with an organic directional hand-drawn squiggle that leads the user's eye directly toward the secondary value proposition and CTA.
+        </p>
+        <ul class="text-xs space-y-2 text-foreground/90">
+          <li class="flex items-start gap-2">
+            <span class="text-primary font-bold">&check;</span>
+            <span><strong>Outcome &amp; Device Relevance:</strong> Directly signifies digital, cross-platform learning (mobile/tablet/desktop) rather than abstract geometric shapes.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary font-bold">&check;</span>
+            <span><strong>Natural Eye Flow (Z-Pattern):</strong> The organic connector smoothly bridges the headline on the top-left to the core promise on the lower-right.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary font-bold">&check;</span>
+            <span><strong>Higher Memorability:</strong> Creates an approachable, human, non-corporate impression that resonates with career-switchers.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bg-card/50 border border-border/80 rounded-xl p-6 md:p-8 shadow-sm">
+        <div class="flex items-center justify-between mb-4">
+          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-muted text-muted-foreground">Concept B (Right)</span>
+          <span class="text-xs font-medium text-muted-foreground uppercase tracking-wider">Alternative Concept</span>
+        </div>
+        <h4 class="text-xl font-bold font-headline text-foreground mb-3">Radial Stat Meter &amp; Dense Stacking</h4>
+        <p class="text-sm text-muted-foreground leading-relaxed mb-4">
+          Option B placed heavy emphasis on a circular progress ring and an overlayed "20+ Active Courses" badge, accompanied by a wave motif in the top corner.
+        </p>
+        <ul class="text-xs space-y-2 text-muted-foreground">
+          <li class="flex items-start gap-2">
+            <span class="text-destructive font-bold">&times;</span>
+            <span><strong>Cognitive Compaction:</strong> Cramming the headline, body copy, and button into one left column left the right side feeling isolated and heavy.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-destructive font-bold">&times;</span>
+            <span><strong>Misleading Visual Metaphor:</strong> The circular meter suggested an analytics dashboard or completion timer rather than an educational gateway.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-destructive font-bold">&times;</span>
+            <span><strong>Less Educational Context:</strong> Did not convey the practical, real-world application experience that prospective learners prioritize.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 8. Final UI Design & Layout -->
+  <div class="case-study-section">
+    <h3 class="text-3xl font-headline font-semibold mb-4">Final UI Design &amp; Layout</h3>
+    <p class="leading-relaxed mb-6">The final UI delivers a modern, high-credibility digital experience. By combining purposeful whitespace, clear visual hierarchy, accessible contrast ratios, and structured curriculum previews, the interface eliminates uncertainty and positions SkillFort as a trusted, career-advancing platform.</p>
+
+    <!-- Complete Landing Page Presentation -->
+    <div class="rounded-xl overflow-hidden border border-border/80 shadow-2xl">
+      <img src="/assets/skillfort/Skillfort-landing-page.png" alt="Skillfort Complete Landing Page Design" class="w-full h-auto" data-ai-hint="website landing page" />
+    </div>
+  </div>
+
+  <!-- 9. Project Outcome & Measurable Results -->
+  <div class="case-study-section">
+    <h3 class="text-3xl font-headline font-semibold mb-4">Project Outcome &amp; Impact</h3>
+    <p class="leading-relaxed">SkillFort serves as a prime demonstration of how rigorous UI/UX strategy transforms educational discovery. Beyond static interface mocks, implementing this platform as a responsive web app validated that the design decisions function seamlessly in real browser environments.</p>
+
+    <div class="grid sm:grid-cols-3 gap-6 mt-8">
+      <div class="bg-card/70 border border-border/80 rounded-xl p-6 md:p-8 shadow-sm">
+        <span class="text-2xl font-bold font-headline text-primary block mb-2">Under 3 min</span>
+        <span class="text-base font-semibold text-foreground block">Course Discovery Time</span>
+        <p class="text-xs text-muted-foreground mt-3 leading-relaxed">Targeted information architecture allows learners to find, evaluate, and preview their ideal course curriculum in under 3 minutes.</p>
+      </div>
+      <div class="bg-card/70 border border-border/80 rounded-xl p-6 md:p-8 shadow-sm">
+        <span class="text-2xl font-bold font-headline text-primary block mb-2">100% Responsive</span>
+        <span class="text-base font-semibold text-foreground block">Viewport Fluidity</span>
+        <p class="text-xs text-muted-foreground mt-3 leading-relaxed">Tested across mobile (390px), tablet (768px), and ultra-wide desktop (1440px+) with zero layout breaks.</p>
+      </div>
+      <div class="bg-card/70 border border-border/80 rounded-xl p-6 md:p-8 shadow-sm">
+        <span class="text-2xl font-bold font-headline text-primary block mb-2">AA Rated</span>
+        <span class="text-base font-semibold text-foreground block">Accessibility Standards</span>
+        <p class="text-xs text-muted-foreground mt-3 leading-relaxed">Passed color contrast and keyboard navigation audits, ensuring full inclusivity for all learner demographics.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 10. Future Improvements -->
+  <div class="case-study-section">
+    <h3 class="text-3xl font-headline font-semibold mb-4">Future Improvements</h3>
+    <p class="leading-relaxed">Key areas targeted for upcoming product iterations include:</p>
+    <ul class="list-disc list-outside pl-5 space-y-3 mt-4 leading-relaxed text-muted-foreground">
+      <li><strong>Interactive Skill Assessment Quiz:</strong> A 60-second questionnaire on the landing page recommending tailored career tracks to undecided learners.</li>
+      <li><strong>Live In-Browser Syllabus Previews:</strong> Expandable interactive modules directly on the landing page allowing students to view lesson videos without registration.</li>
+      <li><strong>Student Community &amp; Project Showcase:</strong> A social proof gallery featuring live portfolio projects built by graduates of the courses.</li>
+    </ul>
+  </div>
+</div>
